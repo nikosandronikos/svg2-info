@@ -15,5 +15,6 @@ The process for updating the documents is:
 
 To add links use:
 ```node link_to_svg_defs.js ```
-This will print out usage instructions
-
+This will print out usage instructions.
+Requires:
+* https://www.npmjs.com/package/xmldom
