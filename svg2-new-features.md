@@ -135,7 +135,7 @@ This list:
 ## Accessibility Improvements
 Additional accessibility implementation requirements are defined in the [SVG Accessibility API Mappings](w3c.github.io/aria/svg-aam/svg-aam.html) specification.
 
-* Provide both declarative ('tabindex') and scripted control over which elements receive keyboard focus, allowing the creation of keyboard-accessible widgets, in a manner consistent with HTML.
+* Provide both declarative ('tabindex') and scripted control over which elements receive 'keyboard focus', allowing the creation of keyboard-accessible widgets, in a manner consistent with HTML.
 * Allow 'WAI-ARIA attributes' (role and also state and property attributes) on all elements.
 * Define default and allowed 'role' values for each element.
 * Allow alternative text metadata ('title' and 'desc') to be provided in multiple language versions in the same file.
