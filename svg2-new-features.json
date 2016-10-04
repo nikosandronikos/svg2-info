@@ -1,0 +1,697 @@
+[
+  {
+    "category": "New elements",
+    "features": [
+      {
+        "name": "'meshgradient', 'meshrow' and 'meshpatch'",
+        "description": "Define gradient mesh paint servers to define two-dimensional gradients with arbitrary shapes.",
+        "support": []
+      },
+      {
+        "name": "'mesh' element",
+        "description": "Draws a path-like shape that tightly fits a mesh gradient and is filled with it.",
+        "support": []
+      },
+      {
+        "description": "Define a hatch paint server, which draws a repeating pattern of paths that are continuous in one dimension and tiled in the other.",
+        "support": []
+      },
+      {
+        "name": "'video'",
+        "description": "Selected HTML embedded content elements ('video', 'audio', 'canvas', 'iframe') can now be embedded direcly in SVG without requiring a 'foreignObject' wrapper",
+        "support": []
+      },
+      {
+        "name": "'audio'",
+        "description": "Selected HTML embedded content elements ('video', 'audio', 'canvas', 'iframe') can now be embedded direcly in SVG without requiring a 'foreignObject' wrapper",
+        "support": []
+      },
+      {
+        "name": "'canvas'",
+        "description": "Selected HTML embedded content elements ('video', 'audio', 'canvas', 'iframe') can now be embedded direcly in SVG without requiring a 'foreignObject' wrapper",
+        "support": []
+      },
+      {
+        "name": "'iframe'",
+        "description": "Selected HTML embedded content elements ('video', 'audio', 'canvas', 'iframe') can now be embedded direcly in SVG without requiring a 'foreignObject' wrapper",
+        "support": []
+      },
+      {
+        "name": "'base'",
+        "name": "Selected HTML metadata elements ('base', 'link', 'meta', 'style', and 'script') can be included within the SVG fragment and have their normal effect (but except for linked stylesheets, user agents are only required to support them if they already support HTML)",
+        "support": []
+      },
+      {
+        "name": "'link'",
+        "name": "Selected HTML metadata elements ('base', 'link', 'meta', 'style', and 'script') can be included within the SVG fragment and have their normal effect (but except for linked stylesheets, user agents are only required to support them if they already support HTML)",
+        "support": []
+      },
+      {
+        "name": "'meta'",
+        "name": "Selected HTML metadata elements ('base', 'link', 'meta', 'style', and 'script') can be included within the SVG fragment and have their normal effect (but except for linked stylesheets, user agents are only required to support them if they already support HTML)",
+        "support": []
+      },
+      {
+        "name": "'style'",
+        "name": "Selected HTML metadata elements ('base', 'link', 'meta', 'style', and 'script') can be included within the SVG fragment and have their normal effect (but except for linked stylesheets, user agents are only required to support them if they already support HTML)",
+        "support": []
+      },
+      {
+        "name": "'script'",
+        "name": "Selected HTML metadata elements ('base', 'link', 'meta', 'style', and 'script') can be included within the SVG fragment and have their normal effect (but except for linked stylesheets, user agents are only required to support them if they already support HTML)",
+        "support": []
+      }
+    ]
+  },
+  {
+    "category": "New attributes on existing elements",
+    "features": [
+      {
+        "name": "'tabindex' on all rendered elements",
+        "support": []
+      },
+      {
+        "name": "'role' and WAI-ARIA state & property attributes on all elements",
+        "support": []
+      },
+      {
+        "name": "'href' as a replacement for 'xlink:href'",
+        "support": []
+      },
+      {
+        "name": "'lang' as a replacement for 'xml:lang'",
+        "support": []
+      },
+      {
+        "name": "'fr' on the 'radialGradient' element allows control of the radius of focal circle",
+        "support": []
+      },
+      {
+        "name": "'refX' and 'refY' on a 'symbol' element supports more precise placement in maps and data charts",
+        "support": []
+      },
+      {
+        "name": "'x','y','width', and 'height' on a symbol (as presentation attributes)",
+        "support": []
+      },
+      {
+        "name": "'pathLength' attribute on all 'basic shapes'",
+        "support": []
+      }
+    ]
+  },
+  {
+    "category": "New style properties",
+    "features": [
+      {
+        "name": "Support 'z-index' on all SVG elements and define how SVG creates 'stacking contexts'",
+        "support": []
+      },
+      {
+        "name": "'paint-order' property to control stroke, fill, and marker drawing order.",
+        "support": []
+      },
+      {
+        "name": "'vector-effect' property with non-scaling-size, non-rotation, and fixed-position as options (in addition to non-scaling-stroke which was defined in SVG Tiny 1.2)",
+        "support": []
+      },
+      {
+        "name": "Many properties to control text layout (see section on text changes, below)",
+        "support": []
+      },
+      {
+        "name": "Support now required for these CSS properties defined elsewhere (in addition to styles that were required in SVG 1.1):",
+        "support": []
+      },
+      {
+        "name": "'text-decoration-fill' and 'text-decoration-stroke' properties defined to complement the new 'text-decoration' sub-properties",
+        "support": []
+      }
+    ]
+  },
+  {
+    "category": "Geometric attributes that can now be specified as style properties",
+    "features": [
+      {
+        "name": "'x', 'y', 'width' and 'height' on 'svg', 'rect', image, 'foreignObject', 'use', and 'symbol'",
+        "support": []
+      },
+      {
+        "name": "'cx' and 'cy' on 'ellipse' & 'circle'",
+        "support": []
+      },
+      {
+        "name": "'r' on 'circle'",
+        "support": []
+      },
+      {
+        "name": "'rx' and 'ry' on 'ellipse' & 'rect'",
+        "support": []
+      },
+      {
+        "name": "'d' on a 'path'",
+        "support": []
+      }
+    ]
+  },
+  {
+    "category": "New values for existing properties or attributes",
+    "features": [
+      {
+        "name": "'context-fill' and 'context-stroke' values for 'fill' and 'stroke'.",
+        "support": []
+      },
+      {
+        "name": "'child' and `child(_n_)` referencences instead of `url()` references for paint servers and markers.",
+        "support": []
+      },
+      {
+        "name": "New value 'auto-start-reverse' for the 'orient' attribute of the 'marker' element.  This allows the same arrow marker to be used at the start and end of a line, automatically transformed to point in opposite directions.",
+        "support": []
+      },
+      {
+        "name": "New values 'miter-clip' and 'arcs' for 'stroke-linejoin' provide more aesthetically pleasing 'line join shape'",
+        "support": []
+      },
+      {
+        "name": "'auto' values for 'rx' and 'ry'",
+        "support": []
+      },
+      {
+        "name": "Add left|middle|center keywords for 'refX' and 'refY' attributes",
+        "support": []
+      }
+    ]
+  },
+  {
+    "category": "New interfaces",
+    "features": [
+      {
+        "name": "'SVGGraphicsElement' interface merges various previous interfaces",
+        "support": []
+      },
+      {
+        "name": "'SVGGeometryElement' defines common behavior for all shapes",
+        "support": []
+      },
+      {
+        "name": "'SVGUnknownElement' is used for unrecognized markup in the SVG namespace",
+        "support": []
+      },
+      {
+        "name": "'SVGUseElementShadowRoot' interface as an extension of the ShadowRoot interface,",
+        "support": []
+      },
+      {
+        "name": "'ShadowAnimation' interface defines a read-only clone of a WAAPI animation for use-element shadow trees",
+        "support": []
+      }
+    ]
+  },
+  {
+    "category": "New/expanded interface methods and properties",
+    "features": [
+      {
+        "name": "Added \"length\" attribute and indexed property access to all list interfaces.",
+        "support": []
+      },
+      {
+        "name": "Extend getBBox() method of 'SVGGraphicsElement' with an argument that controls inclusion of the fill or the stroke",
+        "support": []
+      },
+      {
+        "name": "isPointInFill and isPointInStroke methods added for all shapes ('SVGGeometryElement')",
+        "support": []
+      },
+      {
+        "name": "getTotalLength and getPointAtLength methods now available for all shapes ('SVGGeometryElement')",
+        "support": []
+      },
+      {
+        "name": "focus and blur methods, on any 'SVGElement'",
+        "support": []
+      }
+    ]
+  },
+  {
+    "category": "New path features",
+    "features": [
+      {
+        "name": "Allow closepath commands 'Z' and 'z' to fill in missing 'path data' from previous commands",
+        "support": []
+      },
+      {
+        "name": "Added bearing path commands 'B' and 'b' to 'path data'",
+        "support": []
+      },
+      {
+        "name": "Define a canonical equivalent path for all basic shapes (used in stroke dashing and marker positioning)",
+        "support": []
+      },
+      {
+        "name": "CSS based multi-line text for 'text content elements':",
+        "support": []
+      },
+      {
+        "name": "Support more whitespace preservation options, using CSS 'white-space' property",
+        "support": []
+      },
+      {
+        "name": "Support text in a shape using the 'shape-inside' and 'shape-subtract' properties, modified by the 'shape-image-threshold', 'shape-padding' and 'shape-margin' properties",
+        "support": []
+      },
+      {
+        "name": "Text on a path changes:",
+        "support": []
+      },
+      {
+        "name": "Require CSS/OpenType font feature support (alternative glyphs, 'font-variant', etc.)",
+        "support": []
+      },
+      {
+        "name": "Require support for @font-face rules",
+        "support": []
+      },
+      {
+        "name": "Masks, filters and other graphics effects may now be applied to 'tspan' and 'textPath' elements",
+        "support": []
+      },
+      {
+        "name": "Support ::first-letter & ::first-line pseudo selectors on 'text' element",
+        "support": []
+      },
+      {
+        "name": "WOFF font support now required",
+        "support": []
+      },
+      {
+        "name": "Vertical text and alternative text baseline properties now harmonized with CSS",
+        "support": []
+      },
+      {
+        "name": "'use' element now defined in terms of Web Components",
+        "support": []
+      },
+      {
+        "name": "Require user agents that support 'interaction' to include :focus and ::selection styles.",
+        "support": []
+      },
+      {
+        "name": "Allow scroll bars when the 'overflow' property is set to scroll on 'svg' elements",
+        "support": []
+      },
+      {
+        "name": "'clip' and 'overflow' no longer ignored when SVG document referenced via 'image'",
+        "support": []
+      },
+      {
+        "name": "Allow 'bounding box' area to be used for 'pointer-events' via the 'bounding-box' value",
+        "support": []
+      },
+      {
+        "name": "Replace SVG-specific events with common equivalents",
+        "support": []
+      },
+      {
+        "name": "'unknown' elements are treated as a 'g' or 'tspan' element",
+        "support": []
+      },
+      {
+        "name": "Allow 'paint server elements' and 'marker' elements to descend from 'shapes' and be referenced through child(n) instead of by ID",
+        "support": []
+      },
+      {
+        "name": "Allow 'markers' on all shapes",
+        "support": []
+      },
+      {
+        "name": "Make the content model of many elements more flexible, e.g. the 'script' element is allowed anywhere; 'animation elements' can be descended from the 'view' element",
+        "support": []
+      },
+      {
+        "name": "'svg' elements that are children of HTML elements or 'foreignObject' elements no longer have 'overflow' hidden by default",
+        "support": []
+      },
+      {
+        "name": "'foreignObject' elements no longer have 'overflow' hidden by default",
+        "support": []
+      },
+      {
+        "name": "New guidance on resolving URLs and loading external files",
+        "support": []
+      },
+      {
+        "name": "Conditional processing attributes and 'switch' only affect the display of the relevant elements, not processing of styles, scripts, or fetching of external resources.",
+        "support": []
+      },
+      {
+        "name": "Clearer guidance given on the intrinsic sizing of SVG elements when embedded in other layout systems",
+        "support": []
+      },
+      {
+        "name": "Provide both declarative ('tabindex') and scripted control over which elements receive 'keyboard focus', allowing the creation of keyboard-accessible widgets, in a manner consistent with HTML.",
+        "support": []
+      },
+      {
+        "name": "Allow 'WAI-ARIA attributes' (role and also state and property attributes) on all elements.",
+        "support": []
+      },
+      {
+        "name": "Define default and allowed 'role' values for each element.",
+        "support": []
+      },
+      {
+        "name": "Allow alternative text metadata ('title' and 'desc') to be provided in multiple language versions in the same file.",
+        "support": []
+      },
+      {
+        "name": "Ordering of 'systemLanguage' preferences follows SMIL allowReorder definition, allowing language selection to better match user preferences.",
+        "support": []
+      },
+      {
+        "name": "The 'lang' attribute replace 'xml:lang' for greater language support in non-XML contexts (e.g., in HTML 5) and for authoring consistency.",
+        "support": []
+      },
+      {
+        "name": "Required support for the :lang() CSS pseudoclass.",
+        "support": []
+      },
+      {
+        "name": "Alternative text metadata ('title' and 'desc') can be provided in multiple language versions in the same file, with the user agent selecting based on system language preferences.",
+        "support": []
+      },
+      {
+        "name": "Support for non-Western writing modes is now harmonized with CSS, which should lead to wider and more consistent implementations; includes support for additional vertical writing modes compared to SVG 1.1.",
+        "support": []
+      },
+      {
+        "name": "Add additional attributes to the 'a' element to synchronise with HTML",
+        "support": []
+      },
+      {
+        "name": "Focus control uses the same model as HTML ('tabindex' attribute, `focus` and `blur` methods)",
+        "support": []
+      },
+      {
+        "name": "Update requirements for ‘id’ values to harmonize with HTML",
+        "support": []
+      },
+      {
+        "name": "Support custom data attributes on all SVG elements",
+        "support": []
+      },
+      {
+        "name": "HTML 'link' element supported and must load external style sheets; other HTML metadata supported",
+        "support": []
+      },
+      {
+        "name": "Add 'crossorigin' attribute to the 'image' and 'script' elements",
+        "support": []
+      },
+      {
+        "name": "Inclusion of HTML 'audio', 'video', 'iframe', 'canvas', 'source', and 'track' elements",
+        "support": []
+      },
+      {
+        "name": "Many DOM API interfaces have been harmonized (see Other API changes, below)",
+        "support": []
+      },
+      {
+        "name": "CSS support now required for user agents",
+        "support": []
+      },
+      {
+        "name": "'transform' attributes and properties now defined in CSS Transforms",
+        "support": []
+      },
+      {
+        "name": "Clipping and masking now defined in CSS Masking spec",
+        "support": []
+      },
+      {
+        "name": "Filters now defined in CSS Filters spec",
+        "support": []
+      },
+      {
+        "name": "Use CSS parsing rules for all presentation attributes and many other attributes",
+        "support": []
+      },
+      {
+        "name": "Support 'white-space' property in favour of xml:space' attribute ",
+        "support": []
+      },
+      {
+        "name": "'white space character' set now includes form feed (U+000C) to align with HTML and CSS",
+        "support": []
+      },
+      {
+        "name": "Support percentages and CSS lengths in many places",
+        "support": []
+      },
+      {
+        "name": "Elements that are never rendered are now defined in terms of user agent stylesheets",
+        "support": []
+      },
+      {
+        "name": "Required support for @media, @import, @charset and @font-face",
+        "support": []
+      },
+      {
+        "name": "Required support for all pseudo-classes defined in CSS 2.1",
+        "support": []
+      },
+      {
+        "name": "Required support for ::first-line and ::first-letter pseudo-elements, and for ::selection in interactive user agents",
+        "support": []
+      },
+      {
+        "name": "SVGStyleElement now implements the LinkStyle interface",
+        "support": []
+      },
+      {
+        "name": "Remove DTD",
+        "support": []
+      },
+      {
+        "name": "Removed SVG Fonts",
+        "support": []
+      },
+      {
+        "name": "Removed externalResourcesRequired attribute",
+        "support": []
+      },
+      {
+        "name": "Removed baseProfile and version attributes from the 'svg' element",
+        "support": []
+      },
+      {
+        "name": "Removed requiredFeatures attribute",
+        "support": []
+      },
+      {
+        "name": "Removed the ‘contentStyleType’ attribute.",
+        "support": []
+      },
+      {
+        "name": "Removed xml:base",
+        "support": []
+      },
+      {
+        "name": "Removed defer keyword from preservedAspectRatio",
+        "support": []
+      },
+      {
+        "name": "Removed the tref element",
+        "support": []
+      },
+      {
+        "name": "removed the Alternate Glyph elements (altGlyph, altGlyphItem, glyphRef)",
+        "support": []
+      },
+      {
+        "name": "Removed xlink:type, xlink:role, xlink:arcrole, xlink:show, and xlink:actuate attributes",
+        "support": []
+      },
+      {
+        "name": "Removed the viewTarget attribute from the view element",
+        "support": []
+      },
+      {
+        "name": "Removed contentScriptType attribute",
+        "support": []
+      },
+      {
+        "name": "methods suspendRedraw, unsuspendRedraw, and unsuspendRedrawAll on 'SVGSVGElement'",
+        "support": []
+      },
+      {
+        "name": "rootElement attribute",
+        "support": []
+      },
+      {
+        "name": "forceRedraw method on 'SVGSVGElement'",
+        "support": []
+      },
+      {
+        "name": "deselectAll method on 'SVGSVGElement'",
+        "support": []
+      },
+      {
+        "name": "xml:space",
+        "support": []
+      },
+      {
+        "name": "xlink:href",
+        "support": []
+      },
+      {
+        "name": "xlink:title",
+        "support": []
+      },
+      {
+        "name": "selectSubString() method on 'SVGTextContentElement' interface",
+        "support": []
+      },
+      {
+        "name": "'cursor' element",
+        "support": []
+      },
+      {
+        "name": "'kerning', 'glyph-orientation-vertical', 'glyph-orientation-horizontal'",
+        "support": []
+      },
+      {
+        "name": "Replace 'SVGMatrix' with DOMMatrix or DOMMatrixReadOnly",
+        "support": []
+      },
+      {
+        "name": "Replace 'SVGRect' with DOMRect or DOMRectReadOnly",
+        "support": []
+      },
+      {
+        "name": "Replace 'SVGPoint' with DOMPoint or DOMPointReadOnly",
+        "support": []
+      },
+      {
+        "name": "Moved members from 'SVGStylable' and 'SVGLangSpace' to 'SVGElement' and removed those interfaces",
+        "support": []
+      },
+      {
+        "name": "Moved members from 'SVGLocatable' and 'SVGTransformable' to 'SVGGraphicsElement' and removed those interfaces",
+        "support": []
+      },
+      {
+        "name": "Removed 'SVGExternalResourcesRequired' interface",
+        "support": []
+      },
+      {
+        "name": "Removed 'SVGColor' and 'SVGICCCOlor' interfaces",
+        "support": []
+      },
+      {
+        "name": "Removed getPresentationAttribute method from 'SVGElement'",
+        "support": []
+      },
+      {
+        "name": "Add tabindex attribute, and focus and blur methods, to 'SVGElement'",
+        "support": []
+      },
+      {
+        "name": "Add activeElement attribute to Document",
+        "support": []
+      },
+      {
+        "name": "'SVGElement' now inherits GlobalEventHandlers from HTML",
+        "support": []
+      },
+      {
+        "name": "extend getBBox with an argument that controls inclusion of fill or stroke",
+        "support": []
+      },
+      {
+        "name": "Remove xmlbase, xmllang, and xmlspace attributes from 'SVGElement' interface",
+        "support": []
+      },
+      {
+        "name": "Remove 'SVGViewSpec' interface",
+        "support": []
+      },
+      {
+        "name": "Remove getTransformToElement from 'SVGGraphicsElement'",
+        "support": []
+      },
+      {
+        "name": "Allow getCTM on outermost 'svg' element",
+        "support": []
+      },
+      {
+        "name": "Make animVal an alias for baseVal and no longer reflect animated value",
+        "support": []
+      },
+      {
+        "name": "Added dataset attribute to 'SVGElement'",
+        "support": []
+      },
+      {
+        "name": "Moved methods pathLength, getTotalLength, and getPointAtLength to 'SVGGeometryElement'",
+        "support": []
+      },
+      {
+        "name": "Removed 'SVGElementInstance' and 'SVGElementInstanceList' interfaces",
+        "support": []
+      },
+      {
+        "name": "Removed currentView and useCurrentView properties on 'SVGSVGElement'",
+        "support": []
+      },
+      {
+        "name": "Removed the viewport attribute from 'SVGSVGElement'",
+        "support": []
+      },
+      {
+        "name": "'SVGElement' has been extended to replace the core functionality from 'SVGElementInstance'.",
+        "support": []
+      },
+      {
+        "name": "'SVGSymbolElement' now inherits from 'SVGGraphicsElement'",
+        "support": []
+      },
+      {
+        "name": "ShadowAnimation interface defined",
+        "support": []
+      },
+      {
+        "name": "'SVGStyleElement' now implements LinkStyle",
+        "support": []
+      },
+      {
+        "name": "Remove SVGPathSeg* interfaces",
+        "support": []
+      },
+      {
+        "name": "Remove 'SVGAnimatedPathData' interface",
+        "support": []
+      },
+      {
+        "name": "Remove methods on 'SVGPathElement' related to SVGPathSeg* and 'SVGAnimatedPathData'",
+        "support": []
+      },
+      {
+        "name": "Moved pathLength, getTotalLength() and getPointAtLength() on to 'SVGGeometryElement' interface",
+        "support": []
+      },
+      {
+        "name": "animatedPoints attribute of 'SVGAnimatedPoints' now aliases the points attribute",
+        "support": []
+      },
+      {
+        "name": "Remove 'SVGPaint' interface",
+        "support": []
+      },
+      {
+        "name": "Replace SVG-specific events with common equivalents",
+        "support": []
+      }
+    ]
+  }
+]
