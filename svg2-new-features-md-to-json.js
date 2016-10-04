@@ -7,15 +7,15 @@ Category.prototype.addFeature = function(name) {
     this.features.push({"name": name, "support": []});
 }
 
-if (process.argv.length != 3) {
+if (process.argv.length < 3) {
     console.log('Generate JSON representation of the SVG 2 new features Markdown file.');
-    console.log(`usage: ${process.argv[0]} <inputfile>`);
+    console.log(`usage: ${process.argv[0]} <inputfile> <json_spaces=4>`);
     process.exit(1);
 } else {
     const fs = require('fs');
     const readline = require('readline');
     const input_md = process.argv[2];
-
+    const json_spaces = process.argv[3] === undefined ? 4 : process.argv[3]|0;
     const categories = [];
     let current_category = null;
 
@@ -35,7 +35,7 @@ if (process.argv.length != 3) {
             }
         })
         .on('close', () => {
-            console.log(JSON.stringify(categories, null, 4));
+            console.log(JSON.stringify(categories, null, json_spaces));
         });
 }
 
