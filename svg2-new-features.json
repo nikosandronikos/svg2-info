@@ -38,27 +38,27 @@
       },
       {
         "name": "'base'",
-        "name": "Selected HTML metadata elements ('base', 'link', 'meta', 'style', and 'script') can be included within the SVG fragment and have their normal effect (but except for linked stylesheets, user agents are only required to support them if they already support HTML)",
+        "description": "Selected HTML metadata elements ('base', 'link', 'meta', 'style', and 'script') can be included within the SVG fragment and have their normal effect (but except for linked stylesheets, user agents are only required to support them if they already support HTML)",
         "support": []
       },
       {
         "name": "'link'",
-        "name": "Selected HTML metadata elements ('base', 'link', 'meta', 'style', and 'script') can be included within the SVG fragment and have their normal effect (but except for linked stylesheets, user agents are only required to support them if they already support HTML)",
+        "description": "Selected HTML metadata elements ('base', 'link', 'meta', 'style', and 'script') can be included within the SVG fragment and have their normal effect (but except for linked stylesheets, user agents are only required to support them if they already support HTML)",
         "support": []
       },
       {
         "name": "'meta'",
-        "name": "Selected HTML metadata elements ('base', 'link', 'meta', 'style', and 'script') can be included within the SVG fragment and have their normal effect (but except for linked stylesheets, user agents are only required to support them if they already support HTML)",
+        "description": "Selected HTML metadata elements ('base', 'link', 'meta', 'style', and 'script') can be included within the SVG fragment and have their normal effect (but except for linked stylesheets, user agents are only required to support them if they already support HTML)",
         "support": []
       },
       {
         "name": "'style'",
-        "name": "Selected HTML metadata elements ('base', 'link', 'meta', 'style', and 'script') can be included within the SVG fragment and have their normal effect (but except for linked stylesheets, user agents are only required to support them if they already support HTML)",
+        "description": "Selected HTML metadata elements ('base', 'link', 'meta', 'style', and 'script') can be included within the SVG fragment and have their normal effect (but except for linked stylesheets, user agents are only required to support them if they already support HTML)",
         "support": []
       },
       {
         "name": "'script'",
-        "name": "Selected HTML metadata elements ('base', 'link', 'meta', 'style', and 'script') can be included within the SVG fragment and have their normal effect (but except for linked stylesheets, user agents are only required to support them if they already support HTML)",
+        "description": "Selected HTML metadata elements ('base', 'link', 'meta', 'style', and 'script') can be included within the SVG fragment and have their normal effect (but except for linked stylesheets, user agents are only required to support them if they already support HTML)",
         "support": []
       }
     ]
