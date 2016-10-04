@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<title>SVG 2 user agent feature support</title>
+<script async src="svg2-feature-support.js"></script>
+<style>
+    table {
+        margin-bottom: 2em; 
+        min-width: 100%;
+    }
+    thead {
+        background: white;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0px;
+        z-index: 1;
+    }
+    thead > tr:nth-child(2) > th {
+        box-shadow: 0 0 0 2px white;
+    }
+    th {
+        font-weight: normal; text-align: center; padding: 1em 0.45em; position: relative; min-width: 40px; font-size: 13px; background: #eee; vertical-align: middle;
+    }
+    th abbr {
+        font-weight: bold;
+    }
+    th:nth-child(3) {
+        min-width: 10px;
+    }
+    td {
+        background: #eee; position:relative; margin-left: -10px; font-size: 14px;
+    }
+</style>
+</head>
+<body>
+<table id="feature-support-table">
+<thead><tr>
+    <td>Feature</td>
+    <td>Tests</td>
+    <td>Gecko</td>
+    <td>WebKit</td>
+    <td>Blink</td>
+    <td>Edge</td>
+    <td>InkScape</td>
+</tr></thead>
+</table>
+</body>
+</html>
