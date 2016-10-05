@@ -4,13 +4,18 @@
 <title>SVG 2 user agent feature support</title>
 <script async src="svg2-feature-support.js"></script>
 <style>
+    @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+    @import url('open-color.css');
+    body {
+        font-family: 'Open Sans', sans-serif;
+    }
     table {
         margin-bottom: 2em; 
-        min-width: 100%;
+        table-layout: fixed;
+        position: relative;
     }
     thead {
         background: white;
-        position: -webkit-sticky;
         position: sticky;
         top: 0px;
         z-index: 1;
@@ -19,7 +24,18 @@
         box-shadow: 0 0 0 2px white;
     }
     th {
-        font-weight: normal; text-align: center; padding: 1em 0.45em; position: relative; min-width: 40px; font-size: 13px; background: #eee; vertical-align: middle;
+        font-weight: normal;
+        text-align: center;
+        padding: 1em 0.45em;
+        position: relative;
+        min-width: 40px;
+        font-size: 13px;
+        background: var(--oc-gray-6);
+        color: white;
+        vertical-align: middle;
+    }
+    th:first-child {
+        text-align: left;
     }
     th abbr {
         font-weight: bold;
@@ -27,21 +43,46 @@
     th:nth-child(3) {
         min-width: 10px;
     }
-    td {
-        background: #eee; position:relative; margin-left: -10px; font-size: 14px;
+    tr.category td {
+        background: var(--oc-gray-5);
+        text-align: left;
     }
+    td.feature {
+        max-width: 50em;
+        text-align: left;
+    }
+    td {
+        background: var(--oc-gray-2);
+        position:relative;
+        margin-left: -10px;
+        font-size: 14px;
+        text-align: center;
+    }
+    td.full {
+        background: var(--oc-green-6);
+        color: white;
+    }
+    td.partial {
+        background: var(--oc-orange-5);
+        color: white;
+    }
+    td.none {
+        background: var(--oc-red-2);
+        color: white;
+    }
+    td.not_applicable {
+        background: 'white';
+        color: var--oc-gray-8;
+    }
+  
 </style>
 </head>
 <body>
 <table id="feature-support-table">
+<h1>SVG 2 user agent support</h1>
 <thead><tr>
-    <td>Feature</td>
-    <td>Tests</td>
-    <td>Gecko</td>
-    <td>WebKit</td>
-    <td>Blink</td>
-    <td>Edge</td>
-    <td>InkScape</td>
+    <th>Feature</th>
+    <th>Tests</th>
 </tr></thead>
 </table>
 </body>
