@@ -1,11 +1,15 @@
-[
-  {
+{
+  "user_agents": ["Gecko", "Blink", "Edge", "WebKit", "InkScape"],
+  "svg2_categories":
+  [{
     "category": "New elements",
     "features": [
       {
         "name": "'meshgradient', 'meshrow' and 'meshpatch'",
         "description": "Define gradient mesh paint servers to define two-dimensional gradients with arbitrary shapes.",
-        "support": []
+        "support": [
+            {"name": "InkScape", "level": "full"}
+        ]
       },
       {
         "name": "'mesh' element",
@@ -13,8 +17,17 @@
         "support": []
       },
       {
+        "name": "'hatch' element",
         "description": "Define a hatch paint server, which draws a repeating pattern of paths that are continuous in one dimension and tiled in the other.",
-        "support": []
+        "support": [
+            {"name": "InkScape", "level": "partial"}
+        ]
+      },
+      {
+        "name": "'solidcolor' element",
+        "support": [
+            {"name": "InkScape", "level": "partial"}
+        ]
       },
       {
         "name": "'video'",
@@ -34,6 +47,14 @@
       {
         "name": "'iframe'",
         "description": "Selected HTML embedded content elements ('video', 'audio', 'canvas', 'iframe') can now be embedded direcly in SVG without requiring a 'foreignObject' wrapper",
+        "support": []
+      },
+      {
+        "name": "'source'",
+        "support": []
+      },
+      {
+        "name": "'track'",
         "support": []
       },
       {
@@ -80,18 +101,26 @@
       },
       {
         "name": "'lang' as a replacement for 'xml:lang'",
-        "support": []
+        "support": [
+            {"name": "Gecko", "level": "full", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=721920"}
+        ]
       },
       {
-        "name": "'fr' on the 'radialGradient' element allows control of the radius of focal circle",
-        "support": []
+        "name": "'fr' on 'radialGradient'",
+        "description": "Allows control of the radius of focal circle",
+        "support": [
+            {"name": "InkScape", "level": "partial"}
+        ]
       },
       {
-        "name": "'refX' and 'refY' on a 'symbol' element supports more precise placement in maps and data charts",
-        "support": []
+        "name": "'refX' and 'refY' on 'symbol'",
+        "description": "supports more precise placement in maps and data charts",
+        "support": [
+            {"name": "InkScape", "level": "partial"}
+        ]
       },
       {
-        "name": "'x','y','width', and 'height' on a symbol (as presentation attributes)",
+        "name": "'x','y','width', and 'height' on 'symbol' (as presentation attributes)",
         "support": []
       },
       {
@@ -104,27 +133,61 @@
     "category": "New style properties",
     "features": [
       {
-        "name": "Support 'z-index' on all SVG elements and define how SVG creates 'stacking contexts'",
+        "name": "'z-index'",
         "support": []
       },
       {
-        "name": "'paint-order' property to control stroke, fill, and marker drawing order.",
+        "name": "'paint-order'",
+        "support": [
+            {"name": "InkScape", "level": "full"}
+        ]
+      },
+      {
+        "name": "'vector-effect' property value 'non-scaling-size'",
         "support": []
       },
       {
-        "name": "'vector-effect' property with non-scaling-size, non-rotation, and fixed-position as options (in addition to non-scaling-stroke which was defined in SVG Tiny 1.2)",
+        "name": "'vector-effect' property value 'non-rotation'",
         "support": []
       },
       {
-        "name": "Many properties to control text layout (see section on text changes, below)",
+        "name": "'vector-effect' property value 'fixed-position'",
         "support": []
       },
       {
-        "name": "Support now required for these CSS properties defined elsewhere (in addition to styles that were required in SVG 1.1):",
+        "name": "'text-overflow'",
         "support": []
       },
       {
-        "name": "'text-decoration-fill' and 'text-decoration-stroke' properties defined to complement the new 'text-decoration' sub-properties",
+        "name": "'isolation', 'mix-blend-mode'",
+        "support": []
+      },
+      {
+        "name": "'transform', 'transform-origin', 'transform-box'",
+        "support": []
+      },
+      {
+        "name": "'text-align', 'text-align-all', 'text-align-last', 'text-indent'",
+        "support": []
+      },
+      {
+        "name": "'white-space', 'text-space-collapse'",
+        "support": []
+      },
+      {
+        "name": "'vertical-align'",
+        "support": []
+      },
+      {
+        "name": "'font-feature-settings', 'font-kerning', 'font-size-adjust', 'font-variant'",
+        "support": []
+      },
+      {
+        "name": "'text-decoration-line', 'text-decoration-color', 'text-decoration-style''",
+        "support": []
+      },
+      {
+        "name": "'text-decoration-fill', 'text-decoration-stroke'",
         "support": []
       }
     ]
@@ -159,19 +222,35 @@
     "features": [
       {
         "name": "'context-fill' and 'context-stroke' values for 'fill' and 'stroke'.",
-        "support": []
+        "support": [
+            {"name": "InkScape", "level": "partial"}
+        ]
       },
       {
         "name": "'child' and `child(_n_)` referencences instead of `url()` references for paint servers and markers.",
         "support": []
       },
       {
-        "name": "New value 'auto-start-reverse' for the 'orient' attribute of the 'marker' element.  This allows the same arrow marker to be used at the start and end of a line, automatically transformed to point in opposite directions.",
-        "support": []
+        "name": "'auto-start-reverse' value for the 'orient' attribute of the 'marker' element",
+        "description": "This allows the same arrow marker to be used at the start and end of a line, automatically transformed to point in opposite directions.",
+        "support": [
+            {"name": "InkScape", "level": "full"},
+            {"name": "WebKit", "level": "full"},
+            {"name": "Gecko", "level": "full"},
+            {"name": "Blink", "level": "full"}
+        ]
       },
       {
-        "name": "New values 'miter-clip' and 'arcs' for 'stroke-linejoin' provide more aesthetically pleasing 'line join shape'",
-        "support": []
+        "name": "'miter-clip' value for 'stroke-linejoin'",
+        "support": [
+            {"name": "InkScape", "level": "full"}
+        ]
+      },
+      {
+        "name": "'arcs' value for 'stroke-linejoin'",
+        "support": [
+            {"name": "InkScape", "level": "full"}
+        ]
       },
       {
         "name": "'auto' values for 'rx' and 'ry'",
@@ -187,23 +266,28 @@
     "category": "New interfaces",
     "features": [
       {
-        "name": "'SVGGraphicsElement' interface merges various previous interfaces",
+        "name": "'SVGGraphicsElement' interface",
         "support": []
       },
       {
-        "name": "'SVGGeometryElement' defines common behavior for all shapes",
+        "name": "'SVGGeometryElement' interface",
         "support": []
       },
       {
-        "name": "'SVGUnknownElement' is used for unrecognized markup in the SVG namespace",
+        "name": "'SVGUnknownElement' interface",
+        "description": "For unrecognized markup in the SVG namespace.",
+        "support": [
+            {"name": "Gecko", "level":"none", "tracker":"https://bugzilla.mozilla.org/show_bug.cgi?id=1239218"}
+        ]
+      },
+      {
+        "name": "'SVGUseElementShadowRoot' interface",
+        "description": "An extension of the ShadowRoot interface.",
         "support": []
       },
       {
-        "name": "'SVGUseElementShadowRoot' interface as an extension of the ShadowRoot interface,",
-        "support": []
-      },
-      {
-        "name": "'ShadowAnimation' interface defines a read-only clone of a WAAPI animation for use-element shadow trees",
+        "name": "'ShadowAnimation' interface",
+        "description": "Defines a read-only clone of a WAAPI animation for use-element shadow trees.",
         "support": []
       }
     ]
@@ -212,19 +296,23 @@
     "category": "New/expanded interface methods and properties",
     "features": [
       {
-        "name": "Added \"length\" attribute and indexed property access to all list interfaces.",
+        "name": "'length' attribute and indexed property access for all list interfaces.",
         "support": []
       },
       {
-        "name": "Extend getBBox() method of 'SVGGraphicsElement' with an argument that controls inclusion of the fill or the stroke",
+        "name": "isPointInFill() method for 'SVGGeometryElement'",
         "support": []
       },
       {
-        "name": "isPointInFill and isPointInStroke methods added for all shapes ('SVGGeometryElement')",
+        "name": "isPointInFill() method for 'SVGGeometryElement'",
         "support": []
       },
       {
-        "name": "getTotalLength and getPointAtLength methods now available for all shapes ('SVGGeometryElement')",
+        "name": "getTotalLength() method for 'SVGGeometryElement",
+        "support": []
+      },
+      {
+        "name": "getPointAtLength() method for 'SVGGeometryElement",
         "support": []
       },
       {
@@ -237,103 +325,184 @@
     "category": "New path features",
     "features": [
       {
-        "name": "Allow closepath commands 'Z' and 'z' to fill in missing 'path data' from previous commands",
+        "name": "Closepath commands 'Z' and 'z' fill in missing 'path data'",
         "support": []
       },
       {
-        "name": "Added bearing path commands 'B' and 'b' to 'path data'",
+        "name": "Bearing path commands 'B' and 'b'",
         "support": []
       },
       {
-        "name": "Define a canonical equivalent path for all basic shapes (used in stroke dashing and marker positioning)",
+        "name": "Use canonical equivalent path for all basic shapes",
+        "description": "Used in stroke dashing and marker positioning.",
+        "support": []
+      }
+    ]
+  },
+  {
+    "category": "Text changes",
+    "features": [
+      {
+        "name": "'inline-size' property",
+        "description": "Enables auto wrapped text.",
         "support": []
       },
       {
-        "name": "CSS based multi-line text for 'text content elements':",
+        "name": "'shape-inside' property",
+        "description": "Support text in a shape.",
+        "support": [
+            {"name": "InkScape", "level": "full"}
+        ]
+      },
+      {
+        "name": "'shape-subtract' property",
+        "description": "Support text in a shape.",
+        "support": [
+            {"name": "InkScape", "level": "full"}
+        ]
+      },
+      {
+        "name": "'shape-image-threshold' property",
+        "description": "Support text in a shape.",
+        "support": [
+            {"name": "InkScape", "level": "full"}
+        ]
+      },
+      {
+        "name": "'shape-padding' property",
+        "description": "Support text in a shape.",
+        "support": [
+            {"name": "InkScape", "level": "full"}
+        ]
+      },
+      {
+        "name": "'shape-margin' property",
+        "description": "Support text in a shape.",
+        "support": [
+            {"name": "InkScape", "level": "full"}
+        ]
+      },
+      {
+        "name": "'path' attribute on 'textPath' element",
         "support": []
       },
       {
-        "name": "Support more whitespace preservation options, using CSS 'white-space' property",
+        "name": "Reference basic shapes from 'textPath'",
         "support": []
       },
       {
-        "name": "Support text in a shape using the 'shape-inside' and 'shape-subtract' properties, modified by the 'shape-image-threshold', 'shape-padding' and 'shape-margin' properties",
+        "name": "'side' attribute on 'textPath' element",
         "support": []
       },
       {
-        "name": "Text on a path changes:",
+        "name": "CSS font feature support (alternative glyphs, 'font-variant', etc.)",
         "support": []
       },
       {
-        "name": "Require CSS/OpenType font feature support (alternative glyphs, 'font-variant', etc.)",
+        "name": "Support for @font-face rules",
         "support": []
       },
       {
-        "name": "Require support for @font-face rules",
+        "name": "Masks, filters and other graphics effects applied to 'tspan' and 'textPath' elements",
         "support": []
       },
       {
-        "name": "Masks, filters and other graphics effects may now be applied to 'tspan' and 'textPath' elements",
+        "name": "::first-letter & ::first-line pseudo selectors on 'text' element",
         "support": []
       },
       {
-        "name": "Support ::first-letter & ::first-line pseudo selectors on 'text' element",
+        "name": "WOFF font support",
         "support": []
       },
       {
-        "name": "WOFF font support now required",
+        "name": "Vertical text and alternative text baseline properties from CSS",
+        "support": []
+      }
+    ]
+  },
+  {
+    "category": "Use element",
+    "features": [
+      {
+        "name": "Reference entire document from 'use'",
         "support": []
       },
       {
-        "name": "Vertical text and alternative text baseline properties now harmonized with CSS",
+        "name": "Clone all child elements of 'use'",
         "support": []
       },
       {
-        "name": "'use' element now defined in terms of Web Components",
+        "name": "Implement 'use' element as 'shadow tree'",
         "support": []
+      }
+    ]
+  },
+  {
+    "category": "Interactivity",
+    "features": [
+      {
+        "name": ":focus and ::selection styles.",
+        "support": [
+            {"name": "InkScape", "level": "N/A"}
+        ]
       },
       {
-        "name": "Require user agents that support 'interaction' to include :focus and ::selection styles.",
-        "support": []
+        "name": "scroll bars when 'overflow' property is scroll on 'svg' elements",
+        "support": [
+            {"name": "InkScape", "level": "N/A"}
+        ]
       },
       {
-        "name": "Allow scroll bars when the 'overflow' property is set to scroll on 'svg' elements",
-        "support": []
+        "name": "'clip' and 'overflow' not ignored when SVG document referenced via 'image'",
+        "support": [
+            {"name": "InkScape", "level": "N/A"}
+        ]
       },
       {
-        "name": "'clip' and 'overflow' no longer ignored when SVG document referenced via 'image'",
-        "support": []
-      },
-      {
-        "name": "Allow 'bounding box' area to be used for 'pointer-events' via the 'bounding-box' value",
-        "support": []
+        "name": "'bounding box' value for 'pointer-events'",
+        "support": [
+            {"name": "InkScape", "level": "N/A"}
+        ]
       },
       {
         "name": "Replace SVG-specific events with common equivalents",
-        "support": []
-      },
+        "support": [
+            {"name": "InkScape", "level": "N/A"}
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Other new behaviour or visual changes",
+    "features": [
       {
         "name": "'unknown' elements are treated as a 'g' or 'tspan' element",
         "support": []
       },
       {
-        "name": "Allow 'paint server elements' and 'marker' elements to descend from 'shapes' and be referenced through child(n) instead of by ID",
+        "name": "'paint server elements' and 'marker' elements referenced via child(n)",
         "support": []
       },
       {
-        "name": "Allow 'markers' on all shapes",
+        "name": "'markers' on all shapes",
+        "support": [
+            {"name": "InkScape", "level": "partial"}
+        ]
+      },
+      {
+        "name": "'script' element in content model of all elements",
         "support": []
       },
       {
-        "name": "Make the content model of many elements more flexible, e.g. the 'script' element is allowed anywhere; 'animation elements' can be descended from the 'view' element",
+        "name": "'animation elements' in content model of 'view' element",
         "support": []
       },
       {
-        "name": "'svg' elements that are children of HTML elements or 'foreignObject' elements no longer have 'overflow' hidden by default",
+        "name": "'svg' as children of HTML or 'foreignObject' elements no longer 'overflow' hidden by default",
         "support": []
       },
       {
-        "name": "'foreignObject' elements no longer have 'overflow' hidden by default",
+        "name": "'foreignObject' elements no longer 'overflow' hidden by default",
         "support": []
       },
       {
@@ -347,7 +516,12 @@
       {
         "name": "Clearer guidance given on the intrinsic sizing of SVG elements when embedded in other layout systems",
         "support": []
-      },
+      }
+    ]
+  },
+  {
+    "category": "Accessibility",
+    "features": [
       {
         "name": "Provide both declarative ('tabindex') and scripted control over which elements receive 'keyboard focus', allowing the creation of keyboard-accessible widgets, in a manner consistent with HTML.",
         "support": []
@@ -363,17 +537,18 @@
       {
         "name": "Allow alternative text metadata ('title' and 'desc') to be provided in multiple language versions in the same file.",
         "support": []
-      },
+      }
+    ]
+  },
+  {
+    "category": "Internationalisation",
+    "features": [
       {
-        "name": "Ordering of 'systemLanguage' preferences follows SMIL allowReorder definition, allowing language selection to better match user preferences.",
+        "name": "Ordering of 'systemLanguage' preferences follows SMIL allowReorder definition",
         "support": []
       },
       {
-        "name": "The 'lang' attribute replace 'xml:lang' for greater language support in non-XML contexts (e.g., in HTML 5) and for authoring consistency.",
-        "support": []
-      },
-      {
-        "name": "Required support for the :lang() CSS pseudoclass.",
+        "name": "Support for the :lang() CSS pseudoclass.",
         "support": []
       },
       {
@@ -383,7 +558,12 @@
       {
         "name": "Support for non-Western writing modes is now harmonized with CSS, which should lead to wider and more consistent implementations; includes support for additional vertical writing modes compared to SVG 1.1.",
         "support": []
-      },
+      }
+    ]
+  },
+  {
+    "category": "Harmonisation with HTML",
+    "features": [
       {
         "name": "Add additional attributes to the 'a' element to synchronise with HTML",
         "support": []
@@ -393,11 +573,11 @@
         "support": []
       },
       {
-        "name": "Update requirements for ‘id’ values to harmonize with HTML",
+        "name": "'id' value requirements matches HTML",
         "support": []
       },
       {
-        "name": "Support custom data attributes on all SVG elements",
+        "name": "Custom data attributes",
         "support": []
       },
       {
@@ -405,39 +585,16 @@
         "support": []
       },
       {
-        "name": "Add 'crossorigin' attribute to the 'image' and 'script' elements",
+        "name": "'crossorigin' attribute on 'image' and 'script' elements",
         "support": []
-      },
-      {
-        "name": "Inclusion of HTML 'audio', 'video', 'iframe', 'canvas', 'source', and 'track' elements",
-        "support": []
-      },
-      {
-        "name": "Many DOM API interfaces have been harmonized (see Other API changes, below)",
-        "support": []
-      },
-      {
-        "name": "CSS support now required for user agents",
-        "support": []
-      },
-      {
-        "name": "'transform' attributes and properties now defined in CSS Transforms",
-        "support": []
-      },
-      {
-        "name": "Clipping and masking now defined in CSS Masking spec",
-        "support": []
-      },
-      {
-        "name": "Filters now defined in CSS Filters spec",
-        "support": []
-      },
+      }
+    ]
+  },
+  {
+    "category": "Harmonisation with CSS",
+    "features": [
       {
         "name": "Use CSS parsing rules for all presentation attributes and many other attributes",
-        "support": []
-      },
-      {
-        "name": "Support 'white-space' property in favour of xml:space' attribute ",
         "support": []
       },
       {
@@ -463,45 +620,44 @@
       {
         "name": "Required support for ::first-line and ::first-letter pseudo-elements, and for ::selection in interactive user agents",
         "support": []
-      },
+      }
+    ]
+  },
+  {
+    "category": "Removed",
+    "features": [
       {
-        "name": "SVGStyleElement now implements the LinkStyle interface",
+        "name": "Remove SVG Fonts",
         "support": []
       },
       {
-        "name": "Remove DTD",
+        "name": "Remove externalResourcesRequired attribute",
         "support": []
       },
       {
-        "name": "Removed SVG Fonts",
+        "name": "Remove baseProfile and version attributes from the 'svg' element",
         "support": []
       },
       {
-        "name": "Removed externalResourcesRequired attribute",
+        "name": "Remove requiredFeatures attribute",
         "support": []
       },
       {
-        "name": "Removed baseProfile and version attributes from the 'svg' element",
+        "name": "Remove the ‘contentStyleType’ attribute.",
         "support": []
       },
       {
-        "name": "Removed requiredFeatures attribute",
+        "name": "Remove xml:base",
         "support": []
       },
       {
-        "name": "Removed the ‘contentStyleType’ attribute.",
-        "support": []
+        "name": "Remove defer keyword from preservedAspectRatio",
+        "support": [
+            {"name": "Gecko", "level": "full", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=1280425"}
+        ]
       },
       {
-        "name": "Removed xml:base",
-        "support": []
-      },
-      {
-        "name": "Removed defer keyword from preservedAspectRatio",
-        "support": []
-      },
-      {
-        "name": "Removed the tref element",
+        "name": "Remove the tref element",
         "support": []
       },
       {
@@ -509,57 +665,39 @@
         "support": []
       },
       {
-        "name": "Removed xlink:type, xlink:role, xlink:arcrole, xlink:show, and xlink:actuate attributes",
+        "name": "Remove xlink:type, xlink:role, xlink:arcrole, xlink:show, and xlink:actuate attributes",
         "support": []
       },
       {
-        "name": "Removed the viewTarget attribute from the view element",
+        "name": "Remove the viewTarget attribute from the view element",
         "support": []
       },
       {
-        "name": "Removed contentScriptType attribute",
+        "name": "Remove contentScriptType attribute",
         "support": []
+      }
+    ]
+  },
+  {
+    "category": "Deprecated, become noop",
+    "features": [
+      {
+        "name": "suspendRedraw(), unsuspendRedraw(), and unsuspendRedrawAll() on 'SVGSVGElement' become noop",
+        "support": [
+            {"name": "Gecko", "level": "none", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=734079"}
+        ]
       },
       {
-        "name": "methods suspendRedraw, unsuspendRedraw, and unsuspendRedrawAll on 'SVGSVGElement'",
-        "support": []
-      },
-      {
-        "name": "rootElement attribute",
-        "support": []
-      },
-      {
-        "name": "forceRedraw method on 'SVGSVGElement'",
-        "support": []
-      },
-      {
-        "name": "deselectAll method on 'SVGSVGElement'",
-        "support": []
-      },
-      {
-        "name": "xml:space",
-        "support": []
-      },
-      {
-        "name": "xlink:href",
-        "support": []
-      },
-      {
-        "name": "xlink:title",
-        "support": []
-      },
-      {
-        "name": "selectSubString() method on 'SVGTextContentElement' interface",
-        "support": []
-      },
-      {
-        "name": "'cursor' element",
-        "support": []
-      },
-      {
-        "name": "'kerning', 'glyph-orientation-vertical', 'glyph-orientation-horizontal'",
-        "support": []
-      },
+        "name": "forceRedraw method on 'SVGSVGElement' becomes noop",
+        "support": [
+            {"name": "Gecko", "level": "full", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=733764"}
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Other API changes",
+    "features": [
       {
         "name": "Replace 'SVGMatrix' with DOMMatrix or DOMMatrixReadOnly",
         "support": []
@@ -582,19 +720,34 @@
       },
       {
         "name": "Removed 'SVGExternalResourcesRequired' interface",
-        "support": []
+        "support": [
+            {"name": "Gecko", "level": "full"}
+        ]
       },
       {
         "name": "Removed 'SVGColor' and 'SVGICCCOlor' interfaces",
-        "support": []
+        "support": [
+            {"name": "Gecko", "level": "full"}
+        ]
       },
       {
         "name": "Removed getPresentationAttribute method from 'SVGElement'",
-        "support": []
+        "support": [
+            {"name": "Gecko", "level": "full", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=921456"}
+        ]
       },
       {
-        "name": "Add tabindex attribute, and focus and blur methods, to 'SVGElement'",
-        "support": []
+        "name": "tabindex attribute on 'SVGElement'",
+        "support": [
+            {"name": "Gecko", "level": "full", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=778654"}
+        ]
+      },
+      {
+        "name": "focus and blur methods on 'SVGElement'",
+        "description": "Related to tabindex attribute",
+        "support": [
+            {"name": "Gecko", "level": "none", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=778654"}
+        ]
       },
       {
         "name": "Add activeElement attribute to Document",
@@ -605,8 +758,10 @@
         "support": []
       },
       {
-        "name": "extend getBBox with an argument that controls inclusion of fill or stroke",
-        "support": []
+        "name": "getBBox() fill or stroke selection",
+        "support": [
+            {"name": "Gecko", "level": "partial", "tracker": ["https://bugzilla.mozilla.org/show_bug.cgi?id=999964", "https://bugzilla.mozilla.org/show_bug.cgi?id=1019326"]}
+        ]
       },
       {
         "name": "Remove xmlbase, xmllang, and xmlspace attributes from 'SVGElement' interface",
@@ -633,8 +788,10 @@
         "support": []
       },
       {
-        "name": "Moved methods pathLength, getTotalLength, and getPointAtLength to 'SVGGeometryElement'",
-        "support": []
+        "name": "Mov pathLength(), getTotalLength(), and getPointAtLength() to 'SVGGeometryElement'",
+        "support": [
+            {"name": "Gecko", "level": "none", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=1239100"}
+        ]
       },
       {
         "name": "Removed 'SVGElementInstance' and 'SVGElementInstanceList' interfaces",
@@ -646,7 +803,9 @@
       },
       {
         "name": "Removed the viewport attribute from 'SVGSVGElement'",
-        "support": []
+        "support": [
+            {"name": "Gecko", "level": "full"}
+        ]
       },
       {
         "name": "'SVGElement' has been extended to replace the core functionality from 'SVGElementInstance'.",
@@ -661,8 +820,10 @@
         "support": []
       },
       {
-        "name": "'SVGStyleElement' now implements LinkStyle",
-        "support": []
+        "name": "'SVGStyleElement' implements LinkStyle",
+        "support": [
+            {"name": "Gecko", "support": "full", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=1239128"}
+        ]
       },
       {
         "name": "Remove SVGPathSeg* interfaces",
@@ -693,5 +854,5 @@
         "support": []
       }
     ]
-  }
-]
+  }]
+}
