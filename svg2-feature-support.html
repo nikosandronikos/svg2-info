@@ -107,21 +107,25 @@
 
     td.priority_high::after {
         content: '++';
+        color: var(--oc-gray-8);
     }
     td.priority_medium::after {
         content: '+';
+        color: var(--oc-gray-8);
     }
     td.priority_low::after {
         content: '-';
+        color: var(--oc-gray-8);
     }
+
     #gh_link {
         float: right;
         margin-right: 1rem;
     }
 
-    span.div {
-        padding-left: 1em;
-        padding-right: 1em;
+    label + span {
+        margin-left: 2em;
+        margin-right: 2em;
     }
 </style>
 </head>
@@ -130,8 +134,7 @@
 <a id="gh_link" href="https://github.com/nikosandronikos/svg2-info" target="_blank">View on GitHub</a>
 <input type="checkbox" id="show_at_risk">
 <label for="show_at_risk">Hide 'at risk' features?</label>
-<span class='div'></span>
-<span>Priority: high [++], medium [+], low [-]</span>
+<span>Indicated priorities: high [++], medium [+], low [-]</span>
 <table id="feature-support-table">
 <thead><tr>
     <th>Feature</th>
