@@ -51,7 +51,7 @@ readline.createInterface(
         for (let replace of replacements) {
             line = line.replace(
                 replace.name_regex, 
-                `<a href="${replace.href}">'${replace.name}'</a>`
+                `<a href='${replace.href}' target=_blank>'${replace.name}'</a>`
             );
         }
         console.log(line);
