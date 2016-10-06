@@ -74,12 +74,33 @@
         background: 'white';
         color: var--oc-gray-8;
     }
-  
+
+    #show_at_risk:checked ~ .at_risk, #show_at_risk:checked ~ * .at_risk  {
+        display: none;
+    }
+
+    td > p {
+        margin: 0;
+    }
+ 
+    .at_risk > td:first-child > p::after {
+        content: 'At risk!';
+        background: var(--oc-red-7);
+        color: var(--oc-gray-2);
+        margin-left: 2em;
+        font-size: 0.8em;
+        padding: 0 5px 0 5px;
+        box-shadow: rgba(0,0,0,0.5) -1px -1px 1px 0px inset;
+        border-radius: 2px;
+    }
+ 
 </style>
 </head>
 <body>
 <table id="feature-support-table">
 <h1>SVG 2 user agent support</h1>
+<input type="checkbox" id="show_at_risk">
+<label for="show_at_risk">Hide 'at risk' features?</label>
 <thead><tr>
     <th>Feature</th>
     <th>Tests</th>

@@ -32,7 +32,6 @@ function features_json_received(responseText) {
         table_head_row.appendChild(th);
     }
 
-
     for (let category of response.svg2_categories) {
         const tbody = new_elem('tbody');
         const tr = new_elem('tr');
@@ -45,8 +44,12 @@ function features_json_received(responseText) {
         
         for (let feature of category.features) {
             const tr = new_elem('tr');
-            tr.innerHTML = `<td class='feature'>${feature.name}</td><td></td>`;
+            tr.innerHTML = `<td class='feature'><p>${feature.name}</p></td><td></td>`;
             tbody.appendChild(tr);
+
+            if (feature.at_risk && feature.at_risk.toLowerCase() == "true") {
+                tr.className = 'at_risk';
+            }
             
             for (let ua of response.user_agents) {
                 const td = new_elem('td');
@@ -54,16 +57,16 @@ function features_json_received(responseText) {
                 td.className = 'UA none';
                 tr.appendChild(td);
             }
-            
+
             for (let ua_support of feature.support) {
                 const ua_td = tr.querySelector(`#${ua_support.name}`);
-                switch (ua_support.level) {
+                switch (ua_support.level.toLowerCase()) {
                     case 'full': 
                     case 'partial':
                         ua_td.innerHTML = ua_support.level;
                         ua_td.className = ua_support.level;
                         break;
-                    case 'N/A':
+                    case 'n/a':
                         ua_td.innerHTML = ua_support.level;
                         ua_td.className = 'not_applicable';
                         break;

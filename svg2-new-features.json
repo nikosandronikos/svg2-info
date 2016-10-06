@@ -7,6 +7,7 @@
       {
         "name": "'meshgradient', 'meshrow' and 'meshpatch'",
         "description": "Define gradient mesh paint servers to define two-dimensional gradients with arbitrary shapes.",
+        "at_risk": "true",
         "support": [
             {"name": "InkScape", "level": "full"}
         ]
@@ -14,11 +15,13 @@
       {
         "name": "'mesh' element",
         "description": "Draws a path-like shape that tightly fits a mesh gradient and is filled with it.",
+        "at_risk": "true",
         "support": []
       },
       {
         "name": "'hatch' element",
         "description": "Define a hatch paint server, which draws a repeating pattern of paths that are continuous in one dimension and tiled in the other.",
+        "at_risk": "true",
         "support": [
             {"name": "InkScape", "level": "partial"}
         ]
@@ -126,6 +129,11 @@
       {
         "name": "'pathLength' attribute on all 'basic shapes'",
         "support": []
+      },
+      {
+        "name": "'zoomAndPan' attribute on 'svg' and 'view' elements",
+        "at_risk": "true",
+        "support": []
       }
     ]
   },
@@ -134,6 +142,7 @@
     "features": [
       {
         "name": "'z-index'",
+        "at_risk": "true",
         "support": []
       },
       {
@@ -144,14 +153,17 @@
       },
       {
         "name": "'vector-effect' property value 'non-scaling-size'",
+        "at_risk": "true",
         "support": []
       },
       {
         "name": "'vector-effect' property value 'non-rotation'",
+        "at_risk": "true",
         "support": []
       },
       {
         "name": "'vector-effect' property value 'fixed-position'",
+        "at_risk": "true",
         "support": []
       },
       {
@@ -276,6 +288,7 @@
       {
         "name": "'SVGUnknownElement' interface",
         "description": "For unrecognized markup in the SVG namespace.",
+        "at_risk": "true",
         "support": [
             {"name": "Gecko", "level":"none", "tracker":"https://bugzilla.mozilla.org/show_bug.cgi?id=1239218"}
         ]
@@ -477,6 +490,7 @@
     "features": [
       {
         "name": "'unknown' elements are treated as a 'g' or 'tspan' element",
+        "at_risk": "true",
         "support": []
       },
       {
@@ -503,6 +517,11 @@
       },
       {
         "name": "'foreignObject' elements no longer 'overflow' hidden by default",
+        "support": []
+      },
+      {
+        "name": "Render nested 'a' elements",
+        "at_risk": "true",
         "support": []
       },
       {
@@ -533,10 +552,6 @@
       {
         "name": "Define default and allowed 'role' values for each element.",
         "support": []
-      },
-      {
-        "name": "Allow alternative text metadata ('title' and 'desc') to be provided in multiple language versions in the same file.",
-        "support": []
       }
     ]
   },
@@ -552,7 +567,8 @@
         "support": []
       },
       {
-        "name": "Alternative text metadata ('title' and 'desc') can be provided in multiple language versions in the same file, with the user agent selecting based on system language preferences.",
+        "name": "Allow alternative text metadata ('title' and 'desc') to be provided in multiple language versions in the same file.",
+        "at_risk": "true",
         "support": []
       },
       {
