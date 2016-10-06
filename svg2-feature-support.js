@@ -58,29 +58,43 @@ function features_json_received(responseText) {
                 tr.appendChild(td);
             }
 
-            for (let ua_support of feature.support) {
-                const ua_td = tr.querySelector(`#${ua_support.name}`);
-                switch (ua_support.level.toLowerCase()) {
-                    case 'full': 
-                    case 'partial':
-                        ua_td.innerHTML = ua_support.level;
-                        ua_td.className = ua_support.level;
-                        break;
-                    case 'n/a':
-                        ua_td.innerHTML = ua_support.level;
-                        ua_td.className = 'not_applicable';
-                        break;
-                }
+            if (feature.support) {
+                for (let ua_support of feature.support) {
+                    if (!ua_support.level)
+                        console.log(feature);
 
-                if (ua_support.tracker) {
-                    function tracker_links(tracker) {
-                        let resolved = '';
-                        for (t of Array.isArray(tracker) ? tracker : [tracker]) {
-                            resolved += ` [<a href='${t}'>track</a>]`;
-                        }
-                        return resolved;
+                    const ua_td = tr.querySelector(`#${ua_support.name}`);
+                    switch (ua_support.level.toLowerCase()) {
+                        case 'full': 
+                        case 'partial':
+                            ua_td.innerHTML = ua_support.level;
+                            ua_td.className = ua_support.level;
+                            break;
+                        case 'n/a':
+                            ua_td.innerHTML = ua_support.level;
+                            ua_td.className = 'not_applicable';
+                            break;
                     }
-                    ua_td.innerHTML = ua_td.innerHTML + tracker_links(ua_support.tracker);
+
+                    if (ua_support.tracker) {
+                        function tracker_links(tracker) {
+                            let resolved = '';
+                            for (t of Array.isArray(tracker) ? tracker : [tracker]) {
+                                resolved += ` [<a href='${t}'>track</a>]`;
+                            }
+                            return resolved;
+                        }
+                        ua_td.innerHTML = ua_td.innerHTML + tracker_links(ua_support.tracker);
+                    }
+                }
+            }
+
+            if (feature.feedback) {
+                for (let feedback of feature.feedback) {
+                    const ua_td = tr.querySelector(`#${feedback.name}`);
+                    if (!ua_td) continue;
+
+                    ua_td.className = ua_td.className + ` priority_${feedback.priority}`;
                 }
             }
         }
@@ -88,7 +102,6 @@ function features_json_received(responseText) {
 }
 
 window.onload = function() {
-
     httpGetAsync(
         'svg2-new-features.json',
         features_json_received

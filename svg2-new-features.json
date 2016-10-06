@@ -1,5 +1,6 @@
 {
   "user_agents": ["Gecko", "Blink", "Edge", "WebKit", "InkScape"],
+  "feedback": ["InkScape"],
   "svg2_categories":
   [{
     "category": "New elements",
@@ -10,13 +11,19 @@
         "at_risk": "true",
         "support": [
             {"name": "InkScape", "level": "full"}
+        ],
+         "feedback": [
+            {"name": "InkScape", "priority": "high"}
         ]
       },
       {
         "name": "'mesh' element",
         "description": "Draws a path-like shape that tightly fits a mesh gradient and is filled with it.",
         "at_risk": "true",
-        "support": []
+        "support": [],
+         "feedback": [
+            {"name": "InkScape", "priority": "high"}
+        ]
       },
       {
         "name": "'hatch' element",
@@ -24,6 +31,9 @@
         "at_risk": "true",
         "support": [
             {"name": "InkScape", "level": "partial"}
+        ],
+         "feedback": [
+            {"name": "InkScape", "priority": "high"}
         ]
       },
       {
@@ -113,6 +123,9 @@
         "description": "Allows control of the radius of focal circle",
         "support": [
             {"name": "InkScape", "level": "partial"}
+        ],
+         "feedback": [
+            {"name": "InkScape", "priority": "medium"}
         ]
       },
       {
@@ -120,6 +133,9 @@
         "description": "supports more precise placement in maps and data charts",
         "support": [
             {"name": "InkScape", "level": "partial"}
+        ],
+         "feedback": [
+            {"name": "InkScape", "priority": "medium"}
         ]
       },
       {
@@ -143,28 +159,43 @@
       {
         "name": "'z-index'",
         "at_risk": "true",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "InkScape", "priority": "low"}
+        ]
       },
       {
         "name": "'paint-order'",
         "support": [
             {"name": "InkScape", "level": "full"}
+        ],
+        "feedback": [
+            {"name": "InkScape", "priority": "high"}
         ]
       },
       {
         "name": "'vector-effect' property value 'non-scaling-size'",
         "at_risk": "true",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "InkScape", "priority": "medium"}
+        ]
       },
       {
         "name": "'vector-effect' property value 'non-rotation'",
         "at_risk": "true",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "InkScape", "priority": "medium"}
+        ]
       },
       {
         "name": "'vector-effect' property value 'fixed-position'",
         "at_risk": "true",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "InkScape", "priority": "medium"}
+        ]
       },
       {
         "name": "'text-overflow'",
@@ -172,11 +203,17 @@
       },
       {
         "name": "'isolation', 'mix-blend-mode'",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "InkScape", "priority": "medium"}
+        ]
       },
       {
         "name": "'transform', 'transform-origin', 'transform-box'",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "InkScape", "priority": "low"}
+        ]
       },
       {
         "name": "'text-align', 'text-align-all', 'text-align-last', 'text-indent'",
@@ -184,7 +221,10 @@
       },
       {
         "name": "'white-space', 'text-space-collapse'",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "InkScape", "priority": "medium"}
+        ]
       },
       {
         "name": "'vertical-align'",
@@ -200,7 +240,10 @@
       },
       {
         "name": "'text-decoration-fill', 'text-decoration-stroke'",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "InkScape", "priority": "high"}
+        ]
       }
     ]
   },
@@ -236,11 +279,17 @@
         "name": "'context-fill' and 'context-stroke' values for 'fill' and 'stroke'.",
         "support": [
             {"name": "InkScape", "level": "partial"}
+        ],
+        "feedback": [
+            {"name": "InkScape", "priority": "high"}
         ]
       },
       {
         "name": "'child' and `child(_n_)` referencences instead of `url()` references for paint servers and markers.",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "InkScape", "priority": "low"}
+        ]
       },
       {
         "name": "'auto-start-reverse' value for the 'orient' attribute of the 'marker' element",
@@ -250,6 +299,9 @@
             {"name": "WebKit", "level": "full"},
             {"name": "Gecko", "level": "full"},
             {"name": "Blink", "level": "full"}
+        ],
+        "feedback": [
+            {"name": "InkScape", "priority": "high"}
         ]
       },
       {
@@ -262,6 +314,9 @@
         "name": "'arcs' value for 'stroke-linejoin'",
         "support": [
             {"name": "InkScape", "level": "full"}
+        ],
+        "feedback": [
+            {"name": "InkScape", "priority": "high"}
         ]
       },
       {
@@ -270,7 +325,10 @@
       },
       {
         "name": "Add left|middle|center keywords for 'refX' and 'refY' attributes",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "InkScape", "priority": "medium"}
+        ]
       }
     ]
   },
@@ -339,11 +397,17 @@
     "features": [
       {
         "name": "Closepath commands 'Z' and 'z' fill in missing 'path data'",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "InkScape", "priority": "high"}
+        ]
       },
       {
         "name": "Bearing path commands 'B' and 'b'",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "InkScape", "priority": "low"}
+        ]
       },
       {
         "name": "Use canonical equivalent path for all basic shapes",
@@ -358,13 +422,19 @@
       {
         "name": "'inline-size' property",
         "description": "Enables auto wrapped text.",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "InkScape", "priority": "medium"}
+        ]
       },
       {
         "name": "'shape-inside' property",
         "description": "Support text in a shape.",
         "support": [
             {"name": "InkScape", "level": "full"}
+        ],
+        "feedback": [
+            {"name": "InkScape", "priority": "high"}
         ]
       },
       {
@@ -372,6 +442,9 @@
         "description": "Support text in a shape.",
         "support": [
             {"name": "InkScape", "level": "full"}
+        ],
+        "feedback": [
+            {"name": "InkScape", "priority": "high"}
         ]
       },
       {
@@ -379,6 +452,9 @@
         "description": "Support text in a shape.",
         "support": [
             {"name": "InkScape", "level": "full"}
+        ],
+        "feedback": [
+            {"name": "InkScape", "priority": "high"}
         ]
       },
       {
@@ -386,6 +462,9 @@
         "description": "Support text in a shape.",
         "support": [
             {"name": "InkScape", "level": "full"}
+        ],
+        "feedback": [
+            {"name": "InkScape", "priority": "high"}
         ]
       },
       {
@@ -393,6 +472,9 @@
         "description": "Support text in a shape.",
         "support": [
             {"name": "InkScape", "level": "full"}
+        ],
+        "feedback": [
+            {"name": "InkScape", "priority": "high"}
         ]
       },
       {
@@ -405,11 +487,17 @@
       },
       {
         "name": "'side' attribute on 'textPath' element",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "InkScape", "priority": "medium"}
+        ]
       },
       {
         "name": "CSS font feature support (alternative glyphs, 'font-variant', etc.)",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "InkScape", "priority": "high"}
+        ]
       },
       {
         "name": "Support for @font-face rules",
@@ -494,13 +582,12 @@
         "support": []
       },
       {
-        "name": "'paint server elements' and 'marker' elements referenced via child(n)",
-        "support": []
-      },
-      {
         "name": "'markers' on all shapes",
         "support": [
             {"name": "InkScape", "level": "partial"}
+        ],
+        "feedback": [
+            {"name": "InkScape", "priority": "medium"}
         ]
       },
       {
