@@ -925,7 +925,7 @@
       {
         "name": "'SVGStyleElement' implements LinkStyle",
         "support": [
-            {"name": "Gecko", "support": "full", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=1239128"}
+            {"name": "Gecko", "level": "full", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=1239128"}
         ]
       },
       {
