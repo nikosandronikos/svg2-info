@@ -8,11 +8,20 @@
     @import url('open-color.css');
     body {
         font-family: 'Open Sans', sans-serif;
+        margin: 0;
+    }
+    h1 {
+        display: block;
+        background: var(--oc-gray-8);
+        color: var(--oc-gray-2);
+        margin: 0;
+        padding: 1rem;
     }
     table {
-        margin-bottom: 2em; 
+        margin-bottom: 2rem; 
         table-layout: fixed;
         position: relative;
+        padding: 1rem;
     }
     thead {
         background: white;
@@ -26,7 +35,7 @@
     th {
         font-weight: normal;
         text-align: center;
-        padding: 1em 0.45em;
+        height: 3em;
         position: relative;
         min-width: 40px;
         font-size: 13px;
@@ -48,7 +57,6 @@
         text-align: left;
     }
     td.feature {
-        max-width: 50em;
         text-align: left;
     }
     td {
@@ -68,13 +76,16 @@
     }
     td.none {
         background: var(--oc-red-2);
-        color: white;
+        color: var(--oc-gray-7);
     }
     td.not_applicable {
         background: 'white';
         color: var--oc-gray-8;
     }
 
+    #show_at_risk {
+        margin-left: 1rem;
+    }
     #show_at_risk:checked ~ .at_risk, #show_at_risk:checked ~ * .at_risk  {
         display: none;
     }
@@ -93,13 +104,35 @@
         box-shadow: rgba(0,0,0,0.5) -1px -1px 1px 0px inset;
         border-radius: 2px;
     }
+
+    td.priority_high::after {
+        content: '++';
+    }
+    td.priority_medium::after {
+        content: '+';
+    }
+    td.priority_low::after {
+        content: '-';
+    }
+    #gh_link {
+        float: right;
+        margin-right: 1rem;
+    }
+
+    span.div {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
 </style>
 </head>
 <body>
-<table id="feature-support-table">
 <h1>SVG 2 user agent support</h1>
+<a id="gh_link" href="https://github.com/nikosandronikos/svg2-info" target="_blank">View on GitHub</a>
 <input type="checkbox" id="show_at_risk">
 <label for="show_at_risk">Hide 'at risk' features?</label>
+<span class='div'></span>
+<span>Priority: high [++], medium [+], low [-]</span>
+<table id="feature-support-table">
 <thead><tr>
     <th>Feature</th>
     <th>Tests</th>
