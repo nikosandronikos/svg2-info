@@ -103,7 +103,7 @@ function features_json_received(responseText) {
 
 window.onload = function() {
     httpGetAsync(
-        'svg2-new-features.json',
+        'svg2-new-features-processed.json',
         features_json_received
     );    
 }
