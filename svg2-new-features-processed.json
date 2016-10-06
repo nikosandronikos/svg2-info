@@ -1,6 +1,6 @@
 {
-  "user_agents": ["Gecko", "Blink", "Edge", "WebKit", "InkScape"],
-  "feedback": ["InkScape"],
+  "user_agents": ["Gecko", "Blink", "Edge", "WebKit", "Inkscape"],
+  "feedback": ["Inkscape"],
   "svg2_categories":
   [{
     "category": "New elements",
@@ -10,10 +10,10 @@
         "description": "Define gradient mesh paint servers to define two-dimensional gradients with arbitrary shapes.",
         "at_risk": "true",
         "support": [
-            {"name": "InkScape", "level": "full"}
+            {"name": "Inkscape", "level": "full"}
         ],
          "feedback": [
-            {"name": "InkScape", "priority": "high"}
+            {"name": "Inkscape", "priority": "high"}
         ]
       },
       {
@@ -22,24 +22,26 @@
         "at_risk": "true",
         "support": [],
          "feedback": [
-            {"name": "InkScape", "priority": "high"}
+            {"name": "Inkscape", "priority": "high"}
         ]
       },
       {
         "name": "<a href='https://svgwg.org/svg2-draft/pservers.html#HatchElement' target=_blank>'hatch'</a> element",
         "description": "Define a hatch paint server, which draws a repeating pattern of paths that are continuous in one dimension and tiled in the other.",
-        "at_risk": "true",
         "support": [
-            {"name": "InkScape", "level": "partial"}
+            {"name": "Inkscape", "level": "full"}
         ],
          "feedback": [
-            {"name": "InkScape", "priority": "high"}
+            {"name": "Inkscape", "priority": "high"}
         ]
       },
       {
         "name": "<a href='https://svgwg.org/svg2-draft/pservers.html#SolidcolorElement' target=_blank>'solidcolor'</a> element",
         "support": [
-            {"name": "InkScape", "level": "partial"}
+            {"name": "Inkscape", "level": "partial"}
+        ],
+         "feedback": [
+            {"name": "Inkscape", "priority": "high"}
         ]
       },
       {
@@ -110,7 +112,10 @@
       },
       {
         "name": "'href' as a replacement for 'xlink:href'",
-        "support": []
+        "support": [
+	    {"name": "Gecko", "level": "parital"},
+	    {"name": "Blink", "level": "full" }
+	]
       },
       {
         "name": "'lang' as a replacement for 'xml:lang'",
@@ -122,20 +127,21 @@
         "name": "'fr' on <a href='https://svgwg.org/svg2-draft/pservers.html#RadialGradientElement' target=_blank>'radialGradient'</a>",
         "description": "Allows control of the radius of focal circle",
         "support": [
-            {"name": "InkScape", "level": "partial"}
+            {"name": "Inkscape", "level": "full"},
+	    {"name": "Blink",    "level": "full"}
         ],
          "feedback": [
-            {"name": "InkScape", "priority": "medium"}
+            {"name": "Inkscape", "priority": "medium"}
         ]
       },
       {
         "name": "'refX' and 'refY' on <a href='https://svgwg.org/svg2-draft/struct.html#SymbolElement' target=_blank>'symbol'</a>",
         "description": "supports more precise placement in maps and data charts",
         "support": [
-            {"name": "InkScape", "level": "partial"}
+            {"name": "Inkscape", "level": "full"}
         ],
          "feedback": [
-            {"name": "InkScape", "priority": "medium"}
+            {"name": "Inkscape", "priority": "medium"}
         ]
       },
       {
@@ -161,16 +167,18 @@
         "at_risk": "true",
         "support": [],
         "feedback": [
-            {"name": "InkScape", "priority": "low"}
+            {"name": "Inkscape", "priority": "low"}
         ]
       },
       {
         "name": "<a href='https://svgwg.org/svg2-draft/painting.html#PaintOrderProperty' target=_blank>'paint-order'</a>",
         "support": [
-            {"name": "InkScape", "level": "full"}
+            {"name": "Inkscape", "level": "full"},
+            {"name": "Gecko",    "level": "full"},
+            {"name": "Blink",    "level": "full"}
         ],
         "feedback": [
-            {"name": "InkScape", "priority": "high"}
+            {"name": "Inkscape", "priority": "high"}
         ]
       },
       {
@@ -178,7 +186,7 @@
         "at_risk": "true",
         "support": [],
         "feedback": [
-            {"name": "InkScape", "priority": "medium"}
+            {"name": "Inkscape", "priority": "medium"}
         ]
       },
       {
@@ -186,7 +194,7 @@
         "at_risk": "true",
         "support": [],
         "feedback": [
-            {"name": "InkScape", "priority": "medium"}
+            {"name": "Inkscape", "priority": "medium"}
         ]
       },
       {
@@ -194,7 +202,7 @@
         "at_risk": "true",
         "support": [],
         "feedback": [
-            {"name": "InkScape", "priority": "medium"}
+            {"name": "Inkscape", "priority": "medium"}
         ]
       },
       {
@@ -203,16 +211,23 @@
       },
       {
         "name": "'isolation', 'mix-blend-mode'",
-        "support": [],
+        "support": [
+	    {"name": "Inkscape", "level": "full"},
+	    {"name": "Gecko",    "level": "full"},
+	    {"name": "Blink",    "level": "full"}
+	],
         "feedback": [
-            {"name": "InkScape", "priority": "medium"}
+            {"name": "Inkscape", "priority": "medium"}
         ]
       },
       {
         "name": "<a href='https://svgwg.org/svg2-draft/coords.html#TransformProperty' target=_blank>'transform'</a>, <a href='https://drafts.csswg.org/css-transforms/#transform-origin-property' target=_blank>'transform-origin'</a>, <a href='https://drafts.csswg.org/css-transforms/#transform-box' target=_blank>'transform-box'</a>",
-        "support": [],
+        "support": [
+            {"name": "Gecko",   "level": "partial"},
+            {"name": "Blink",   "level": "partial"}
+	],
         "feedback": [
-            {"name": "InkScape", "priority": "low"}
+            {"name": "Inkscape", "priority": "low"}
         ]
       },
       {
@@ -221,9 +236,12 @@
       },
       {
         "name": "<a href='https://svgwg.org/svg2-draft/text.html#WhiteSpaceProperty' target=_blank>'white-space'</a>, <a href='https://www.w3.org/TR/css-text-4/#propdef-text-space-collapse' target=_blank>'text-space-collapse'</a>",
-        "support": [],
+        "support": [
+	    {"name": "Inkscape", "level": "partial"},
+	    {"name": "Gecko",    "level": "parital"}
+	],
         "feedback": [
-            {"name": "InkScape", "priority": "medium"}
+            {"name": "Inkscape", "priority": "medium"}
         ]
       },
       {
@@ -231,18 +249,46 @@
         "support": []
       },
       {
-        "name": "<a href='https://www.w3.org/TR/css-fonts-3/#font-feature-settings-prop' target=_blank>'font-feature-settings'</a>, <a href='https://www.w3.org/TR/css-fonts-3/#font-kerning-prop' target=_blank>'font-kerning'</a>, <a href='https://www.w3.org/TR/css-fonts-3/#font-size-adjust-prop' target=_blank>'font-size-adjust'</a>, <a href='https://svgwg.org/svg2-draft/text.html#FontVariantProperty' target=_blank>'font-variant'</a>",
-        "support": []
+        "name": "<a href='https://www.w3.org/TR/css-fonts-3/#font-feature-settings-prop' target=_blank>'font-feature-settings'</a>, <a href='https://www.w3.org/TR/css-fonts-3/#font-kerning-prop' target=_blank>'font-kerning'</a>, <a href='https://www.w3.org/TR/css-fonts-3/#font-size-adjust-prop' target=_blank>'font-size-adjust'</a>",
+        "support": [
+	    {"name": "Inkscape", "level": "partial"},
+	    {"name": "Gecko",    "level": "parital"}
+	]
       },
       {
-        "name": "<a href='https://svgwg.org/svg2-draft/text.html#TextDecorationProperties' target=_blank>'text-decoration-line'</a>, <a href='https://svgwg.org/svg2-draft/text.html#TextDecorationProperties' target=_blank>'text-decoration-color'</a>, <a href='https://svgwg.org/svg2-draft/text.html#TextDecorationProperties' target=_blank>'text-decoration-style'</a>'",
-        "support": []
+        "name": "<a href='https://svgwg.org/svg2-draft/text.html#FontVariantProperty' target=_blank>'font-variant'</a>",
+        "support": [
+	    {"name": "Inkscape", "level": "full"},
+	    {"name": "Gecko",    "level": "full"},
+	    {"name": "Blink",    "level": "full"}
+	]
+      },
+      {
+        "name": "<a href='https://svgwg.org/svg2-draft/text.html#TextDecorationProperties' target=_blank>'text-decoration-line'</a>",
+        "support": [
+	    {"name": "Inkscape", "level": "full"},
+	    {"name": "Gecko",    "level": "full"},
+	    {"name": "Blink",    "level": "full"}
+	]
+      },
+      {
+        "name": "<a href='https://svgwg.org/svg2-draft/text.html#TextDecorationProperties' target=_blank>'text-decoration-style'</a>",
+        "support": [
+	    {"name": "Inkscape", "level": "full"},
+	    {"name": "Gecko",    "level": "full"}
+	]
+      },
+      {
+        "name": "<a href='https://svgwg.org/svg2-draft/text.html#TextDecorationProperties' target=_blank>'text-decoration-color'</a>",
+        "support": [
+	    {"name": "Inkscape", "level": "full"}
+	]
       },
       {
         "name": "<a href='https://svgwg.org/svg2-draft/text.html#TextDecorationFillProperty' target=_blank>'text-decoration-fill'</a>, <a href='https://svgwg.org/svg2-draft/text.html#TextDecorationStrokeProperty' target=_blank>'text-decoration-stroke'</a>",
         "support": [],
         "feedback": [
-            {"name": "InkScape", "priority": "high"}
+            {"name": "Inkscape", "priority": "high"}
         ]
       }
     ]
@@ -278,45 +324,48 @@
       {
         "name": "<a href='https://svgwg.org/svg2-draft/painting.html#context-paint' target=_blank>'context-fill'</a> and <a href='https://svgwg.org/svg2-draft/painting.html#context-paint' target=_blank>'context-stroke'</a> values for <a href='https://svgwg.org/svg2-draft/painting.html#TermFill' target=_blank><a href='https://svgwg.org/svg2-draft/painting.html#FillProperty' target=_blank>'fill'</a></a> and <a href='https://svgwg.org/svg2-draft/painting.html#TermStroke' target=_blank><a href='https://svgwg.org/svg2-draft/painting.html#StrokeProperty' target=_blank>'stroke'</a></a>.",
         "support": [
-            {"name": "InkScape", "level": "partial"}
+            {"name": "Inkscape", "level": "partial"}
         ],
         "feedback": [
-            {"name": "InkScape", "priority": "high"}
+            {"name": "Inkscape", "priority": "high"}
         ]
       },
       {
         "name": "'child' and `child(_n_)` referencences instead of `url()` references for paint servers and markers.",
         "support": [],
         "feedback": [
-            {"name": "InkScape", "priority": "low"}
+            {"name": "Inkscape", "priority": "low"}
         ]
       },
       {
         "name": "'auto-start-reverse' value for the 'orient' attribute of the <a href='https://svgwg.org/svg2-draft/painting.html#MarkerElement' target=_blank><a href='https://svgwg.org/svg2-draft/painting.html#Markers' target=_blank><a href='https://svgwg.org/svg2-draft/painting.html#MarkerProperty' target=_blank>'marker'</a></a></a> element",
         "description": "This allows the same arrow marker to be used at the start and end of a line, automatically transformed to point in opposite directions.",
         "support": [
-            {"name": "InkScape", "level": "full"},
+            {"name": "Inkscape", "level": "full"},
             {"name": "WebKit", "level": "full"},
             {"name": "Gecko", "level": "full"},
             {"name": "Blink", "level": "full"}
         ],
         "feedback": [
-            {"name": "InkScape", "priority": "high"}
+            {"name": "Inkscape", "priority": "high"}
         ]
       },
       {
         "name": "'miter-clip' value for <a href='https://svgwg.org/svg2-draft/painting.html#StrokeLinejoinProperty' target=_blank>'stroke-linejoin'</a>",
         "support": [
-            {"name": "InkScape", "level": "full"}
+            {"name": "Inkscape", "level": "full"}
+        ],
+        "feedback": [
+            {"name": "Inkscape", "priority": "high"}
         ]
       },
       {
         "name": "'arcs' value for <a href='https://svgwg.org/svg2-draft/painting.html#StrokeLinejoinProperty' target=_blank>'stroke-linejoin'</a>",
         "support": [
-            {"name": "InkScape", "level": "full"}
+            {"name": "Inkscape", "level": "full"}
         ],
         "feedback": [
-            {"name": "InkScape", "priority": "high"}
+            {"name": "Inkscape", "priority": "high"}
         ]
       },
       {
@@ -327,7 +376,7 @@
         "name": "Add left|middle|center keywords for 'refX' and 'refY' attributes",
         "support": [],
         "feedback": [
-            {"name": "InkScape", "priority": "medium"}
+            {"name": "Inkscape", "priority": "medium"}
         ]
       }
     ]
@@ -399,20 +448,22 @@
         "name": "Closepath commands 'Z' and 'z' fill in missing <a href='https://svgwg.org/svg2-draft/paths.html#PathData' target=_blank>'path data'</a>",
         "support": [],
         "feedback": [
-            {"name": "InkScape", "priority": "high"}
+            {"name": "Inkscape", "priority": "high"}
         ]
       },
       {
         "name": "Bearing path commands 'B' and 'b'",
         "support": [],
         "feedback": [
-            {"name": "InkScape", "priority": "low"}
+            {"name": "Inkscape", "priority": "low"}
         ]
       },
       {
         "name": "Use canonical equivalent path for all basic shapes",
         "description": "Used in stroke dashing and marker positioning.",
-        "support": []
+        "support": [
+            {"name": "Inkscape", "level": "full"}
+	]
       }
     ]
   },
@@ -424,57 +475,57 @@
         "description": "Enables auto wrapped text.",
         "support": [],
         "feedback": [
-            {"name": "InkScape", "priority": "medium"}
+            {"name": "Inkscape", "priority": "medium"}
         ]
       },
       {
         "name": "<a href='https://svgwg.org/svg2-draft/text.html#TextShapeInside' target=_blank>'shape-inside'</a> property",
         "description": "Support text in a shape.",
         "support": [
-            {"name": "InkScape", "level": "full"}
+            {"name": "Inkscape", "level": "full"}
         ],
         "feedback": [
-            {"name": "InkScape", "priority": "high"}
+            {"name": "Inkscape", "priority": "high"}
         ]
       },
       {
         "name": "<a href='https://svgwg.org/svg2-draft/text.html#TextShapeSubtract' target=_blank>'shape-subtract'</a> property",
         "description": "Support text in a shape.",
         "support": [
-            {"name": "InkScape", "level": "full"}
+            {"name": "Inkscape", "level": "full"}
         ],
         "feedback": [
-            {"name": "InkScape", "priority": "high"}
+            {"name": "Inkscape", "priority": "high"}
         ]
       },
       {
         "name": "<a href='https://svgwg.org/svg2-draft/text.html#TextShapeImageThreshold' target=_blank>'shape-image-threshold'</a> property",
         "description": "Support text in a shape.",
         "support": [
-            {"name": "InkScape", "level": "full"}
+            {"name": "Inkscape", "level": "full"}
         ],
         "feedback": [
-            {"name": "InkScape", "priority": "high"}
+            {"name": "Inkscape", "priority": "high"}
         ]
       },
       {
         "name": "<a href='https://svgwg.org/svg2-draft/text.html#TextShapePadding' target=_blank>'shape-padding'</a> property",
         "description": "Support text in a shape.",
         "support": [
-            {"name": "InkScape", "level": "full"}
+            {"name": "Inkscape", "level": "full"}
         ],
         "feedback": [
-            {"name": "InkScape", "priority": "high"}
+            {"name": "Inkscape", "priority": "high"}
         ]
       },
       {
         "name": "<a href='https://svgwg.org/svg2-draft/text.html#TextShapeMargin' target=_blank>'shape-margin'</a> property",
         "description": "Support text in a shape.",
         "support": [
-            {"name": "InkScape", "level": "full"}
+            {"name": "Inkscape", "level": "full"}
         ],
         "feedback": [
-            {"name": "InkScape", "priority": "high"}
+            {"name": "Inkscape", "priority": "high"}
         ]
       },
       {
@@ -489,23 +540,33 @@
         "name": "'side' attribute on <a href='https://svgwg.org/svg2-draft/text.html#TextPathElement' target=_blank>'textPath'</a> element",
         "support": [],
         "feedback": [
-            {"name": "InkScape", "priority": "medium"}
+            {"name": "Inkscape", "priority": "medium"}
         ]
       },
       {
         "name": "CSS font feature support (alternative glyphs, <a href='https://svgwg.org/svg2-draft/text.html#FontVariantProperty' target=_blank>'font-variant'</a>, etc.)",
-        "support": [],
+        "support": [
+            {"name": "Inkscape", "level": "partial"},
+            {"name": "Gecko",    "level": "parital"},
+            {"name": "Blink",    "level": "parital"}
+        ],
         "feedback": [
-            {"name": "InkScape", "priority": "high"}
+            {"name": "Inkscape", "priority": "high"}
         ]
       },
       {
         "name": "Support for @font-face rules",
-        "support": []
+        "support": [
+            {"name": "Gecko",    "level": "full"},
+            {"name": "Blink",    "level": "full"}
+        ]
       },
       {
         "name": "Masks, filters and other graphics effects applied to <a href='https://svgwg.org/svg2-draft/text.html#TextElement' target=_blank>'tspan'</a> and <a href='https://svgwg.org/svg2-draft/text.html#TextPathElement' target=_blank>'textPath'</a> elements",
-        "support": []
+        "support": [],
+         "feedback": [
+            {"name": "Inkscape", "priority": "low"}
+        ]
       },
       {
         "name": "::first-letter & ::first-line pseudo selectors on <a href='https://svgwg.org/svg2-draft/text.html#TextElement' target=_blank>'text'</a> element",
@@ -513,7 +574,10 @@
       },
       {
         "name": "WOFF font support",
-        "support": []
+        "support": [
+	    {"name": "Gecko", "level": "partial"},
+	    {"name": "Blink", "level": "full"}
+	]
       },
       {
         "name": "Vertical text and alternative text baseline properties from CSS",
@@ -544,31 +608,31 @@
       {
         "name": ":focus and ::selection styles.",
         "support": [
-            {"name": "InkScape", "level": "N/A"}
+            {"name": "Inkscape", "level": "N/A"}
         ]
       },
       {
         "name": "scroll bars when <a href='https://svgwg.org/svg2-draft/render.html#OverflowAndClipProperties' target=_blank>'overflow'</a> property is scroll on <a href='https://svgwg.org/svg2-draft/struct.html#SVGElement' target=_blank>'svg'</a> elements",
         "support": [
-            {"name": "InkScape", "level": "N/A"}
+            {"name": "Inkscape", "level": "N/A"}
         ]
       },
       {
         "name": "'clip' and <a href='https://svgwg.org/svg2-draft/render.html#OverflowAndClipProperties' target=_blank>'overflow'</a> not ignored when SVG document referenced via <a href='https://svgwg.org/svg2-draft/embedded.html#ImageElement' target=_blank>'image'</a>",
         "support": [
-            {"name": "InkScape", "level": "N/A"}
+            {"name": "Inkscape", "level": "N/A"}
         ]
       },
       {
         "name": "<a href='https://svgwg.org/svg2-draft/coords.html#TermBoundingBox' target=_blank>'bounding box'</a> value for <a href='https://svgwg.org/svg2-draft/interact.html#PointerEventsProperty' target=_blank>'pointer-events'</a>",
         "support": [
-            {"name": "InkScape", "level": "N/A"}
+            {"name": "Inkscape", "level": "N/A"}
         ]
       },
       {
         "name": "Replace SVG-specific events with common equivalents",
         "support": [
-            {"name": "InkScape", "level": "N/A"}
+            {"name": "Inkscape", "level": "N/A"}
         ]
       }
     ]
@@ -584,10 +648,10 @@
       {
         "name": "<a href='https://svgwg.org/svg2-draft/painting.html#Markers' target=_blank>'markers'</a> on all shapes",
         "support": [
-            {"name": "InkScape", "level": "partial"}
+            {"name": "Inkscape", "level": "partial"}
         ],
         "feedback": [
-            {"name": "InkScape", "priority": "medium"}
+            {"name": "Inkscape", "priority": "medium"}
         ]
       },
       {
@@ -660,7 +724,9 @@
       },
       {
         "name": "Support for non-Western writing modes is now harmonized with CSS, which should lead to wider and more consistent implementations; includes support for additional vertical writing modes compared to SVG 1.1.",
-        "support": []
+        "support": [
+            {"name": "Inkscape", "level": "full"}
+        ]
       }
     ]
   },
