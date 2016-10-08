@@ -139,11 +139,17 @@ for (property of
 */
 
 // Build a JSON table of the data
-
-function support(in_svg2, svg2_category, in_svg1, svg1_category) {
+function support(in_svg2, in_svg1) {
     const support = [];
     if (in_svg2) support.push('SVG 2');
     if (in_svg1) support.push('SVG 1.1 SE');
+    return support;
+}
+
+function support_with_category(in_svg2, svg2_category, in_svg1, svg1_category) {
+    const support = [];
+    if (in_svg2) support.push({'version':'SVG 2', 'category':svg2_category});
+    if (in_svg1) support.push({'version':'SVG 1.1 SE', 'category':svg1_category});
     return support;
 }
 
@@ -170,7 +176,7 @@ for (element of set_add(svg1_elements, svg2_elements)) {
         for (let attribute of set_add(svg2_attribs, svg1_attribs)) {
             element_obj.attributes.push({
                     "name": attribute,
-                    "support": support(
+                    "support": support_with_category(
                         svg2_attribs.has(attribute),
                         svg2_attrib_category[attribute],
                         svg1_attribs.has(attribute),
