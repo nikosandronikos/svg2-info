@@ -163,41 +163,26 @@ for (element of set_add(svg1_elements, svg2_elements)) {
     const element_obj = {"name": element, "support": support(in_svg2, in_svg1), "attributes": []};
     comparison.elements.push(element_obj);
 
-    if (in_svg2 && in_svg1) {
-        const svg2_elem = node_with_name(svg2_dom, 'element', element);
-        const svg1_elem = node_with_name(svg1_dom, 'element', element);
+    const svg2_elem = in_svg2 ? node_with_name(svg2_dom, 'element', element) : null;
+    const svg1_elem = in_svg1 ? node_with_name(svg1_dom, 'element', element) : null;
 
-        const svg2_attribs = attribute_set(svg2_dom, svg2_elem);
-        const svg1_attribs = attribute_set(svg1_dom, svg1_elem);
+    const svg2_attribs = in_svg2 ? attribute_set(svg2_dom, svg2_elem) : [];
+    const svg1_attribs = in_svg1 ? attribute_set(svg1_dom, svg1_elem) : [];
 
-        const svg2_attrib_category = attributes_with_categories(svg2_dom, svg2_elem);
-        const svg1_attrib_category = attributes_with_categories(svg1_dom, svg1_elem);
-        
-        for (let attribute of set_add(svg2_attribs, svg1_attribs)) {
-            element_obj.attributes.push({
-                    "name": attribute,
-                    "support": support_with_category(
-                        svg2_attribs.has(attribute),
-                        svg2_attrib_category[attribute],
-                        svg1_attribs.has(attribute),
-                        svg1_attrib_category[attribute]
-                    )
-            });
-        }
-    } else {
-        for (let attribute of
-            attribute_set(
-                in_svg2 ? svg2_dom : svg1_dom,
-                node_with_name(in_svg2 ? svg2_dom : svg1_dom, 'element', element)
-            )
-        ) {
-            element_obj.attributes.push({
-                    "name": attribute,
-                    "support": support(in_svg2, in_svg1)
-            });
-        }
+    const svg2_attrib_category = in_svg2 ? attributes_with_categories(svg2_dom, svg2_elem) : [];
+    const svg1_attrib_category = in_svg1 ? attributes_with_categories(svg1_dom, svg1_elem) : [];
+    
+    for (let attribute of set_add(svg2_attribs, svg1_attribs)) {
+        element_obj.attributes.push({
+                "name": attribute,
+                "support": support_with_category(
+                    in_svg2 && svg2_attribs.has(attribute),
+                    in_svg2 && svg2_attrib_category[attribute],
+                    in_svg1 && svg1_attribs.has(attribute),
+                    in_svg1 && svg1_attrib_category[attribute]
+                )
+        });
     }
-        
 }
 
 console.log(JSON.stringify(comparison, null, 2));
