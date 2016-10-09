@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+<title>SVG 2 elements compared to SVG 1.1 SE</title>
+
+<script async src="../tools/common.js"></script>
+<script async src="svg2-vs-svg1.js"></script>
+<style>
+    @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+    @import url('../open-color.css');
+    body {
+        font-family: 'Open Sans', sans-serif;
+        margin: 0;
+    }
+    h1 {
+        display: block;
+        background: var(--oc-gray-8);
+        color: var(--oc-gray-2);
+        margin: 0;
+        padding: 1rem;
+    }
+    table {
+        margin-bottom: 2rem; 
+        table-layout: fixed;
+        position: relative;
+        padding: 1rem;
+    }
+    thead {
+        background: white;
+        position: sticky;
+        top: 0px;
+        z-index: 1;
+    }
+    thead > tr:nth-child(2) > th {
+        box-shadow: 0 0 0 2px white;
+    }
+    th {
+        font-weight: normal;
+        text-align: center;
+        height: 3em;
+        position: relative;
+        min-width: 40px;
+        font-size: 13px;
+        background: var(--oc-gray-6);
+        color: white;
+        vertical-align: middle;
+    }
+    th:first-child {
+        text-align: left;
+    }
+
+    td {
+        background: var(--oc-gray-2);
+        position:relative;
+        margin-left: -10px;
+        font-size: 14px;
+        text-align: center;
+    }
+    td:first-child {
+        text-align: left;
+    }
+
+    tr.element > td {
+        background: var(--oc-gray-5);
+    }
+    tr.attribute td:first-child {
+        text-align: right;
+    }
+
+    tr.category_difference td {
+        background: var(--oc-red-2);
+        color: white;
+    }
+
+    #show_at_risk {
+        margin-left: 1rem;
+    }
+    #show_at_risk:checked ~ .at_risk, #show_at_risk:checked ~ * .at_risk  {
+        display: none;
+    }
+
+</style>
+</head>
+<body>
+<table id="comparison_table">
+<thead>
+<tr><th>Element/Attribute</th><th>SVG 2 support</th><th>SVG 1.1 SE support</th></tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+</body>
+</html>
