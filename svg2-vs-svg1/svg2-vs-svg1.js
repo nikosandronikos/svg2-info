@@ -94,6 +94,25 @@ function json_received(responseText) {
             style_sheet.cssRules.length
         );
     }
+
+    for (property of response.properties) {
+        const tr = new_elem('tr');
+
+        let in_svg2 = false;
+        let in_svg1 = false;
+
+        for (version of property.support) {
+            switch(version) {
+                case 'SVG 2': in_svg2 = true; break;
+                case 'SVG 1.1 SE': in_svg1 = true; break;
+            }
+        }
+ 
+        tr.innerHTML = `<td>${property.name}</td>${support_td(in_svg2)}${support_td(in_svg1)}`;
+        tr.className = 'property';
+
+        $('#property_comparison_table > tbody').appendChild(tr);
+    }
 }
 
 window.onload = function() {

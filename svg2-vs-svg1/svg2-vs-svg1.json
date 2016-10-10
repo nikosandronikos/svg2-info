@@ -47816,5 +47816,824 @@
         }
       ]
     }
+  ],
+  "properties": [
+    {
+      "name": "alignment-baseline",
+      "support": [
+        "SVG 2",
+        "SVG 1.1 SE"
+      ]
+    },
+    {
+      "name": "baseline-shift",
+      "support": [
+        "SVG 2",
+        "SVG 1.1 SE"
+      ]
+    },
+    {
+      "name": "clip",
+      "support": [
+        "SVG 1.1 SE"
+      ]
+    },
+    {
+      "name": "clip-path",
+      "support": [
+        "SVG 1.1 SE"
+      ]
+    },
+    {
+      "name": "clip-rule",
+      "support": [
+        "SVG 1.1 SE"
+      ]
+    },
+    {
+      "name": "color",
+      "support": [
+        "SVG 2",
+        "SVG 1.1 SE"
+      ]
+    },
+    {
+      "name": "color-interpolation",
+      "support": [
+        "SVG 2",
+        "SVG 1.1 SE"
+      ]
+    },
+    {
+      "name": "color-interpolation-filters",
+      "support": [
+        "SVG 1.1 SE"
+      ]
+    },
+    {
+      "name": "color-profile",
+      "support": [
+        "SVG 1.1 SE"
+      ]
+    },
+    {
+      "name": "color-rendering",
+      "support": [
+        "SVG 2",
+        "SVG 1.1 SE"
+      ]
+    },
+    {
+      "name": "cursor",
+      "support": [
+        "SVG 2",
+        "SVG 1.1 SE"
+      ]
+    },
+    {
+      "name": "direction",
+      "support": [
+        "SVG 2",
+        "SVG 1.1 SE"
+      ]
+    },
+    {
+      "name": "display",
+      "support": [
+        "SVG 2",
+        "SVG 1.1 SE"
+      ]
+    },
+    {
+      "name": "dominant-baseline",
+      "support": [
+        "SVG 2",
+        "SVG 1.1 SE"
+      ]
+    },
+    {
+      "name": "enable-background",
+      "support": [
+        "SVG 1.1 SE"
+      ]
+    },
+    {
+      "name": "fill",
+      "support": [
+        "SVG 2",
+        "SVG 1.1 SE"
+      ]
+    },
+    {
+      "name": "fill-opacity",
+      "support": [
+        "SVG 2",
+        "SVG 1.1 SE"
+      ]
+    },
+    {
+      "name": "fill-rule",
+      "support": [
+        "SVG 2",
+        "SVG 1.1 SE"
+      ]
+    },
+    {
+      "name": "filter",
+      "support": [
+        "SVG 1.1 SE"
+      ]
+    },
+    {
+      "name": "flood-color",
+      "support": [
+        "SVG 1.1 SE"
+      ]
+    },
+    {
+      "name": "flood-opacity",
+      "support": [
+        "SVG 1.1 SE"
+      ]
+    },
+    {
+      "name": "font",
+      "support": [
+        "SVG 2",
+        "SVG 1.1 SE"
+      ]
+    },
+    {
+      "name": "font-family",
+      "support": [
+        "SVG 2",
+        "SVG 1.1 SE"
+      ]
+    },
+    {
+      "name": "font-size",
+      "support": [
+        "SVG 2",
+        "SVG 1.1 SE"
+      ]
+    },
+    {
+      "name": "font-size-adjust",
+      "support": [
+        "SVG 2",
+        "SVG 1.1 SE"
+      ]
+    },
+    {
+      "name": "font-stretch",
+      "support": [
+        "SVG 2",
+        "SVG 1.1 SE"
+      ]
+    },
+    {
+      "name": "font-style",
+      "support": [
+        "SVG 2",
+        "SVG 1.1 SE"
+      ]
+    },
+    {
+      "name": "font-variant",
+      "support": [
+        "SVG 2",
+        "SVG 1.1 SE"
+      ]
+    },
+    {
+      "name": "font-weight",
+      "support": [
+        "SVG 2",
+        "SVG 1.1 SE"
+      ]
+    },
+    {
+      "name": "glyph-orientation-horizontal",
+      "support": [
+        "SVG 2",
+        "SVG 1.1 SE"
+      ]
+    },
+    {
+      "name": "glyph-orientation-vertical",
+      "support": [
+        "SVG 2",
+        "SVG 1.1 SE"
+      ]
+    },
+    {
+      "name": "image-rendering",
+      "support": [
+        "SVG 2",
+        "SVG 1.1 SE"
+      ]
+    },
+    {
+      "name": "kerning",
+      "support": [
+        "SVG 1.1 SE"
+      ]
+    },
+    {
+      "name": "letter-spacing",
+      "support": [
+        "SVG 2",
+        "SVG 1.1 SE"
+      ]
+    },
+    {
+      "name": "lighting-color",
+      "support": [
+        "SVG 1.1 SE"
+      ]
+    },
+    {
+      "name": "marker",
+      "support": [
+        "SVG 2",
+        "SVG 1.1 SE"
+      ]
+    },
+    {
+      "name": "marker-end",
+      "support": [
+        "SVG 2",
+        "SVG 1.1 SE"
+      ]
+    },
+    {
+      "name": "marker-mid",
+      "support": [
+        "SVG 2",
+        "SVG 1.1 SE"
+      ]
+    },
+    {
+      "name": "marker-start",
+      "support": [
+        "SVG 2",
+        "SVG 1.1 SE"
+      ]
+    },
+    {
+      "name": "mask",
+      "support": [
+        "SVG 1.1 SE"
+      ]
+    },
+    {
+      "name": "opacity",
+      "support": [
+        "SVG 2",
+        "SVG 1.1 SE"
+      ]
+    },
+    {
+      "name": "overflow",
+      "support": [
+        "SVG 2",
+        "SVG 1.1 SE"
+      ]
+    },
+    {
+      "name": "pointer-events",
+      "support": [
+        "SVG 2",
+        "SVG 1.1 SE"
+      ]
+    },
+    {
+      "name": "shape-rendering",
+      "support": [
+        "SVG 2",
+        "SVG 1.1 SE"
+      ]
+    },
+    {
+      "name": "stop-color",
+      "support": [
+        "SVG 2",
+        "SVG 1.1 SE"
+      ]
+    },
+    {
+      "name": "stop-opacity",
+      "support": [
+        "SVG 2",
+        "SVG 1.1 SE"
+      ]
+    },
+    {
+      "name": "stroke",
+      "support": [
+        "SVG 2",
+        "SVG 1.1 SE"
+      ]
+    },
+    {
+      "name": "stroke-dasharray",
+      "support": [
+        "SVG 2",
+        "SVG 1.1 SE"
+      ]
+    },
+    {
+      "name": "stroke-dashoffset",
+      "support": [
+        "SVG 2",
+        "SVG 1.1 SE"
+      ]
+    },
+    {
+      "name": "stroke-linecap",
+      "support": [
+        "SVG 2",
+        "SVG 1.1 SE"
+      ]
+    },
+    {
+      "name": "stroke-linejoin",
+      "support": [
+        "SVG 2",
+        "SVG 1.1 SE"
+      ]
+    },
+    {
+      "name": "stroke-miterlimit",
+      "support": [
+        "SVG 2",
+        "SVG 1.1 SE"
+      ]
+    },
+    {
+      "name": "stroke-opacity",
+      "support": [
+        "SVG 2",
+        "SVG 1.1 SE"
+      ]
+    },
+    {
+      "name": "stroke-width",
+      "support": [
+        "SVG 2",
+        "SVG 1.1 SE"
+      ]
+    },
+    {
+      "name": "text-anchor",
+      "support": [
+        "SVG 2",
+        "SVG 1.1 SE"
+      ]
+    },
+    {
+      "name": "text-decoration",
+      "support": [
+        "SVG 2",
+        "SVG 1.1 SE"
+      ]
+    },
+    {
+      "name": "text-rendering",
+      "support": [
+        "SVG 2",
+        "SVG 1.1 SE"
+      ]
+    },
+    {
+      "name": "unicode-bidi",
+      "support": [
+        "SVG 2",
+        "SVG 1.1 SE"
+      ]
+    },
+    {
+      "name": "visibility",
+      "support": [
+        "SVG 2",
+        "SVG 1.1 SE"
+      ]
+    },
+    {
+      "name": "word-spacing",
+      "support": [
+        "SVG 2",
+        "SVG 1.1 SE"
+      ]
+    },
+    {
+      "name": "writing-mode",
+      "support": [
+        "SVG 2",
+        "SVG 1.1 SE"
+      ]
+    },
+    {
+      "name": "inline-size",
+      "support": [
+        "SVG 2"
+      ]
+    },
+    {
+      "name": "paint-order",
+      "support": [
+        "SVG 2"
+      ]
+    },
+    {
+      "name": "solid-color",
+      "support": [
+        "SVG 2"
+      ]
+    },
+    {
+      "name": "solid-opacity",
+      "support": [
+        "SVG 2"
+      ]
+    },
+    {
+      "name": "text-decoration-fill",
+      "support": [
+        "SVG 2"
+      ]
+    },
+    {
+      "name": "text-decoration-stroke",
+      "support": [
+        "SVG 2"
+      ]
+    },
+    {
+      "name": "transform",
+      "support": [
+        "SVG 2"
+      ]
+    },
+    {
+      "name": "vector-effect",
+      "support": [
+        "SVG 2"
+      ]
+    },
+    {
+      "name": "x",
+      "support": [
+        "SVG 2"
+      ]
+    },
+    {
+      "name": "y",
+      "support": [
+        "SVG 2"
+      ]
+    },
+    {
+      "name": "cx",
+      "support": [
+        "SVG 2"
+      ]
+    },
+    {
+      "name": "cy",
+      "support": [
+        "SVG 2"
+      ]
+    },
+    {
+      "name": "r",
+      "support": [
+        "SVG 2"
+      ]
+    },
+    {
+      "name": "rx",
+      "support": [
+        "SVG 2"
+      ]
+    },
+    {
+      "name": "ry",
+      "support": [
+        "SVG 2"
+      ]
+    },
+    {
+      "name": "d",
+      "support": [
+        "SVG 2"
+      ]
+    },
+    {
+      "name": "height",
+      "support": [
+        "SVG 2"
+      ]
+    },
+    {
+      "name": "width",
+      "support": [
+        "SVG 2"
+      ]
+    },
+    {
+      "name": "z-index",
+      "support": [
+        "SVG 2"
+      ]
+    },
+    {
+      "name": "line-height",
+      "support": [
+        "SVG 2"
+      ]
+    },
+    {
+      "name": "shape-image-threshold",
+      "support": [
+        "SVG 2"
+      ]
+    },
+    {
+      "name": "shape-inside",
+      "support": [
+        "SVG 2"
+      ]
+    },
+    {
+      "name": "shape-outside",
+      "support": [
+        "SVG 2"
+      ]
+    },
+    {
+      "name": "shape-margin",
+      "support": [
+        "SVG 2"
+      ]
+    },
+    {
+      "name": "shape-subtract",
+      "support": [
+        "SVG 2"
+      ]
+    },
+    {
+      "name": "shape-padding",
+      "support": [
+        "SVG 2"
+      ]
+    },
+    {
+      "name": "text-overflow",
+      "support": [
+        "SVG 2"
+      ]
+    },
+    {
+      "name": "white-space",
+      "support": [
+        "SVG 2"
+      ]
+    },
+    {
+      "name": "font-kerning",
+      "support": [
+        "SVG 2"
+      ]
+    },
+    {
+      "name": "font-feature-settings",
+      "support": [
+        "SVG 2"
+      ]
+    },
+    {
+      "name": "font-variant-ligatures",
+      "support": [
+        "SVG 2"
+      ]
+    },
+    {
+      "name": "hanging-punctuation",
+      "support": [
+        "SVG 2"
+      ]
+    },
+    {
+      "name": "hyphens",
+      "support": [
+        "SVG 2"
+      ]
+    },
+    {
+      "name": "line-break",
+      "support": [
+        "SVG 2"
+      ]
+    },
+    {
+      "name": "overflow-wrap",
+      "support": [
+        "SVG 2"
+      ]
+    },
+    {
+      "name": "tab-size",
+      "support": [
+        "SVG 2"
+      ]
+    },
+    {
+      "name": "text-align",
+      "support": [
+        "SVG 2"
+      ]
+    },
+    {
+      "name": "text-align-all",
+      "support": [
+        "SVG 2"
+      ]
+    },
+    {
+      "name": "text-align-last",
+      "support": [
+        "SVG 2"
+      ]
+    },
+    {
+      "name": "text-indent",
+      "support": [
+        "SVG 2"
+      ]
+    },
+    {
+      "name": "text-justify",
+      "support": [
+        "SVG 2"
+      ]
+    },
+    {
+      "name": "text-transform",
+      "support": [
+        "SVG 2"
+      ]
+    },
+    {
+      "name": "word-break",
+      "support": [
+        "SVG 2"
+      ]
+    },
+    {
+      "name": "word-wrap",
+      "support": [
+        "SVG 2"
+      ]
+    },
+    {
+      "name": "text-space-collapse",
+      "support": [
+        "SVG 2"
+      ]
+    },
+    {
+      "name": "vertical-align",
+      "support": [
+        "SVG 2"
+      ]
+    },
+    {
+      "name": "text-orientation",
+      "support": [
+        "SVG 2"
+      ]
+    },
+    {
+      "name": "text-combine-upright",
+      "support": [
+        "SVG 2"
+      ]
+    },
+    {
+      "name": "text-decoration-line",
+      "support": [
+        "SVG 2"
+      ]
+    },
+    {
+      "name": "text-decoration-style",
+      "support": [
+        "SVG 2"
+      ]
+    },
+    {
+      "name": "text-decoration-color",
+      "support": [
+        "SVG 2"
+      ]
+    },
+    {
+      "name": "object-fit",
+      "support": [
+        "SVG 2"
+      ]
+    },
+    {
+      "name": "object-position",
+      "support": [
+        "SVG 2"
+      ]
+    },
+    {
+      "name": "outline",
+      "support": [
+        "SVG 2"
+      ]
+    },
+    {
+      "name": "position",
+      "support": [
+        "SVG 2"
+      ]
+    },
+    {
+      "name": "border-top-style",
+      "support": [
+        "SVG 2"
+      ]
+    },
+    {
+      "name": "border-style",
+      "support": [
+        "SVG 2"
+      ]
+    },
+    {
+      "name": "float",
+      "support": [
+        "SVG 2"
+      ]
+    },
+    {
+      "name": "margin-top",
+      "support": [
+        "SVG 2"
+      ]
+    },
+    {
+      "name": "content",
+      "support": [
+        "SVG 2"
+      ]
+    },
+    {
+      "name": "transform-box",
+      "support": [
+        "SVG 2"
+      ]
+    },
+    {
+      "name": "transform-origin",
+      "support": [
+        "SVG 2"
+      ]
+    },
+    {
+      "name": "will-change",
+      "support": [
+        "SVG 2"
+      ]
+    },
+    {
+      "name": "background",
+      "support": [
+        "SVG 2"
+      ]
+    },
+    {
+      "name": "min-width",
+      "support": [
+        "SVG 2"
+      ]
+    },
+    {
+      "name": "max-width",
+      "support": [
+        "SVG 2"
+      ]
+    },
+    {
+      "name": "block-size",
+      "support": [
+        "SVG 2"
+      ]
+    }
   ]
 }
