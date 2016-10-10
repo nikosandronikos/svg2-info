@@ -13,17 +13,20 @@
         margin: 0;
     }
     h1 {
+        position: fixed;
         display: block;
+        width: 100%;
         background: var(--oc-gray-8);
         color: var(--oc-gray-2);
         margin: 0;
         padding: 1rem;
     }
     table {
-        margin-bottom: 2rem; 
+        margin-left: 24em;
+        margin-top: -6rem;
         table-layout: fixed;
-        position: relative;
         padding: 1rem;
+        z-index: -1;
     }
     thead {
         background: white;
@@ -70,6 +73,14 @@
     tr.category_difference td {
         background: var(--oc-red-2);
         color: white;
+    }
+
+    input, label {
+        margin-top: 6rem;
+        position: fixed;
+    } 
+    label {
+        margin-left: 30px;
     }
 
     #show_svg2_new_only:checked ~ * tr:not(.svg2_new).attribute {
