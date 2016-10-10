@@ -155,6 +155,7 @@ function support_with_category(in_svg2, svg2_category, in_svg1, svg1_category) {
 
 const comparison = {};
 comparison.elements = [];
+comparison.properties = [];
 
 for (element of set_add(svg1_elements, svg2_elements)) {
     const in_svg2 = svg2_elements.has(element);
@@ -184,6 +185,18 @@ for (element of set_add(svg1_elements, svg2_elements)) {
         });
     }
 }
+
+const svg2_properties = element_set(svg2_dom, 'property');
+const svg1_properties = element_set(svg1_dom, 'property');
+
+for (property of set_add(svg1_properties, svg2_properties)) {
+    const in_svg1 = svg1_properties.has(property);
+    const in_svg2 = svg2_properties.has(property);
+
+    comparison.properties.push(
+        {"name": property, "support": support(in_svg2, in_svg1)}
+    );
+} 
 
 console.log(JSON.stringify(comparison, null, 2));
 
