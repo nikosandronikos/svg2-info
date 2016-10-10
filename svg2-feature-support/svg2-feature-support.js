@@ -22,14 +22,20 @@ function httpGetAsync(theUrl, callback, callback_data, page)
 
 function features_json_received(responseText) {
     const response = JSON.parse(responseText);
-    const num_cols = response.user_agents.length + 2;
+    let num_cols = 2;
+    const table_head_vardata = $('#feature-support-table > thead > #ua_names');
     const table_head_row = $('#feature-support-table > thead > tr');
+    const headers = new Set([...response.user_agents, ...response.feedback]);
 
-    for (ua of response.user_agents) {
+    table_head_row.innerHTML += `<th colspan=${response.user_agents.length}>User Agents</th>
+        <th colspan=${headers.size - response.user_agents.length}>Other reviewers</th >`;
+
+    for (ua of headers) {
         const th = new_elem('th');
-        th.className = 'UA';
+        th.className = num_cols >= response.user_agents.length + 2 ? 'other' : 'UA';
         th.innerHTML = ua;
-        table_head_row.appendChild(th);
+        table_head_vardata.appendChild(th);
+        num_cols ++;
     }
 
     for (let category of response.svg2_categories) {

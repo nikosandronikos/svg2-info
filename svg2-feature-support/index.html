@@ -1,0 +1,158 @@
+<!doctype html>
+<html>
+<head>
+<title>SVG 2 user agent feature support</title>
+<script async src="svg2-feature-support.js"></script>
+<style>
+    @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+    @import url('../open-color.css');
+    body {
+        font-family: 'Open Sans', sans-serif;
+        margin: 0;
+    }
+    h1 {
+        display: block;
+        margin: 0;
+        padding: 1rem;
+        background: var(--oc-gray-8);
+        color: var(--oc-gray-2);
+    }
+    table {
+        margin-bottom: 2rem; 
+        table-layout: fixed;
+        position: relative;
+        padding: 1rem;
+    }
+    thead {
+        background: white;
+        position: sticky;
+        top: 0px;
+        z-index: 1;
+    }
+    thead > tr:nth-child(2) > th {
+        box-shadow: 0 0 0 2px white;
+    }
+    th {
+        font-weight: normal;
+        text-align: center;
+        vertical-align: bottom;
+        height: 3em;
+        position: relative;
+        min-width: 40px;
+        font-size: 13px;
+        background: var(--oc-gray-5);
+        color: white;
+    }
+    tr:not(#ua_names) > th:first-child {
+        text-align: left;
+    }
+    tr#ua_names > th {
+        background: var(--oc-violet-4);
+    }
+    tr#ua_names > th.other {
+        background: var(--oc-indigo-5);
+    }
+
+    th:nth-child(3) {
+        min-width: 10px;
+    }
+    tr.category td {
+        background: var(--oc-gray-5);
+        color: white;
+        text-align: left;
+    }
+    td.feature {
+        text-align: left;
+        padding-left: 1em;
+    }
+    td {
+        background: var(--oc-gray-2);
+        position:relative;
+        margin-left: -10px;
+        font-size: 14px;
+        text-align: center;
+    }
+    td.full {
+        background: var(--oc-green-6);
+        color: white;
+    }
+    td.partial {
+        background: var(--oc-orange-5);
+        color: white;
+    }
+    td.none {
+        background: var(--oc-red-2);
+        color: var(--oc-gray-7);
+    }
+    td.not_applicable {
+        background: 'white';
+        color: var--oc-gray-8;
+    }
+
+    #show_at_risk {
+        margin-left: 1rem;
+    }
+    #show_at_risk:checked ~ .at_risk, #show_at_risk:checked ~ * .at_risk  {
+        display: none;
+    }
+
+    td > p {
+        margin: 0;
+    }
+ 
+    .at_risk > td:first-child > p::after {
+        content: 'At risk!';
+        background: var(--oc-red-7);
+        color: var(--oc-gray-2);
+        margin-left: 2em;
+        font-size: 0.8em;
+        padding: 0 5px 0 5px;
+        box-shadow: rgba(0,0,0,0.5) -1px -1px 1px 0px inset;
+        border-radius: 2px;
+    }
+
+    td.priority_high::after {
+        content: '++';
+        color: var(--oc-gray-8);
+    }
+    td.priority_medium::after {
+        content: '+';
+        color: var(--oc-gray-8);
+    }
+    td.priority_low::after {
+        content: '-';
+        color: var(--oc-gray-8);
+    }
+
+    #gh_link {
+        float: right;
+        margin-right: 1rem;
+    }
+
+    label + span {
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+</style>
+</head>
+<body>
+<h1>SVG 2 user agent support</h1>
+<a id="gh_link" href="https://github.com/nikosandronikos/svg2-info" target="_blank">View on GitHub</a>
+<input type="checkbox" id="show_at_risk">
+<label for="show_at_risk">Hide 'at risk' features?</label>
+<span>Indicated priorities: high [++], medium [+], low [-]</span>
+<table id="feature-support-table">
+<thead><tr>
+    <th rowspan=2>Feature</th>
+    <th rowspan=2>Tests</th>
+</tr><tr id="ua_names"></tr>
+</thead>
+</table>
+<h2>References</h2>
+<ul>
+<li><a href="https://github.com/w3c/svgwg/wiki/SVG-2-new-features">SVG 2 new features</a></li>
+<li><a href="http://tavmjong.free.fr/SVG/INKSCAPE/">Inkscape SVG 2 Status (including CSS 3)</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/SVG/SVG_2_support_in_Mozilla">SVG 2 support in Mozilla</a></li>
+</ul>
+</body>
+</html>
