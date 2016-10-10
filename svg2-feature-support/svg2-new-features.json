@@ -6,7 +6,7 @@
     "category": "New elements",
     "features": [
       {
-        "name": "'meshgradient', 'meshrow' and 'meshpatch'",
+        "name": "'meshgradient', 'meshrow', 'meshpatch' elements and 'path' attribute on 'stop'",
         "description": "Define gradient mesh paint servers to define two-dimensional gradients with arbitrary shapes.",
         "at_risk": "true",
         "support": [
@@ -36,7 +36,7 @@
         ]
       },
       {
-        "name": "'solidcolor' element",
+        "name": "'solidcolor' element, and properties 'solid-color' and 'solid-opacity'",
         "support": [
             {"name": "Inkscape", "level": "partial"}
         ],
@@ -45,55 +45,47 @@
         ]
       },
       {
-        "name": "'video'",
+        "name": "'video' HTML embedded content element",
         "description": "Selected HTML embedded content elements ('video', 'audio', 'canvas', 'iframe') can now be embedded direcly in SVG without requiring a 'foreignObject' wrapper",
         "support": []
       },
       {
-        "name": "'audio'",
+        "name": "'audio' HTML embedded content element",
         "description": "Selected HTML embedded content elements ('video', 'audio', 'canvas', 'iframe') can now be embedded direcly in SVG without requiring a 'foreignObject' wrapper",
         "support": []
       },
       {
-        "name": "'canvas'",
+        "name": "'canvas' HTML embedded content element",
         "description": "Selected HTML embedded content elements ('video', 'audio', 'canvas', 'iframe') can now be embedded direcly in SVG without requiring a 'foreignObject' wrapper",
         "support": []
       },
       {
-        "name": "'iframe'",
+        "name": "'iframe' HTML embedded content element",
         "description": "Selected HTML embedded content elements ('video', 'audio', 'canvas', 'iframe') can now be embedded direcly in SVG without requiring a 'foreignObject' wrapper",
         "support": []
       },
       {
-        "name": "'source'",
-        "support": []
-      },
-      {
-        "name": "'track'",
-        "support": []
-      },
-      {
-        "name": "'base'",
+        "name": "'base' HTML metadata element",
         "description": "Selected HTML metadata elements ('base', 'link', 'meta', 'style', and 'script') can be included within the SVG fragment and have their normal effect (but except for linked stylesheets, user agents are only required to support them if they already support HTML)",
         "support": []
       },
       {
-        "name": "'link'",
+        "name": "'link' HTML metadata element",
         "description": "Selected HTML metadata elements ('base', 'link', 'meta', 'style', and 'script') can be included within the SVG fragment and have their normal effect (but except for linked stylesheets, user agents are only required to support them if they already support HTML)",
         "support": []
       },
       {
-        "name": "'meta'",
+        "name": "'meta' HTML metadata element",
         "description": "Selected HTML metadata elements ('base', 'link', 'meta', 'style', and 'script') can be included within the SVG fragment and have their normal effect (but except for linked stylesheets, user agents are only required to support them if they already support HTML)",
         "support": []
       },
       {
-        "name": "'style'",
+        "name": "'style' HTML metadata element",
         "description": "Selected HTML metadata elements ('base', 'link', 'meta', 'style', and 'script') can be included within the SVG fragment and have their normal effect (but except for linked stylesheets, user agents are only required to support them if they already support HTML)",
         "support": []
       },
       {
-        "name": "'script'",
+        "name": "'script' HTML metadata element",
         "description": "Selected HTML metadata elements ('base', 'link', 'meta', 'style', and 'script') can be included within the SVG fragment and have their normal effect (but except for linked stylesheets, user agents are only required to support them if they already support HTML)",
         "support": []
       }
@@ -182,6 +174,10 @@
         ]
       },
       {
+        "name": "'will-change'",
+        "support": []
+      },
+      {
         "name": "'vector-effect' property value 'non-scaling-size'",
         "at_risk": "true",
         "support": [],
@@ -221,6 +217,10 @@
         ]
       },
       {
+        "name": "'transform' on 'svg' element",
+        "support": []
+      },
+      {
         "name": "'transform', 'transform-origin', 'transform-box'",
         "support": [
             {"name": "Gecko",   "level": "partial"},
@@ -231,7 +231,19 @@
         ]
       },
       {
-        "name": "'text-align', 'text-align-all', 'text-align-last', 'text-indent'",
+        "name":"'text-transform', 'text-orientation'",
+        "support": []
+      },
+      {
+        "name":"'text-anchor'",
+        "support": []
+      },
+      {
+        "name":"Properties for auto wrapped text ('text-indent', 'line-break', 'word-break', 'hyphens', 'word-wrap', 'overflow-wrap')",
+        "support": []
+      },
+      {
+        "name": "'text-align', 'text-align-all', 'text-align-last', 'text-justify'",
         "support": []
       },
       {
@@ -253,14 +265,6 @@
         "support": [
 	    {"name": "Inkscape", "level": "partial"},
 	    {"name": "Gecko",    "level": "parital"}
-	]
-      },
-      {
-        "name": "'font-variant'",
-        "support": [
-	    {"name": "Inkscape", "level": "full"},
-	    {"name": "Gecko",    "level": "full"},
-	    {"name": "Blink",    "level": "full"}
 	]
       },
       {
@@ -477,6 +481,10 @@
         "feedback": [
             {"name": "Inkscape", "priority": "medium"}
         ]
+      },
+      {
+        "name": "'line-height' property",
+        "support": []
       },
       {
         "name": "'shape-inside' property",

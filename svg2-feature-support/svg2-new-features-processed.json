@@ -6,7 +6,7 @@
     "category": "New elements",
     "features": [
       {
-        "name": "<a href='https://svgwg.org/svg2-draft/pservers.html#MeshGradientElement' target=_blank>'meshgradient'</a>, <a href='https://svgwg.org/svg2-draft/pservers.html#MeshrowElement' target=_blank>'meshrow'</a> and <a href='https://svgwg.org/svg2-draft/pservers.html#MeshpatchElement' target=_blank>'meshpatch'</a>",
+        "name": "<a href='https://svgwg.org/svg2-draft/pservers.html#MeshGradientElement' target=_blank>'meshgradient'</a>, <a href='https://svgwg.org/svg2-draft/pservers.html#MeshrowElement' target=_blank>'meshrow'</a>, <a href='https://svgwg.org/svg2-draft/pservers.html#MeshpatchElement' target=_blank>'meshpatch'</a> elements and <a href='https://svgwg.org/svg2-draft/paths.html#PathElement' target=_blank>'path'</a> attribute on <a href='https://svgwg.org/svg2-draft/pservers.html#StopElement' target=_blank>'stop'</a>",
         "description": "Define gradient mesh paint servers to define two-dimensional gradients with arbitrary shapes.",
         "at_risk": "true",
         "support": [
@@ -36,7 +36,7 @@
         ]
       },
       {
-        "name": "<a href='https://svgwg.org/svg2-draft/pservers.html#SolidcolorElement' target=_blank>'solidcolor'</a> element",
+        "name": "<a href='https://svgwg.org/svg2-draft/pservers.html#SolidcolorElement' target=_blank>'solidcolor'</a> element, and properties <a href='https://svgwg.org/svg2-draft/pservers.html#SolidcolorProperty' target=_blank>'solid-color'</a> and <a href='https://svgwg.org/svg2-draft/pservers.html#SolidOpacityProperty' target=_blank>'solid-opacity'</a>",
         "support": [
             {"name": "Inkscape", "level": "partial"}
         ],
@@ -45,55 +45,47 @@
         ]
       },
       {
-        "name": "<a href='https://svgwg.org/svg2-draft/embedded.html#HTMLElements' target=_blank>'video'</a>",
+        "name": "<a href='https://svgwg.org/svg2-draft/embedded.html#HTMLElements' target=_blank>'video'</a> HTML embedded content element",
         "description": "Selected HTML embedded content elements (<a href='https://svgwg.org/svg2-draft/embedded.html#HTMLElements' target=_blank>'video'</a>, <a href='https://svgwg.org/svg2-draft/embedded.html#HTMLElements' target=_blank>'audio'</a>, <a href='https://svgwg.org/svg2-draft/embedded.html#HTMLElements' target=_blank><a href='https://svgwg.org/svg2-draft/coords.html#TermCanvas' target=_blank>'canvas'</a></a>, <a href='https://svgwg.org/svg2-draft/embedded.html#HTMLElements' target=_blank>'iframe'</a>) can now be embedded direcly in SVG without requiring a <a href='https://svgwg.org/svg2-draft/embedded.html#ForeignObjectElement' target=_blank>'foreignObject'</a> wrapper",
         "support": []
       },
       {
-        "name": "<a href='https://svgwg.org/svg2-draft/embedded.html#HTMLElements' target=_blank>'audio'</a>",
+        "name": "<a href='https://svgwg.org/svg2-draft/embedded.html#HTMLElements' target=_blank>'audio'</a> HTML embedded content element",
         "description": "Selected HTML embedded content elements (<a href='https://svgwg.org/svg2-draft/embedded.html#HTMLElements' target=_blank>'video'</a>, <a href='https://svgwg.org/svg2-draft/embedded.html#HTMLElements' target=_blank>'audio'</a>, <a href='https://svgwg.org/svg2-draft/embedded.html#HTMLElements' target=_blank><a href='https://svgwg.org/svg2-draft/coords.html#TermCanvas' target=_blank>'canvas'</a></a>, <a href='https://svgwg.org/svg2-draft/embedded.html#HTMLElements' target=_blank>'iframe'</a>) can now be embedded direcly in SVG without requiring a <a href='https://svgwg.org/svg2-draft/embedded.html#ForeignObjectElement' target=_blank>'foreignObject'</a> wrapper",
         "support": []
       },
       {
-        "name": "<a href='https://svgwg.org/svg2-draft/embedded.html#HTMLElements' target=_blank><a href='https://svgwg.org/svg2-draft/coords.html#TermCanvas' target=_blank>'canvas'</a></a>",
+        "name": "<a href='https://svgwg.org/svg2-draft/embedded.html#HTMLElements' target=_blank><a href='https://svgwg.org/svg2-draft/coords.html#TermCanvas' target=_blank>'canvas'</a></a> HTML embedded content element",
         "description": "Selected HTML embedded content elements (<a href='https://svgwg.org/svg2-draft/embedded.html#HTMLElements' target=_blank>'video'</a>, <a href='https://svgwg.org/svg2-draft/embedded.html#HTMLElements' target=_blank>'audio'</a>, <a href='https://svgwg.org/svg2-draft/embedded.html#HTMLElements' target=_blank><a href='https://svgwg.org/svg2-draft/coords.html#TermCanvas' target=_blank>'canvas'</a></a>, <a href='https://svgwg.org/svg2-draft/embedded.html#HTMLElements' target=_blank>'iframe'</a>) can now be embedded direcly in SVG without requiring a <a href='https://svgwg.org/svg2-draft/embedded.html#ForeignObjectElement' target=_blank>'foreignObject'</a> wrapper",
         "support": []
       },
       {
-        "name": "<a href='https://svgwg.org/svg2-draft/embedded.html#HTMLElements' target=_blank>'iframe'</a>",
+        "name": "<a href='https://svgwg.org/svg2-draft/embedded.html#HTMLElements' target=_blank>'iframe'</a> HTML embedded content element",
         "description": "Selected HTML embedded content elements (<a href='https://svgwg.org/svg2-draft/embedded.html#HTMLElements' target=_blank>'video'</a>, <a href='https://svgwg.org/svg2-draft/embedded.html#HTMLElements' target=_blank>'audio'</a>, <a href='https://svgwg.org/svg2-draft/embedded.html#HTMLElements' target=_blank><a href='https://svgwg.org/svg2-draft/coords.html#TermCanvas' target=_blank>'canvas'</a></a>, <a href='https://svgwg.org/svg2-draft/embedded.html#HTMLElements' target=_blank>'iframe'</a>) can now be embedded direcly in SVG without requiring a <a href='https://svgwg.org/svg2-draft/embedded.html#ForeignObjectElement' target=_blank>'foreignObject'</a> wrapper",
         "support": []
       },
       {
-        "name": "'source'",
-        "support": []
-      },
-      {
-        "name": "'track'",
-        "support": []
-      },
-      {
-        "name": "'base'",
+        "name": "'base' HTML metadata element",
         "description": "Selected HTML metadata elements ('base', 'link', 'meta', <a href='https://svgwg.org/svg2-draft/styling.html#StyleElement' target=_blank>'style'</a>, and <a href='https://svgwg.org/svg2-draft/interact.html#ScriptElement' target=_blank>'script'</a>) can be included within the SVG fragment and have their normal effect (but except for linked stylesheets, user agents are only required to support them if they already support HTML)",
         "support": []
       },
       {
-        "name": "'link'",
+        "name": "'link' HTML metadata element",
         "description": "Selected HTML metadata elements ('base', 'link', 'meta', <a href='https://svgwg.org/svg2-draft/styling.html#StyleElement' target=_blank>'style'</a>, and <a href='https://svgwg.org/svg2-draft/interact.html#ScriptElement' target=_blank>'script'</a>) can be included within the SVG fragment and have their normal effect (but except for linked stylesheets, user agents are only required to support them if they already support HTML)",
         "support": []
       },
       {
-        "name": "'meta'",
+        "name": "'meta' HTML metadata element",
         "description": "Selected HTML metadata elements ('base', 'link', 'meta', <a href='https://svgwg.org/svg2-draft/styling.html#StyleElement' target=_blank>'style'</a>, and <a href='https://svgwg.org/svg2-draft/interact.html#ScriptElement' target=_blank>'script'</a>) can be included within the SVG fragment and have their normal effect (but except for linked stylesheets, user agents are only required to support them if they already support HTML)",
         "support": []
       },
       {
-        "name": "<a href='https://svgwg.org/svg2-draft/styling.html#StyleElement' target=_blank>'style'</a>",
+        "name": "<a href='https://svgwg.org/svg2-draft/styling.html#StyleElement' target=_blank>'style'</a> HTML metadata element",
         "description": "Selected HTML metadata elements ('base', 'link', 'meta', <a href='https://svgwg.org/svg2-draft/styling.html#StyleElement' target=_blank>'style'</a>, and <a href='https://svgwg.org/svg2-draft/interact.html#ScriptElement' target=_blank>'script'</a>) can be included within the SVG fragment and have their normal effect (but except for linked stylesheets, user agents are only required to support them if they already support HTML)",
         "support": []
       },
       {
-        "name": "<a href='https://svgwg.org/svg2-draft/interact.html#ScriptElement' target=_blank>'script'</a>",
+        "name": "<a href='https://svgwg.org/svg2-draft/interact.html#ScriptElement' target=_blank>'script'</a> HTML metadata element",
         "description": "Selected HTML metadata elements ('base', 'link', 'meta', <a href='https://svgwg.org/svg2-draft/styling.html#StyleElement' target=_blank>'style'</a>, and <a href='https://svgwg.org/svg2-draft/interact.html#ScriptElement' target=_blank>'script'</a>) can be included within the SVG fragment and have their normal effect (but except for linked stylesheets, user agents are only required to support them if they already support HTML)",
         "support": []
       }
@@ -182,6 +174,10 @@
         ]
       },
       {
+        "name": "<a href='https://drafts.csswg.org/css-will-change/#will-change' target=_blank>'will-change'</a>",
+        "support": []
+      },
+      {
         "name": "<a href='https://svgwg.org/svg2-draft/coords.html#VectorEffectProperty' target=_blank>'vector-effect'</a> property value 'non-scaling-size'",
         "at_risk": "true",
         "support": [],
@@ -221,6 +217,10 @@
         ]
       },
       {
+        "name": "<a href='https://svgwg.org/svg2-draft/coords.html#TransformProperty' target=_blank>'transform'</a> on <a href='https://svgwg.org/svg2-draft/struct.html#SVGElement' target=_blank>'svg'</a> element",
+        "support": []
+      },
+      {
         "name": "<a href='https://svgwg.org/svg2-draft/coords.html#TransformProperty' target=_blank>'transform'</a>, <a href='https://drafts.csswg.org/css-transforms/#transform-origin-property' target=_blank>'transform-origin'</a>, <a href='https://drafts.csswg.org/css-transforms/#transform-box' target=_blank>'transform-box'</a>",
         "support": [
             {"name": "Gecko",   "level": "partial"},
@@ -231,7 +231,19 @@
         ]
       },
       {
-        "name": "<a href='https://www.w3.org/TR/css-text-3/#text-align-property' target=_blank>'text-align'</a>, <a href='http://dev.w3.org/csswg/css-text/#text-align-all-property' target=_blank>'text-align-all'</a>, <a href='https://www.w3.org/TR/css-text-3/#text-align-last-property' target=_blank>'text-align-last'</a>, <a href='https://www.w3.org/TR/css-text-3/#text-indent-property' target=_blank>'text-indent'</a>",
+        "name":"<a href='https://www.w3.org/TR/css-text-3/#text-transform-property' target=_blank><a href='https://www.w3.org/TR/CSS21/text.html#propdef-text-transform' target=_blank>'text-transform'</a></a>, <a href='https://www.w3.org/TR/css3-writing-modes/#text-orientation' target=_blank>'text-orientation'</a>",
+        "support": []
+      },
+      {
+        "name":"<a href='https://svgwg.org/svg2-draft/text.html#TextAnchorProperty' target=_blank>'text-anchor'</a>",
+        "support": []
+      },
+      {
+        "name":"Properties for auto wrapped text (<a href='https://www.w3.org/TR/css-text-3/#text-indent-property' target=_blank>'text-indent'</a>, <a href='https://www.w3.org/TR/css-text-3/#line-break-property' target=_blank>'line-break'</a>, <a href='https://www.w3.org/TR/css-text-3/#word-break-property' target=_blank>'word-break'</a>, <a href='https://www.w3.org/TR/css-text-3/#hyphens-property' target=_blank>'hyphens'</a>, <a href='https://www.w3.org/TR/css-text-3/#overflow-wrap-property' target=_blank>'word-wrap'</a>, <a href='https://www.w3.org/TR/css-text-3/#overflow-wrap-property' target=_blank>'overflow-wrap'</a>)",
+        "support": []
+      },
+      {
+        "name": "<a href='https://www.w3.org/TR/css-text-3/#text-align-property' target=_blank>'text-align'</a>, <a href='http://dev.w3.org/csswg/css-text/#text-align-all-property' target=_blank>'text-align-all'</a>, <a href='https://www.w3.org/TR/css-text-3/#text-align-last-property' target=_blank>'text-align-last'</a>, <a href='https://www.w3.org/TR/css-text-3/#text-justify-property' target=_blank>'text-justify'</a>",
         "support": []
       },
       {
@@ -253,14 +265,6 @@
         "support": [
 	    {"name": "Inkscape", "level": "partial"},
 	    {"name": "Gecko",    "level": "parital"}
-	]
-      },
-      {
-        "name": "<a href='https://svgwg.org/svg2-draft/text.html#FontVariantProperty' target=_blank>'font-variant'</a>",
-        "support": [
-	    {"name": "Inkscape", "level": "full"},
-	    {"name": "Gecko",    "level": "full"},
-	    {"name": "Blink",    "level": "full"}
 	]
       },
       {
@@ -477,6 +481,10 @@
         "feedback": [
             {"name": "Inkscape", "priority": "medium"}
         ]
+      },
+      {
+        "name": "<a href='https://svgwg.org/svg2-draft/text.html#LineHeightProperty' target=_blank>'line-height'</a> property",
+        "support": []
       },
       {
         "name": "<a href='https://svgwg.org/svg2-draft/text.html#TextShapeInside' target=_blank>'shape-inside'</a> property",
