@@ -64,7 +64,7 @@
         background: var(--oc-gray-5);
     }
     tr.attribute td:first-child {
-        text-align: right;
+        padding-left: 2em;
     }
 
     tr.category_difference td {
@@ -72,16 +72,16 @@
         color: white;
     }
 
-    #show_at_risk {
-        margin-left: 1rem;
-    }
-    #show_at_risk:checked ~ .at_risk, #show_at_risk:checked ~ * .at_risk  {
-        display: none;
-    }
+    #show_svg2_new_only:checked ~ * tr:not(.svg2_new).attribute {
+        display:none;
+    } 
 
 </style>
 </head>
 <body>
+<h1>SVG 2 vs SVG 1.1 SE document structure</h1>
+<input type="checkbox" id="show_svg2_new_only"/>
+<label for="show_svg2_new_only">Show SVG 2 new attributes only</label><br/>
 <table id="comparison_table">
 <thead>
 <tr><th>Element/Attribute</th><th>SVG 2 support</th><th>SVG 1.1 SE support</th></tr>

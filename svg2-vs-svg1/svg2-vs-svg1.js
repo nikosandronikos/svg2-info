@@ -4,8 +4,9 @@ function support_td(support_exists) {
     return `<td>${support_exists?'&#10003;':''}</td>`
 }
 
-function attribute_row(attribute) {
+function attribute_row(attribute, category_set) {
     const tr = new_elem('tr');
+    const classes = [];
 
     let in_svg2 = false;
     let in_svg1 = false;
@@ -19,21 +20,35 @@ function attribute_row(attribute) {
 
     tr.innerHTML = `<td>${attribute.name}</td>${support_td(in_svg2)}${support_td(in_svg1)}`;
 
-    if (in_svg1 && in_svg2 && in_svg2.category != in_svg1.category) {
-        tr.className = `category_difference ${in_svg2.category}_category ${in_svg1.category}_category`;
-    } else if (in_svg2) {
-        tr.className = `${in_svg2.category}_category`;
-    } else if (in_svg1) {
-        tr.className = `${in_svg1.category}_category`;
+    classes.push('attribute'); 
+
+    if (in_svg1 && in_svg1.category != null) {
+        const category_safe = `${in_svg1.category.replace(' ', '_')}_category`;
+        classes.push(category_safe);
+        category_set.add(category_safe);
+    }
+
+    if (in_svg2 && in_svg2.category != null) {
+        const category_safe = `${in_svg2.category.replace(' ', '_')}_category`;
+        classes.push(category_safe);
+        category_set.add(category_safe);
+    }
+
+    if (in_svg2 && !in_svg1) {
+        classes.push('svg2_new');
+    }
+    
+    if (in_svg1 && in_svg2 && in_svg1.category != in_svg2.category) {
+        classes.push('category_difference');
     }
         
-    tr.className = tr.className + ' attribute';
-    
+    tr.className = classes.join(' ');
     $('#comparison_table > tbody').appendChild(tr);
 }
 
 function json_received(responseText) {
     const response = JSON.parse(responseText);
+    const category_set = new Set();
 
     for (element of response.elements) {
         let in_svg2 = false;
@@ -51,9 +66,33 @@ function json_received(responseText) {
         tr.className = 'element';
         $('#comparison_table > tbody').appendChild(tr);
 
-        for (attribute of element.attributes) {
-            attribute_row(attribute);
+        if (in_svg2) {
+            for (attribute of element.attributes) {
+                attribute_row(attribute, category_set);
+            }
         }
+    }
+
+    for (category of category_set) {
+        const checkbox = new_elem('input');
+        const label = new_elem('label');
+        var category_safe = category;
+        const style_sheet = document.styleSheets[0];
+        console.log(category_safe);
+        console.log(typeof(category));
+
+        checkbox.type = 'checkbox';
+        checkbox.id = `show_${category_safe}`;
+        label.htmlFor = `show_${category_safe}`;
+        label.innerHTML = `Hide ${category_safe}?`;
+        $('body').insertBefore(checkbox, $('#comparison_table'));
+        $('body').insertBefore(label, $('#comparison_table'));
+        $('body').insertBefore(new_elem('br'), $('#comparison_table'));
+
+        style_sheet.insertRule(
+            `#show_${category_safe}:checked ~ .${category_safe}, #show_${category_safe}:checked ~ * .${category_safe} {display:none}`,
+            style_sheet.cssRules.length
+        );
     }
 }
 
