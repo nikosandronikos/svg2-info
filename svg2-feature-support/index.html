@@ -42,6 +42,7 @@
         font-size: 13px;
         background: var(--oc-gray-5);
         color: white;
+        border-radius: 2px;
     }
     tr:not(#ua_names) > th:first-child {
         text-align: left;
@@ -60,6 +61,7 @@
         background: var(--oc-gray-5);
         color: white;
         text-align: left;
+        border-radius: 2px;
     }
     td.feature {
         text-align: left;
@@ -133,6 +135,14 @@
         margin-left: 2em;
         margin-right: 2em;
     }
+
+    .note {
+        margin: 2rem;
+        padding: 1em; 
+        background: var(--oc-green-4);
+        border-radius: 5px;
+        color: var(--oc-gray-8); 
+    }
 </style>
 </head>
 <body>
@@ -141,6 +151,14 @@
 <input type="checkbox" id="show_at_risk">
 <label for="show_at_risk">Hide 'at risk' features?</label>
 <span>Indicated priorities: high [++], medium [+], low [-]</span>
+<div class="note">
+Note: This is a living document that is in the processing of being compiled. UAs likely implement
+some features that are not yet attributed to them. Feel free to 
+<a href="https://github.com/w3c/svgwg/wiki/Testing">write and submit tests</a>,
+and <a href="https://github.com/nikosandronikos/svg2-info/issues">raise issues</a>
+or submit <a href="https://github.com/nikosandronikos/svg2-info/pulls">Pull requests</a>
+for this document.
+</div>
 <table id="feature-support-table">
 <thead><tr>
     <th rowspan=2>Feature</th>
