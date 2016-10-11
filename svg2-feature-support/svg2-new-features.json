@@ -148,6 +148,10 @@
         "name": "'zoomAndPan' attribute on 'svg' and 'view' elements",
         "at_risk": "true",
         "support": []
+      },
+      {
+        "name": "Allow 'custom data attributes' on all elements.",
+        "support": []
       }
     ]
   },
@@ -582,6 +586,12 @@
         "support": [
             {"name": "Inkscape", "level": "N/A"}
         ]
+      },
+      {
+        "name": "Allow keyboard events",
+        "support": [
+            {"name": "Inkscape", "level": "N/A"}
+        ]
       }
     ]
   },
@@ -633,6 +643,10 @@
       },
       {
         "name": "Clearer guidance given on the intrinsic sizing of SVG elements when embedded in other layout systems",
+        "support": []
+      },
+      {
+        "name": "Bounding boxes for objects with no position are at (0,0)",
         "support": []
       }
     ]
@@ -736,6 +750,10 @@
       },
       {
         "name": "Required support for ::first-line and ::first-letter pseudo-elements, and for ::selection in interactive user agents",
+        "support": []
+      },
+      {
+        "name": "Zero length sub-paths render result based on 'stroke-linecap' value",
         "support": []
       }
     ]
