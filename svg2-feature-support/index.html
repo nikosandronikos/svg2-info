@@ -5,7 +5,7 @@
 <script async src="svg2-feature-support.js"></script>
 <style>
     @import url('https://fonts.googleapis.com/css?family=Open+Sans');
-    @import url('../open-color.css');
+
     body {
         font-family: 'Open Sans', sans-serif;
         margin: 0;
@@ -14,8 +14,8 @@
         display: block;
         margin: 0;
         padding: 1rem;
-        background: var(--oc-gray-8);
-        color: var(--oc-gray-2);
+        background: #343a40;
+        color: #e9ecef;
     }
     table {
         margin-bottom: 2rem; 
@@ -40,7 +40,7 @@
         position: relative;
         min-width: 40px;
         font-size: 13px;
-        background: var(--oc-gray-5);
+        background: #adb5bd;
         color: white;
         border-radius: 2px;
     }
@@ -49,16 +49,16 @@
         font-size: 1.4em;
     }
     tr#ua_names > th {
-        background: var(--oc-violet-4);
+        background: #9775fa;
     }
     tr#ua_names > th.other {
-        background: var(--oc-indigo-5);
+        background: #5c7cfa;
     }
     th:nth-child(3) {
         min-width: 10px;
     }
     tr.category td {
-        background: var(--oc-gray-5);
+        background: #adb5bd;
         color: white;
         text-align: left;
         border-radius: 2px;
@@ -68,27 +68,27 @@
         padding-left: 1em;
     }
     td {
-        background: var(--oc-gray-2);
+        background: #e9ecef;
         position:relative;
         margin-left: -10px;
         font-size: 14px;
         text-align: center;
     }
     td.full {
-        background: var(--oc-green-6);
+        background: #40c057;
         color: white;
     }
     td.partial {
-        background: var(--oc-orange-5);
+        background: #ff922b;
         color: white;
     }
     td.none {
-        background: var(--oc-red-2);
-        color: var(--oc-gray-7);
+        background: #ffc9c9;
+        color: #495057;
     }
     td.not_applicable {
         background: 'white';
-        color: var--oc-gray-8;
+        color: #343a40;
     }
 
     #show_at_risk {
@@ -104,8 +104,8 @@
  
     .at_risk > td:first-child > p::after {
         content: 'At risk!';
-        background: var(--oc-red-7);
-        color: var(--oc-gray-2);
+        background: #f03e3e;
+        color: #e9ecef;
         margin-left: 2em;
         font-size: 0.8em;
         padding: 0 5px 0 5px;
@@ -115,15 +115,15 @@
 
     td.priority_high::after {
         content: '++';
-        color: var(--oc-gray-8);
+        color: #343a40;
     }
     td.priority_medium::after {
         content: '+';
-        color: var(--oc-gray-8);
+        color: #343a40;
     }
     td.priority_low::after {
         content: '-';
-        color: var(--oc-gray-8);
+        color: #343a40;
     }
 
     #gh_link {
@@ -139,9 +139,9 @@
     .note {
         margin: 2rem;
         padding: 1em; 
-        background: var(--oc-green-4);
+        background: #69db7c;
         border-radius: 5px;
-        color: var(--oc-gray-8); 
+        color: #343a40; 
     }
 </style>
 </head>
