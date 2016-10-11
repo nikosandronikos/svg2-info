@@ -2,20 +2,21 @@
 Documents providing information on SVG 2, and tools to simplify writing them.
 
 Currently this repository includes the source for:
-* https://nikosandronikos.github.io/svg2-info/svg2-feature-support.html
+* https://nikosandronikos.github.io/svg2-info/svg2-feature-support
 * https://github.com/w3c/svgwg/wiki/SVG-2-new-features
 
 ## SVG2 feature support
-The page '__svg2-feature-support.html__', reads data from the JSON file '__svg2-new-features-processed.json__' and displays a table outlining the current state of SVG 2 support in user agents.
+This page reads data from the JSON file '__svg2-new-features-processed.json__' and displays a table outlining the current state of SVG 2 support in user agents.
 '__svg2-new-features-processed.json__' must not be edited directly. Instead edit '__svg2-new-features.json__' and generate' '__svg2-new-features-processed.json__' using:  
 ```node link_to_svg_defs.js <path_to_definitions.xml> svg2-new-features.json > svg2-new-features-processed.json```
 
 Where &lt;path_to_definitions.xml&gt; points to the [definitions.xml](https://github.com/w3c/svgwg/blob/master/master/definitions.xml) file in the master directory of the SVG 2 spec repository.
 
 ## SVG2 new features
-The process for updating https://github.com/w3c/svgwg/wiki/SVG-2-new-features is:
+The source for the [wiki page](https://github.com/w3c/svgwg/wiki/SVG-2-new-features) on the svgwg repository.
+The process for updating the page is:
 * Edit the markdown from this repistory
-* Run link_to_svg_defs.js to create a version with links to the SVG spec
+* Run link_to_svg_defs.js to create a version that links terms to the SVG spec
 * Paste result into wiki
 * Submit PR to this repository with your changes to the source markdown files
 
