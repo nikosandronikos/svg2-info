@@ -202,10 +202,6 @@
         ]
       },
       {
-        "name": "'text-overflow'",
-        "support": []
-      },
-      {
         "name": "'isolation', 'mix-blend-mode'",
         "support": [
 	    {"name": "Inkscape", "level": "full"},
@@ -228,71 +224,6 @@
 	],
         "feedback": [
             {"name": "Inkscape", "priority": "low"}
-        ]
-      },
-      {
-        "name":"'text-transform', 'text-orientation'",
-        "support": []
-      },
-      {
-        "name":"'text-anchor'",
-        "support": []
-      },
-      {
-        "name":"Properties for auto wrapped text ('text-indent', 'line-break', 'word-break', 'hyphens', 'word-wrap', 'overflow-wrap')",
-        "support": []
-      },
-      {
-        "name": "'text-align', 'text-align-all', 'text-align-last', 'text-justify'",
-        "support": []
-      },
-      {
-        "name": "'white-space', 'text-space-collapse'",
-        "support": [
-	    {"name": "Inkscape", "level": "partial"},
-	    {"name": "Gecko",    "level": "parital"}
-	],
-        "feedback": [
-            {"name": "Inkscape", "priority": "medium"}
-        ]
-      },
-      {
-        "name": "'vertical-align'",
-        "support": []
-      },
-      {
-        "name": "'font-feature-settings', 'font-kerning', 'font-size-adjust'",
-        "support": [
-	    {"name": "Inkscape", "level": "partial"},
-	    {"name": "Gecko",    "level": "parital"}
-	]
-      },
-      {
-        "name": "'text-decoration-line'",
-        "support": [
-	    {"name": "Inkscape", "level": "full"},
-	    {"name": "Gecko",    "level": "full"},
-	    {"name": "Blink",    "level": "full"}
-	]
-      },
-      {
-        "name": "'text-decoration-style'",
-        "support": [
-	    {"name": "Inkscape", "level": "full"},
-	    {"name": "Gecko",    "level": "full"}
-	]
-      },
-      {
-        "name": "'text-decoration-color'",
-        "support": [
-	    {"name": "Inkscape", "level": "full"}
-	]
-      },
-      {
-        "name": "'text-decoration-fill', 'text-decoration-stroke'",
-        "support": [],
-        "feedback": [
-            {"name": "Inkscape", "priority": "high"}
         ]
       }
     ]
@@ -382,66 +313,6 @@
         "feedback": [
             {"name": "Inkscape", "priority": "medium"}
         ]
-      }
-    ]
-  },
-  {
-    "category": "New interfaces",
-    "features": [
-      {
-        "name": "'SVGGraphicsElement' interface",
-        "support": []
-      },
-      {
-        "name": "'SVGGeometryElement' interface",
-        "support": []
-      },
-      {
-        "name": "'SVGUnknownElement' interface",
-        "description": "For unrecognized markup in the SVG namespace.",
-        "at_risk": "true",
-        "support": [
-            {"name": "Gecko", "level":"none", "tracker":"https://bugzilla.mozilla.org/show_bug.cgi?id=1239218"}
-        ]
-      },
-      {
-        "name": "'SVGUseElementShadowRoot' interface",
-        "description": "An extension of the ShadowRoot interface.",
-        "support": []
-      },
-      {
-        "name": "'ShadowAnimation' interface",
-        "description": "Defines a read-only clone of a WAAPI animation for use-element shadow trees.",
-        "support": []
-      }
-    ]
-  },
-  {
-    "category": "New/expanded interface methods and properties",
-    "features": [
-      {
-        "name": "'length' attribute and indexed property access for all list interfaces.",
-        "support": []
-      },
-      {
-        "name": "isPointInFill() method for 'SVGGeometryElement'",
-        "support": []
-      },
-      {
-        "name": "isPointInFill() method for 'SVGGeometryElement'",
-        "support": []
-      },
-      {
-        "name": "getTotalLength() method for 'SVGGeometryElement",
-        "support": []
-      },
-      {
-        "name": "getPointAtLength() method for 'SVGGeometryElement",
-        "support": []
-      },
-      {
-        "name": "focus and blur methods, on any 'SVGElement'",
-        "support": []
       }
     ]
   },
@@ -579,6 +450,75 @@
       {
         "name": "::first-letter & ::first-line pseudo selectors on 'text' element",
         "support": []
+      },
+      {
+        "name": "'text-overflow'",
+        "support": []
+      },
+      {
+        "name":"'text-transform', 'text-orientation'",
+        "support": []
+      },
+      {
+        "name":"'text-anchor'",
+        "support": []
+      },
+      {
+        "name":"Properties for auto wrapped text ('text-indent', 'line-break', 'word-break', 'hyphens', 'word-wrap', 'overflow-wrap')",
+        "support": []
+      },
+      {
+        "name": "'text-align', 'text-align-all', 'text-align-last', 'text-justify'",
+        "support": []
+      },
+      {
+        "name": "'white-space', 'text-space-collapse'",
+        "support": [
+	    {"name": "Inkscape", "level": "partial"},
+	    {"name": "Gecko",    "level": "parital"}
+	],
+        "feedback": [
+            {"name": "Inkscape", "priority": "medium"}
+        ]
+      },
+      {
+        "name": "'vertical-align'",
+        "support": []
+      },
+      {
+        "name": "'font-feature-settings', 'font-kerning', 'font-size-adjust'",
+        "support": [
+	    {"name": "Inkscape", "level": "partial"},
+	    {"name": "Gecko",    "level": "parital"}
+	]
+      },
+      {
+        "name": "'text-decoration-line'",
+        "support": [
+	    {"name": "Inkscape", "level": "full"},
+	    {"name": "Gecko",    "level": "full"},
+	    {"name": "Blink",    "level": "full"}
+	]
+      },
+      {
+        "name": "'text-decoration-style'",
+        "support": [
+	    {"name": "Inkscape", "level": "full"},
+	    {"name": "Gecko",    "level": "full"}
+	]
+      },
+      {
+        "name": "'text-decoration-color'",
+        "support": [
+	    {"name": "Inkscape", "level": "full"}
+	]
+      },
+      {
+        "name": "'text-decoration-fill', 'text-decoration-stroke'",
+        "support": [],
+        "feedback": [
+            {"name": "Inkscape", "priority": "high"}
+        ]
       },
       {
         "name": "WOFF font support",
@@ -869,6 +809,66 @@
         "support": [
             {"name": "Gecko", "level": "full", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=733764"}
         ]
+      }
+    ]
+  },
+  {
+    "category": "New interfaces",
+    "features": [
+      {
+        "name": "'SVGGraphicsElement' interface",
+        "support": []
+      },
+      {
+        "name": "'SVGGeometryElement' interface",
+        "support": []
+      },
+      {
+        "name": "'SVGUnknownElement' interface",
+        "description": "For unrecognized markup in the SVG namespace.",
+        "at_risk": "true",
+        "support": [
+            {"name": "Gecko", "level":"none", "tracker":"https://bugzilla.mozilla.org/show_bug.cgi?id=1239218"}
+        ]
+      },
+      {
+        "name": "'SVGUseElementShadowRoot' interface",
+        "description": "An extension of the ShadowRoot interface.",
+        "support": []
+      },
+      {
+        "name": "'ShadowAnimation' interface",
+        "description": "Defines a read-only clone of a WAAPI animation for use-element shadow trees.",
+        "support": []
+      }
+    ]
+  },
+  {
+    "category": "New/expanded interface methods and properties",
+    "features": [
+      {
+        "name": "'length' attribute and indexed property access for all list interfaces.",
+        "support": []
+      },
+      {
+        "name": "isPointInFill() method for 'SVGGeometryElement'",
+        "support": []
+      },
+      {
+        "name": "isPointInFill() method for 'SVGGeometryElement'",
+        "support": []
+      },
+      {
+        "name": "getTotalLength() method for 'SVGGeometryElement",
+        "support": []
+      },
+      {
+        "name": "getPointAtLength() method for 'SVGGeometryElement",
+        "support": []
+      },
+      {
+        "name": "focus and blur methods, on any 'SVGElement'",
+        "support": []
       }
     ]
   },

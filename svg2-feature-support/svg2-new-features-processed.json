@@ -202,10 +202,6 @@
         ]
       },
       {
-        "name": "<a href='https://svgwg.org/svg2-draft/text.html#TextOverflowProperty' target=_blank>'text-overflow'</a>",
-        "support": []
-      },
-      {
         "name": "'isolation', 'mix-blend-mode'",
         "support": [
 	    {"name": "Inkscape", "level": "full"},
@@ -228,71 +224,6 @@
 	],
         "feedback": [
             {"name": "Inkscape", "priority": "low"}
-        ]
-      },
-      {
-        "name":"<a href='https://www.w3.org/TR/css-text-3/#text-transform-property' target=_blank><a href='https://www.w3.org/TR/CSS21/text.html#propdef-text-transform' target=_blank>'text-transform'</a></a>, <a href='https://www.w3.org/TR/css3-writing-modes/#text-orientation' target=_blank>'text-orientation'</a>",
-        "support": []
-      },
-      {
-        "name":"<a href='https://svgwg.org/svg2-draft/text.html#TextAnchorProperty' target=_blank>'text-anchor'</a>",
-        "support": []
-      },
-      {
-        "name":"Properties for auto wrapped text (<a href='https://www.w3.org/TR/css-text-3/#text-indent-property' target=_blank>'text-indent'</a>, <a href='https://www.w3.org/TR/css-text-3/#line-break-property' target=_blank>'line-break'</a>, <a href='https://www.w3.org/TR/css-text-3/#word-break-property' target=_blank>'word-break'</a>, <a href='https://www.w3.org/TR/css-text-3/#hyphens-property' target=_blank>'hyphens'</a>, <a href='https://www.w3.org/TR/css-text-3/#overflow-wrap-property' target=_blank>'word-wrap'</a>, <a href='https://www.w3.org/TR/css-text-3/#overflow-wrap-property' target=_blank>'overflow-wrap'</a>)",
-        "support": []
-      },
-      {
-        "name": "<a href='https://www.w3.org/TR/css-text-3/#text-align-property' target=_blank>'text-align'</a>, <a href='http://dev.w3.org/csswg/css-text/#text-align-all-property' target=_blank>'text-align-all'</a>, <a href='https://www.w3.org/TR/css-text-3/#text-align-last-property' target=_blank>'text-align-last'</a>, <a href='https://www.w3.org/TR/css-text-3/#text-justify-property' target=_blank>'text-justify'</a>",
-        "support": []
-      },
-      {
-        "name": "<a href='https://svgwg.org/svg2-draft/text.html#WhiteSpaceProperty' target=_blank>'white-space'</a>, <a href='https://www.w3.org/TR/css-text-4/#propdef-text-space-collapse' target=_blank>'text-space-collapse'</a>",
-        "support": [
-	    {"name": "Inkscape", "level": "partial"},
-	    {"name": "Gecko",    "level": "parital"}
-	],
-        "feedback": [
-            {"name": "Inkscape", "priority": "medium"}
-        ]
-      },
-      {
-        "name": "<a href='https://drafts.csswg.org/css-inline/#transverse-alignment' target=_blank>'vertical-align'</a>",
-        "support": []
-      },
-      {
-        "name": "<a href='https://www.w3.org/TR/css-fonts-3/#font-feature-settings-prop' target=_blank>'font-feature-settings'</a>, <a href='https://www.w3.org/TR/css-fonts-3/#font-kerning-prop' target=_blank>'font-kerning'</a>, <a href='https://www.w3.org/TR/css-fonts-3/#font-size-adjust-prop' target=_blank>'font-size-adjust'</a>",
-        "support": [
-	    {"name": "Inkscape", "level": "partial"},
-	    {"name": "Gecko",    "level": "parital"}
-	]
-      },
-      {
-        "name": "<a href='https://svgwg.org/svg2-draft/text.html#TextDecorationProperties' target=_blank>'text-decoration-line'</a>",
-        "support": [
-	    {"name": "Inkscape", "level": "full"},
-	    {"name": "Gecko",    "level": "full"},
-	    {"name": "Blink",    "level": "full"}
-	]
-      },
-      {
-        "name": "<a href='https://svgwg.org/svg2-draft/text.html#TextDecorationProperties' target=_blank>'text-decoration-style'</a>",
-        "support": [
-	    {"name": "Inkscape", "level": "full"},
-	    {"name": "Gecko",    "level": "full"}
-	]
-      },
-      {
-        "name": "<a href='https://svgwg.org/svg2-draft/text.html#TextDecorationProperties' target=_blank>'text-decoration-color'</a>",
-        "support": [
-	    {"name": "Inkscape", "level": "full"}
-	]
-      },
-      {
-        "name": "<a href='https://svgwg.org/svg2-draft/text.html#TextDecorationFillProperty' target=_blank>'text-decoration-fill'</a>, <a href='https://svgwg.org/svg2-draft/text.html#TextDecorationStrokeProperty' target=_blank>'text-decoration-stroke'</a>",
-        "support": [],
-        "feedback": [
-            {"name": "Inkscape", "priority": "high"}
         ]
       }
     ]
@@ -382,66 +313,6 @@
         "feedback": [
             {"name": "Inkscape", "priority": "medium"}
         ]
-      }
-    ]
-  },
-  {
-    "category": "New interfaces",
-    "features": [
-      {
-        "name": "<a href='https://svgwg.org/svg2-draft/types.html#InterfaceSVGGraphicsElement' target=_blank>'SVGGraphicsElement'</a> interface",
-        "support": []
-      },
-      {
-        "name": "<a href='https://svgwg.org/svg2-draft/types.html#InterfaceSVGGeometryElement' target=_blank>'SVGGeometryElement'</a> interface",
-        "support": []
-      },
-      {
-        "name": "<a href='https://svgwg.org/svg2-draft/struct.html#InterfaceSVGUnknownElement' target=_blank>'SVGUnknownElement'</a> interface",
-        "description": "For unrecognized markup in the SVG namespace.",
-        "at_risk": "true",
-        "support": [
-            {"name": "Gecko", "level":"none", "tracker":"https://bugzilla.mozilla.org/show_bug.cgi?id=1239218"}
-        ]
-      },
-      {
-        "name": "<a href='https://svgwg.org/svg2-draft/struct.html#InterfaceSVGUseElementShadowRoot' target=_blank>'SVGUseElementShadowRoot'</a> interface",
-        "description": "An extension of the ShadowRoot interface.",
-        "support": []
-      },
-      {
-        "name": "<a href='https://svgwg.org/svg2-draft/struct.html#InterfaceShadowAnimation' target=_blank>'ShadowAnimation'</a> interface",
-        "description": "Defines a read-only clone of a WAAPI animation for use-element shadow trees.",
-        "support": []
-      }
-    ]
-  },
-  {
-    "category": "New/expanded interface methods and properties",
-    "features": [
-      {
-        "name": "'length' attribute and indexed property access for all list interfaces.",
-        "support": []
-      },
-      {
-        "name": "isPointInFill() method for <a href='https://svgwg.org/svg2-draft/types.html#InterfaceSVGGeometryElement' target=_blank>'SVGGeometryElement'</a>",
-        "support": []
-      },
-      {
-        "name": "isPointInFill() method for <a href='https://svgwg.org/svg2-draft/types.html#InterfaceSVGGeometryElement' target=_blank>'SVGGeometryElement'</a>",
-        "support": []
-      },
-      {
-        "name": "getTotalLength() method for 'SVGGeometryElement",
-        "support": []
-      },
-      {
-        "name": "getPointAtLength() method for 'SVGGeometryElement",
-        "support": []
-      },
-      {
-        "name": "focus and blur methods, on any <a href='https://svgwg.org/svg2-draft/types.html#InterfaceSVGElement' target=_blank>'SVGElement'</a>",
-        "support": []
       }
     ]
   },
@@ -579,6 +450,75 @@
       {
         "name": "::first-letter & ::first-line pseudo selectors on <a href='https://svgwg.org/svg2-draft/text.html#TextElement' target=_blank>'text'</a> element",
         "support": []
+      },
+      {
+        "name": "<a href='https://svgwg.org/svg2-draft/text.html#TextOverflowProperty' target=_blank>'text-overflow'</a>",
+        "support": []
+      },
+      {
+        "name":"<a href='https://www.w3.org/TR/css-text-3/#text-transform-property' target=_blank><a href='https://www.w3.org/TR/CSS21/text.html#propdef-text-transform' target=_blank>'text-transform'</a></a>, <a href='https://www.w3.org/TR/css3-writing-modes/#text-orientation' target=_blank>'text-orientation'</a>",
+        "support": []
+      },
+      {
+        "name":"<a href='https://svgwg.org/svg2-draft/text.html#TextAnchorProperty' target=_blank>'text-anchor'</a>",
+        "support": []
+      },
+      {
+        "name":"Properties for auto wrapped text (<a href='https://www.w3.org/TR/css-text-3/#text-indent-property' target=_blank>'text-indent'</a>, <a href='https://www.w3.org/TR/css-text-3/#line-break-property' target=_blank>'line-break'</a>, <a href='https://www.w3.org/TR/css-text-3/#word-break-property' target=_blank>'word-break'</a>, <a href='https://www.w3.org/TR/css-text-3/#hyphens-property' target=_blank>'hyphens'</a>, <a href='https://www.w3.org/TR/css-text-3/#overflow-wrap-property' target=_blank>'word-wrap'</a>, <a href='https://www.w3.org/TR/css-text-3/#overflow-wrap-property' target=_blank>'overflow-wrap'</a>)",
+        "support": []
+      },
+      {
+        "name": "<a href='https://www.w3.org/TR/css-text-3/#text-align-property' target=_blank>'text-align'</a>, <a href='http://dev.w3.org/csswg/css-text/#text-align-all-property' target=_blank>'text-align-all'</a>, <a href='https://www.w3.org/TR/css-text-3/#text-align-last-property' target=_blank>'text-align-last'</a>, <a href='https://www.w3.org/TR/css-text-3/#text-justify-property' target=_blank>'text-justify'</a>",
+        "support": []
+      },
+      {
+        "name": "<a href='https://svgwg.org/svg2-draft/text.html#WhiteSpaceProperty' target=_blank>'white-space'</a>, <a href='https://www.w3.org/TR/css-text-4/#propdef-text-space-collapse' target=_blank>'text-space-collapse'</a>",
+        "support": [
+	    {"name": "Inkscape", "level": "partial"},
+	    {"name": "Gecko",    "level": "parital"}
+	],
+        "feedback": [
+            {"name": "Inkscape", "priority": "medium"}
+        ]
+      },
+      {
+        "name": "<a href='https://drafts.csswg.org/css-inline/#transverse-alignment' target=_blank>'vertical-align'</a>",
+        "support": []
+      },
+      {
+        "name": "<a href='https://www.w3.org/TR/css-fonts-3/#font-feature-settings-prop' target=_blank>'font-feature-settings'</a>, <a href='https://www.w3.org/TR/css-fonts-3/#font-kerning-prop' target=_blank>'font-kerning'</a>, <a href='https://www.w3.org/TR/css-fonts-3/#font-size-adjust-prop' target=_blank>'font-size-adjust'</a>",
+        "support": [
+	    {"name": "Inkscape", "level": "partial"},
+	    {"name": "Gecko",    "level": "parital"}
+	]
+      },
+      {
+        "name": "<a href='https://svgwg.org/svg2-draft/text.html#TextDecorationProperties' target=_blank>'text-decoration-line'</a>",
+        "support": [
+	    {"name": "Inkscape", "level": "full"},
+	    {"name": "Gecko",    "level": "full"},
+	    {"name": "Blink",    "level": "full"}
+	]
+      },
+      {
+        "name": "<a href='https://svgwg.org/svg2-draft/text.html#TextDecorationProperties' target=_blank>'text-decoration-style'</a>",
+        "support": [
+	    {"name": "Inkscape", "level": "full"},
+	    {"name": "Gecko",    "level": "full"}
+	]
+      },
+      {
+        "name": "<a href='https://svgwg.org/svg2-draft/text.html#TextDecorationProperties' target=_blank>'text-decoration-color'</a>",
+        "support": [
+	    {"name": "Inkscape", "level": "full"}
+	]
+      },
+      {
+        "name": "<a href='https://svgwg.org/svg2-draft/text.html#TextDecorationFillProperty' target=_blank>'text-decoration-fill'</a>, <a href='https://svgwg.org/svg2-draft/text.html#TextDecorationStrokeProperty' target=_blank>'text-decoration-stroke'</a>",
+        "support": [],
+        "feedback": [
+            {"name": "Inkscape", "priority": "high"}
+        ]
       },
       {
         "name": "WOFF font support",
@@ -869,6 +809,66 @@
         "support": [
             {"name": "Gecko", "level": "full", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=733764"}
         ]
+      }
+    ]
+  },
+  {
+    "category": "New interfaces",
+    "features": [
+      {
+        "name": "<a href='https://svgwg.org/svg2-draft/types.html#InterfaceSVGGraphicsElement' target=_blank>'SVGGraphicsElement'</a> interface",
+        "support": []
+      },
+      {
+        "name": "<a href='https://svgwg.org/svg2-draft/types.html#InterfaceSVGGeometryElement' target=_blank>'SVGGeometryElement'</a> interface",
+        "support": []
+      },
+      {
+        "name": "<a href='https://svgwg.org/svg2-draft/struct.html#InterfaceSVGUnknownElement' target=_blank>'SVGUnknownElement'</a> interface",
+        "description": "For unrecognized markup in the SVG namespace.",
+        "at_risk": "true",
+        "support": [
+            {"name": "Gecko", "level":"none", "tracker":"https://bugzilla.mozilla.org/show_bug.cgi?id=1239218"}
+        ]
+      },
+      {
+        "name": "<a href='https://svgwg.org/svg2-draft/struct.html#InterfaceSVGUseElementShadowRoot' target=_blank>'SVGUseElementShadowRoot'</a> interface",
+        "description": "An extension of the ShadowRoot interface.",
+        "support": []
+      },
+      {
+        "name": "<a href='https://svgwg.org/svg2-draft/struct.html#InterfaceShadowAnimation' target=_blank>'ShadowAnimation'</a> interface",
+        "description": "Defines a read-only clone of a WAAPI animation for use-element shadow trees.",
+        "support": []
+      }
+    ]
+  },
+  {
+    "category": "New/expanded interface methods and properties",
+    "features": [
+      {
+        "name": "'length' attribute and indexed property access for all list interfaces.",
+        "support": []
+      },
+      {
+        "name": "isPointInFill() method for <a href='https://svgwg.org/svg2-draft/types.html#InterfaceSVGGeometryElement' target=_blank>'SVGGeometryElement'</a>",
+        "support": []
+      },
+      {
+        "name": "isPointInFill() method for <a href='https://svgwg.org/svg2-draft/types.html#InterfaceSVGGeometryElement' target=_blank>'SVGGeometryElement'</a>",
+        "support": []
+      },
+      {
+        "name": "getTotalLength() method for 'SVGGeometryElement",
+        "support": []
+      },
+      {
+        "name": "getPointAtLength() method for 'SVGGeometryElement",
+        "support": []
+      },
+      {
+        "name": "focus and blur methods, on any <a href='https://svgwg.org/svg2-draft/types.html#InterfaceSVGElement' target=_blank>'SVGElement'</a>",
+        "support": []
       }
     ]
   },
