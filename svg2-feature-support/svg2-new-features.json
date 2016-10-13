@@ -122,7 +122,7 @@
       {
         "name": "'href' as a replacement for 'xlink:href'",
         "support": [
-	    {"name": "Gecko", "level": "parital"},
+	    {"name": "Gecko", "level": "partial"},
 	    {"name": "Blink", "level": "full" }
 	]
       },
@@ -197,6 +197,15 @@
       {
         "name": "'will-change'",
         "support": []
+      },
+      {
+        "name": "'vector-effect' property value 'non-scaling-stroke'",
+        "at_risk": "true",
+        "support": [
+	],
+        "feedback": [
+            {"name": "Inkscape", "priority": "medium"}
+        ]
       },
       {
         "name": "'vector-effect' property value 'non-scaling-size'",
@@ -447,8 +456,8 @@
         "name": "CSS font feature support (alternative glyphs, 'font-variant', etc.)",
         "support": [
             {"name": "Inkscape", "level": "partial"},
-            {"name": "Gecko",    "level": "parital"},
-            {"name": "Blink",    "level": "parital"}
+            {"name": "Gecko",    "level": "partial"},
+            {"name": "Blink",    "level": "partial"}
         ],
         "feedback": [
             {"name": "Inkscape", "priority": "high"}
@@ -496,7 +505,7 @@
         "name": "'white-space', 'text-space-collapse'",
         "support": [
 	    {"name": "Inkscape", "level": "partial"},
-	    {"name": "Gecko",    "level": "parital"}
+	    {"name": "Gecko",    "level": "partial"}
 	],
         "feedback": [
             {"name": "Inkscape", "priority": "medium"}
@@ -510,7 +519,7 @@
         "name": "'font-feature-settings', 'font-kerning', 'font-size-adjust'",
         "support": [
 	    {"name": "Inkscape", "level": "partial"},
-	    {"name": "Gecko",    "level": "parital"}
+	    {"name": "Gecko",    "level": "partial"}
 	]
       },
       {
@@ -558,6 +567,10 @@
     "category": "Use element",
     "features": [
       {
+        "name": "Support external use references with CORS and processing restrictions as spec'd",
+        "support": []
+      },
+      {
         "name": "Reference entire document from 'use'",
         "support": []
       },
@@ -566,7 +579,19 @@
         "support": []
       },
       {
-        "name": "Implement 'use' element as 'shadow tree'",
+        "name": "Implement 'use' element as an inspectable 'shadow tree'",
+        "support": []
+      },
+      {
+        "name": "Support event re-targetting for event bubbling and related methods",
+        "support": []
+      },
+      {
+        "name": "Use shadow DOM style-matching rules & clone stylesheets from external files",
+        "support": []
+      },
+      {
+        "name": "Clone animations associated with cloned elements",
         "support": []
       }
     ]
@@ -799,7 +824,7 @@
         "support": []
       },
       {
-        "name": "Remove xml:base",
+        "name": "Remove xml:base support in non-XML documents",
         "support": []
       },
       {
