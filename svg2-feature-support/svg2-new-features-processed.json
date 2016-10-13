@@ -122,7 +122,7 @@
       {
         "name": "'href' as a replacement for 'xlink:href'",
         "support": [
-	    {"name": "Gecko", "level": "parital"},
+	    {"name": "Gecko", "level": "partial"},
 	    {"name": "Blink", "level": "full" }
 	]
       },
@@ -197,6 +197,15 @@
       {
         "name": "<a href='https://drafts.csswg.org/css-will-change/#will-change' target=_blank>'will-change'</a>",
         "support": []
+      },
+      {
+        "name": "<a href='https://svgwg.org/svg2-draft/coords.html#VectorEffectProperty' target=_blank>'vector-effect'</a> property value 'non-scaling-stroke'",
+        "at_risk": "true",
+        "support": [
+	],
+        "feedback": [
+            {"name": "Inkscape", "priority": "medium"}
+        ]
       },
       {
         "name": "<a href='https://svgwg.org/svg2-draft/coords.html#VectorEffectProperty' target=_blank>'vector-effect'</a> property value 'non-scaling-size'",
@@ -447,8 +456,8 @@
         "name": "CSS font feature support (alternative glyphs, <a href='https://svgwg.org/svg2-draft/text.html#FontVariantProperty' target=_blank>'font-variant'</a>, etc.)",
         "support": [
             {"name": "Inkscape", "level": "partial"},
-            {"name": "Gecko",    "level": "parital"},
-            {"name": "Blink",    "level": "parital"}
+            {"name": "Gecko",    "level": "partial"},
+            {"name": "Blink",    "level": "partial"}
         ],
         "feedback": [
             {"name": "Inkscape", "priority": "high"}
@@ -496,7 +505,7 @@
         "name": "<a href='https://svgwg.org/svg2-draft/text.html#WhiteSpaceProperty' target=_blank>'white-space'</a>, <a href='https://www.w3.org/TR/css-text-4/#propdef-text-space-collapse' target=_blank>'text-space-collapse'</a>",
         "support": [
 	    {"name": "Inkscape", "level": "partial"},
-	    {"name": "Gecko",    "level": "parital"}
+	    {"name": "Gecko",    "level": "partial"}
 	],
         "feedback": [
             {"name": "Inkscape", "priority": "medium"}
@@ -510,7 +519,7 @@
         "name": "<a href='https://www.w3.org/TR/css-fonts-3/#font-feature-settings-prop' target=_blank>'font-feature-settings'</a>, <a href='https://www.w3.org/TR/css-fonts-3/#font-kerning-prop' target=_blank>'font-kerning'</a>, <a href='https://www.w3.org/TR/css-fonts-3/#font-size-adjust-prop' target=_blank>'font-size-adjust'</a>",
         "support": [
 	    {"name": "Inkscape", "level": "partial"},
-	    {"name": "Gecko",    "level": "parital"}
+	    {"name": "Gecko",    "level": "partial"}
 	]
       },
       {
@@ -558,6 +567,10 @@
     "category": "Use element",
     "features": [
       {
+        "name": "Support external use references with CORS and processing restrictions as spec'd",
+        "support": []
+      },
+      {
         "name": "Reference entire document from <a href='https://svgwg.org/svg2-draft/struct.html#UseElement' target=_blank>'use'</a>",
         "support": []
       },
@@ -566,7 +579,19 @@
         "support": []
       },
       {
-        "name": "Implement <a href='https://svgwg.org/svg2-draft/struct.html#UseElement' target=_blank>'use'</a> element as <a href='https://svgwg.org/svg2-draft/struct.html#TermShadowTree' target=_blank>'shadow tree'</a>",
+        "name": "Implement <a href='https://svgwg.org/svg2-draft/struct.html#UseElement' target=_blank>'use'</a> element as an inspectable <a href='https://svgwg.org/svg2-draft/struct.html#TermShadowTree' target=_blank>'shadow tree'</a>",
+        "support": []
+      },
+      {
+        "name": "Support event re-targetting for event bubbling and related methods",
+        "support": []
+      },
+      {
+        "name": "Use shadow DOM style-matching rules & clone stylesheets from external files",
+        "support": []
+      },
+      {
+        "name": "Clone animations associated with cloned elements",
         "support": []
       }
     ]
@@ -799,7 +824,7 @@
         "support": []
       },
       {
-        "name": "Remove xml:base",
+        "name": "Remove xml:base support in non-XML documents",
         "support": []
       },
       {
