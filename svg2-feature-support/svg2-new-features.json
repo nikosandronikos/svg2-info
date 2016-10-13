@@ -486,11 +486,11 @@
         "support": []
       },
       {
-        "name":"'text-transform', 'text-orientation'",
+        "name":"'text-transform'",
         "support": []
       },
       {
-        "name":"'text-anchor'",
+        "name":"'text-orientation'",
         "support": []
       },
       {
