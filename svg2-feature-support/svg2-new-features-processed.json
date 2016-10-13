@@ -1,6 +1,6 @@
 {
   "user_agents": ["Gecko", "Blink", "Edge", "WebKit", "Inkscape"],
-  "feedback": ["Inkscape", "AmeliaBR"],
+  "feedback": ["AmeliaBR"],
   "svg2_categories":
   [{
     "category": "Example",
