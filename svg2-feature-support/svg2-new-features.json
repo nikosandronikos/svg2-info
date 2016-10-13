@@ -30,7 +30,8 @@
             {"name": "Inkscape", "level": "full"}
         ],
          "feedback": [
-            {"name": "Inkscape", "priority": "high"}
+            {"name": "Inkscape", "priority": "high"},
+            {"name": "AmeliaBR", "priority": "medium"}
         ]
       },
       {
@@ -39,7 +40,8 @@
         "at_risk": "true",
         "support": [],
          "feedback": [
-            {"name": "Inkscape", "priority": "high"}
+            {"name": "Inkscape", "priority": "high"},
+            {"name": "AmeliaBR", "priority": "medium"}
         ]
       },
       {
@@ -49,7 +51,8 @@
             {"name": "Inkscape", "level": "full"}
         ],
          "feedback": [
-            {"name": "Inkscape", "priority": "high"}
+            {"name": "Inkscape", "priority": "high"},
+            {"name": "AmeliaBR", "priority": "medium"}
         ]
       },
       {
@@ -58,53 +61,81 @@
             {"name": "Inkscape", "level": "partial"}
         ],
          "feedback": [
-            {"name": "Inkscape", "priority": "high"}
+            {"name": "Inkscape", "priority": "high"},
+            {"name": "AmeliaBR", "priority": "medium"}
         ]
       },
       {
         "name": "'video' HTML embedded content element",
         "description": "Selected HTML embedded content elements ('video', 'audio', 'canvas', 'iframe') can now be embedded direcly in SVG without requiring a 'foreignObject' wrapper",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "medium"}
+        ]
       },
       {
         "name": "'audio' HTML embedded content element",
         "description": "Selected HTML embedded content elements ('video', 'audio', 'canvas', 'iframe') can now be embedded direcly in SVG without requiring a 'foreignObject' wrapper",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "medium"}
+        ]
       },
       {
         "name": "'canvas' HTML embedded content element",
         "description": "Selected HTML embedded content elements ('video', 'audio', 'canvas', 'iframe') can now be embedded direcly in SVG without requiring a 'foreignObject' wrapper",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "medium"}
+        ]
       },
       {
         "name": "'iframe' HTML embedded content element",
         "description": "Selected HTML embedded content elements ('video', 'audio', 'canvas', 'iframe') can now be embedded direcly in SVG without requiring a 'foreignObject' wrapper",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "medium"}
+        ]
       },
       {
         "name": "'base' HTML metadata element",
         "description": "Selected HTML metadata elements ('base', 'link', 'meta', 'style', and 'script') can be included within the SVG fragment and have their normal effect (but except for linked stylesheets, user agents are only required to support them if they already support HTML)",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "medium"}
+        ]
       },
       {
         "name": "'link' HTML metadata element",
         "description": "Selected HTML metadata elements ('base', 'link', 'meta', 'style', and 'script') can be included within the SVG fragment and have their normal effect (but except for linked stylesheets, user agents are only required to support them if they already support HTML)",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "'meta' HTML metadata element",
         "description": "Selected HTML metadata elements ('base', 'link', 'meta', 'style', and 'script') can be included within the SVG fragment and have their normal effect (but except for linked stylesheets, user agents are only required to support them if they already support HTML)",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "'style' HTML metadata element",
         "description": "Selected HTML metadata elements ('base', 'link', 'meta', 'style', and 'script') can be included within the SVG fragment and have their normal effect (but except for linked stylesheets, user agents are only required to support them if they already support HTML)",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "'script' HTML metadata element",
         "description": "Selected HTML metadata elements ('base', 'link', 'meta', 'style', and 'script') can be included within the SVG fragment and have their normal effect (but except for linked stylesheets, user agents are only required to support them if they already support HTML)",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       }
     ]
   },
@@ -113,23 +144,35 @@
     "features": [
       {
         "name": "'tabindex' on all rendered elements",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "'role' and WAI-ARIA state & property attributes on all elements",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "'href' as a replacement for 'xlink:href'",
         "support": [
-	    {"name": "Gecko", "level": "partial"},
-	    {"name": "Blink", "level": "full" }
-	]
+        {"name": "Gecko", "level": "partial"},
+        {"name": "Blink", "level": "full" }
+        ],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "'lang' as a replacement for 'xml:lang'",
         "support": [
             {"name": "Gecko", "level": "full", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=721920"}
+        ],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
         ]
       },
       {
@@ -137,10 +180,11 @@
         "description": "Allows control of the radius of focal circle",
         "support": [
             {"name": "Inkscape", "level": "full"},
-	    {"name": "Blink",    "level": "full"}
+            {"name": "Blink",    "level": "full"}
         ],
          "feedback": [
-            {"name": "Inkscape", "priority": "medium"}
+            {"name": "Inkscape", "priority": "medium"},
+            {"name": "AmeliaBR", "priority": "medium"}
         ]
       },
       {
@@ -150,25 +194,38 @@
             {"name": "Inkscape", "level": "full"}
         ],
          "feedback": [
-            {"name": "Inkscape", "priority": "medium"}
+            {"name": "Inkscape", "priority": "medium"},
+            {"name": "AmeliaBR", "priority": "medium"}
         ]
       },
       {
         "name": "'x','y','width', and 'height' on 'symbol' (as presentation attributes)",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "'pathLength' attribute on all 'basic shapes'",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "'zoomAndPan' attribute on 'svg' and 'view' elements",
         "at_risk": "true",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "low"}
+        ]
       },
       {
         "name": "Allow 'custom data attributes' on all elements.",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       }
     ]
   },
@@ -180,7 +237,8 @@
         "at_risk": "true",
         "support": [],
         "feedback": [
-            {"name": "Inkscape", "priority": "low"}
+            {"name": "Inkscape", "priority": "low"},
+            {"name": "AmeliaBR", "priority": "high"}
         ]
       },
       {
@@ -191,20 +249,25 @@
             {"name": "Blink",    "level": "full"}
         ],
         "feedback": [
-            {"name": "Inkscape", "priority": "high"}
+            {"name": "Inkscape", "priority": "high"},
+            {"name": "AmeliaBR", "priority": "high"}
         ]
       },
       {
         "name": "'will-change'",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "medium"}
+        ]
       },
       {
         "name": "'vector-effect' property value 'non-scaling-stroke'",
         "at_risk": "true",
         "support": [
-	],
+    ],
         "feedback": [
-            {"name": "Inkscape", "priority": "medium"}
+            {"name": "Inkscape", "priority": "medium"},
+            {"name": "AmeliaBR", "priority": "high"}
         ]
       },
       {
@@ -212,7 +275,8 @@
         "at_risk": "true",
         "support": [],
         "feedback": [
-            {"name": "Inkscape", "priority": "medium"}
+            {"name": "Inkscape", "priority": "medium"},
+            {"name": "AmeliaBR", "priority": "medium"}
         ]
       },
       {
@@ -220,7 +284,8 @@
         "at_risk": "true",
         "support": [],
         "feedback": [
-            {"name": "Inkscape", "priority": "medium"}
+            {"name": "Inkscape", "priority": "medium"},
+            {"name": "AmeliaBR", "priority": "medium"}
         ]
       },
       {
@@ -228,32 +293,38 @@
         "at_risk": "true",
         "support": [],
         "feedback": [
-            {"name": "Inkscape", "priority": "medium"}
+            {"name": "Inkscape", "priority": "medium"},
+            {"name": "AmeliaBR", "priority": "medium"}
         ]
       },
       {
         "name": "'isolation', 'mix-blend-mode'",
         "support": [
-	    {"name": "Inkscape", "level": "full"},
-	    {"name": "Gecko",    "level": "full"},
-	    {"name": "Blink",    "level": "full"}
-	],
+        {"name": "Inkscape", "level": "full"},
+        {"name": "Gecko",    "level": "full"},
+        {"name": "Blink",    "level": "full"}
+    ],
         "feedback": [
-            {"name": "Inkscape", "priority": "medium"}
+            {"name": "Inkscape", "priority": "medium"},
+            {"name": "AmeliaBR", "priority": "high"}
         ]
       },
       {
         "name": "'transform' on 'svg' element",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "'transform', 'transform-origin', 'transform-box'",
         "support": [
             {"name": "Gecko",   "level": "partial"},
             {"name": "Blink",   "level": "partial"}
-	],
+    ],
         "feedback": [
-            {"name": "Inkscape", "priority": "low"}
+            {"name": "Inkscape", "priority": "low"},
+            {"name": "AmeliaBR", "priority": "high"}
         ]
       }
     ]
@@ -263,23 +334,38 @@
     "features": [
       {
         "name": "'x', 'y', 'width' and 'height' on 'svg', 'rect', image, 'foreignObject', 'use', and 'symbol'",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "'cx' and 'cy' on 'ellipse' & 'circle'",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "'r' on 'circle'",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "'rx' and 'ry' on 'ellipse' & 'rect'",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "'d' on a 'path'",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       }
     ]
   },
@@ -292,14 +378,16 @@
             {"name": "Inkscape", "level": "partial"}
         ],
         "feedback": [
-            {"name": "Inkscape", "priority": "high"}
+            {"name": "Inkscape", "priority": "high"},
+            {"name": "AmeliaBR", "priority": "medium"}
         ]
       },
       {
         "name": "'child' and `child(_n_)` referencences instead of `url()` references for paint servers and markers.",
         "support": [],
         "feedback": [
-            {"name": "Inkscape", "priority": "low"}
+            {"name": "Inkscape", "priority": "low"},
+            {"name": "AmeliaBR", "priority": "medium"}
         ]
       },
       {
@@ -312,7 +400,8 @@
             {"name": "Blink", "level": "full"}
         ],
         "feedback": [
-            {"name": "Inkscape", "priority": "high"}
+            {"name": "Inkscape", "priority": "high"},
+            {"name": "AmeliaBR", "priority": "high"}
         ]
       },
       {
@@ -321,7 +410,8 @@
             {"name": "Inkscape", "level": "full"}
         ],
         "feedback": [
-            {"name": "Inkscape", "priority": "high"}
+            {"name": "Inkscape", "priority": "high"},
+            {"name": "AmeliaBR", "priority": "medium"}
         ]
       },
       {
@@ -330,18 +420,23 @@
             {"name": "Inkscape", "level": "full"}
         ],
         "feedback": [
-            {"name": "Inkscape", "priority": "high"}
+            {"name": "Inkscape", "priority": "high"},
+            {"name": "AmeliaBR", "priority": "medium"}
         ]
       },
       {
         "name": "'auto' values for 'rx' and 'ry'",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "Add left|middle|center keywords for 'refX' and 'refY' attributes",
         "support": [],
         "feedback": [
-            {"name": "Inkscape", "priority": "medium"}
+            {"name": "Inkscape", "priority": "medium"},
+            {"name": "AmeliaBR", "priority": "medium"}
         ]
       }
     ]
@@ -353,14 +448,16 @@
         "name": "Closepath commands 'Z' and 'z' fill in missing 'path data'",
         "support": [],
         "feedback": [
-            {"name": "Inkscape", "priority": "high"}
+            {"name": "Inkscape", "priority": "high"},
+            {"name": "AmeliaBR", "priority": "medium"}
         ]
       },
       {
         "name": "Bearing path commands 'B' and 'b'",
         "support": [],
         "feedback": [
-            {"name": "Inkscape", "priority": "low"}
+            {"name": "Inkscape", "priority": "low"},
+            {"name": "AmeliaBR", "priority": "medium"}
         ]
       },
       {
@@ -368,7 +465,10 @@
         "description": "Used in stroke dashing and marker positioning.",
         "support": [
             {"name": "Inkscape", "level": "full"}
-	]
+        ],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       }
     ]
   },
@@ -380,12 +480,16 @@
         "description": "Enables auto wrapped text.",
         "support": [],
         "feedback": [
-            {"name": "Inkscape", "priority": "medium"}
+            {"name": "Inkscape", "priority": "medium"},
+            {"name": "AmeliaBR", "priority": "high"}
         ]
       },
       {
         "name": "'line-height' property",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "'shape-inside' property",
@@ -394,7 +498,8 @@
             {"name": "Inkscape", "level": "full"}
         ],
         "feedback": [
-            {"name": "Inkscape", "priority": "high"}
+            {"name": "Inkscape", "priority": "high"},
+            {"name": "AmeliaBR", "priority": "medium"}
         ]
       },
       {
@@ -404,7 +509,8 @@
             {"name": "Inkscape", "level": "full"}
         ],
         "feedback": [
-            {"name": "Inkscape", "priority": "high"}
+            {"name": "Inkscape", "priority": "high"},
+            {"name": "AmeliaBR", "priority": "medium"}
         ]
       },
       {
@@ -414,7 +520,8 @@
             {"name": "Inkscape", "level": "full"}
         ],
         "feedback": [
-            {"name": "Inkscape", "priority": "high"}
+            {"name": "Inkscape", "priority": "high"},
+            {"name": "AmeliaBR", "priority": "medium"}
         ]
       },
       {
@@ -424,7 +531,8 @@
             {"name": "Inkscape", "level": "full"}
         ],
         "feedback": [
-            {"name": "Inkscape", "priority": "high"}
+            {"name": "Inkscape", "priority": "high"},
+            {"name": "AmeliaBR", "priority": "medium"}
         ]
       },
       {
@@ -434,22 +542,30 @@
             {"name": "Inkscape", "level": "full"}
         ],
         "feedback": [
-            {"name": "Inkscape", "priority": "high"}
+            {"name": "Inkscape", "priority": "high"},
+            {"name": "AmeliaBR", "priority": "medium"}
         ]
       },
       {
         "name": "'path' attribute on 'textPath' element",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "medium"}
+        ]
       },
       {
         "name": "Reference basic shapes from 'textPath'",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "'side' attribute on 'textPath' element",
         "support": [],
         "feedback": [
-            {"name": "Inkscape", "priority": "medium"}
+            {"name": "Inkscape", "priority": "medium"},
+            {"name": "AmeliaBR", "priority": "medium"}
         ]
       },
       {
@@ -460,7 +576,8 @@
             {"name": "Blink",    "level": "partial"}
         ],
         "feedback": [
-            {"name": "Inkscape", "priority": "high"}
+            {"name": "Inkscape", "priority": "high"},
+            {"name": "AmeliaBR", "priority": "high"}
         ]
       },
       {
@@ -468,6 +585,9 @@
         "support": [
             {"name": "Gecko",    "level": "full"},
             {"name": "Blink",    "level": "full"}
+        ],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
         ]
       },
       {
@@ -475,31 +595,50 @@
         "support": [],
          "feedback": [
             {"name": "Inkscape", "priority": "low"}
+            {"name": "AmeliaBR", "priority": "high"}
         ]
       },
       {
         "name": "::first-letter & ::first-line pseudo selectors on 'text' element",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "'text-overflow'",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name":"'text-transform'",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name":"'text-orientation'",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name":"Properties for auto wrapped text ('text-indent', 'line-break', 'word-break', 'hyphens', 'word-wrap', 'overflow-wrap')",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "'text-align', 'text-align-all', 'text-align-last', 'text-justify'",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "'white-space', 'text-space-collapse'",
@@ -508,19 +647,26 @@
 	    {"name": "Gecko",    "level": "partial"}
 	],
         "feedback": [
-            {"name": "Inkscape", "priority": "medium"}
+            {"name": "Inkscape", "priority": "medium"},
+            {"name": "AmeliaBR", "priority": "high"}
         ]
       },
       {
         "name": "'vertical-align'",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "'font-feature-settings', 'font-kerning', 'font-size-adjust'",
         "support": [
 	    {"name": "Inkscape", "level": "partial"},
 	    {"name": "Gecko",    "level": "partial"}
-	]
+        ],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "'text-decoration-line'",
@@ -528,26 +674,38 @@
 	    {"name": "Inkscape", "level": "full"},
 	    {"name": "Gecko",    "level": "full"},
 	    {"name": "Blink",    "level": "full"}
-	]
+        ],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "'text-decoration-style'",
         "support": [
 	    {"name": "Inkscape", "level": "full"},
 	    {"name": "Gecko",    "level": "full"}
-	]
+        ],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "'text-decoration-color'",
         "support": [
 	    {"name": "Inkscape", "level": "full"}
-	]
+        ],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "'text-decoration-fill', 'text-decoration-stroke'",
         "support": [],
         "feedback": [
             {"name": "Inkscape", "priority": "high"}
+        ],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
         ]
       },
       {
@@ -555,11 +713,18 @@
         "support": [
 	    {"name": "Gecko", "level": "partial"},
 	    {"name": "Blink", "level": "full"}
-	]
+        ],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "Vertical text and alternative text baseline properties from CSS",
-        "support": []
+        "support": [
+        ],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       }
     ]
   },
@@ -568,31 +733,52 @@
     "features": [
       {
         "name": "Support external use references with CORS and processing restrictions as spec'd",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "Reference entire document from 'use'",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "Clone all child elements of 'use'",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "Implement 'use' element as an inspectable 'shadow tree'",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "Support event re-targetting for event bubbling and related methods",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "Use shadow DOM style-matching rules & clone stylesheets from external files",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "Clone animations associated with cloned elements",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       }
     ]
   },
@@ -603,36 +789,54 @@
         "name": ":focus and ::selection styles.",
         "support": [
             {"name": "Inkscape", "level": "N/A"}
+        ],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
         ]
       },
       {
         "name": "scroll bars when 'overflow' property is scroll on 'svg' elements",
         "support": [
             {"name": "Inkscape", "level": "N/A"}
+        ],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "medium"}
         ]
       },
       {
         "name": "'clip' and 'overflow' not ignored when SVG document referenced via 'image'",
         "support": [
             {"name": "Inkscape", "level": "N/A"}
+        ],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
         ]
       },
       {
         "name": "'bounding box' value for 'pointer-events'",
         "support": [
             {"name": "Inkscape", "level": "N/A"}
+        ],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "medium"}
         ]
       },
       {
         "name": "Replace SVG-specific events with common equivalents",
         "support": [
             {"name": "Inkscape", "level": "N/A"}
+        ],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
         ]
       },
       {
         "name": "Allow keyboard events",
         "support": [
             {"name": "Inkscape", "level": "N/A"}
+        ],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
         ]
       }
     ]
@@ -643,7 +847,10 @@
       {
         "name": "'unknown' elements are treated as a 'g' or 'tspan' element",
         "at_risk": "true",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "medium"}
+        ]
       },
       {
         "name": "'markers' on all shapes",
@@ -651,45 +858,73 @@
             {"name": "Inkscape", "level": "partial"}
         ],
         "feedback": [
-            {"name": "Inkscape", "priority": "medium"}
+            {"name": "Inkscape", "priority": "medium"},
+            {"name": "AmeliaBR", "priority": "high"}
         ]
       },
       {
         "name": "'script' element in content model of all elements",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "'animation elements' in content model of 'view' element",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "'svg' as children of HTML or 'foreignObject' elements no longer 'overflow' hidden by default",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "'foreignObject' elements no longer 'overflow' hidden by default",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "Render nested 'a' elements",
         "at_risk": "true",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "New guidance on resolving URLs and loading external files",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "Conditional processing attributes and 'switch' only affect the display of the relevant elements, not processing of styles, scripts, or fetching of external resources.",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "low"}
+        ]
       },
       {
         "name": "Clearer guidance given on the intrinsic sizing of SVG elements when embedded in other layout systems",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "Bounding boxes for objects with no position are at (0,0)",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       }
     ]
   },
@@ -698,15 +933,24 @@
     "features": [
       {
         "name": "Provide both declarative ('tabindex') and scripted control over which elements receive 'keyboard focus', allowing the creation of keyboard-accessible widgets, in a manner consistent with HTML.",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "Allow 'WAI-ARIA attributes' (role and also state and property attributes) on all elements.",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "Define default and allowed 'role' values for each element.",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       }
     ]
   },
@@ -715,21 +959,33 @@
     "features": [
       {
         "name": "Ordering of 'systemLanguage' preferences follows SMIL allowReorder definition",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "Support for the :lang() CSS pseudoclass.",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "Allow alternative text metadata ('title' and 'desc') to be provided in multiple language versions in the same file.",
         "at_risk": "true",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "Support for non-Western writing modes is now harmonized with CSS, which should lead to wider and more consistent implementations; includes support for additional vertical writing modes compared to SVG 1.1.",
         "support": [
             {"name": "Inkscape", "level": "full"}
+        ],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
         ]
       }
     ]
@@ -739,27 +995,45 @@
     "features": [
       {
         "name": "Add additional attributes to the 'a' element to synchronise with HTML",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "Focus control uses the same model as HTML ('tabindex' attribute, `focus` and `blur` methods)",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "'id' value requirements matches HTML",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "Custom data attributes",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "HTML 'link' element supported and must load external style sheets; other HTML metadata supported",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "'crossorigin' attribute on 'image' and 'script' elements",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       }
     ]
   },
@@ -768,35 +1042,59 @@
     "features": [
       {
         "name": "Use CSS parsing rules for all presentation attributes and many other attributes",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "'white space character' set now includes form feed (U+000C) to align with HTML and CSS",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "Support percentages and CSS lengths in many places",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "Elements that are never rendered are now defined in terms of user agent stylesheets",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "Required support for @media, @import, @charset and @font-face",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "Required support for all pseudo-classes defined in CSS 2.1",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "Required support for ::first-line and ::first-letter pseudo-elements, and for ::selection in interactive user agents",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "Zero length sub-paths render result based on 'stroke-linecap' value",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       }
     ]
   },
@@ -805,53 +1103,89 @@
     "features": [
       {
         "name": "Remove SVG Fonts",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "low"}
+        ]
       },
       {
         "name": "Remove externalResourcesRequired attribute",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "low"}
+        ]
       },
       {
         "name": "Remove baseProfile and version attributes from the 'svg' element",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "low"}
+        ]
       },
       {
         "name": "Remove requiredFeatures attribute",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "none"}
+        ]
       },
       {
         "name": "Remove the ‘contentStyleType’ attribute.",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "low"}
+        ]
       },
       {
         "name": "Remove xml:base support in non-XML documents",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "medium"}
+        ]
       },
       {
         "name": "Remove defer keyword from preservedAspectRatio",
         "support": [
             {"name": "Gecko", "level": "full", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=1280425"}
+        ],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "low"}
         ]
       },
       {
         "name": "Remove the tref element",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "low"}
+        ]
       },
       {
         "name": "removed the Alternate Glyph elements (altGlyph, altGlyphItem, glyphRef)",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "low"}
+        ]
       },
       {
         "name": "Remove xlink:type, xlink:role, xlink:arcrole, xlink:show, and xlink:actuate attributes",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "low"}
+        ]
       },
       {
         "name": "Remove the viewTarget attribute from the view element",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "none"}
+        ]
       },
       {
         "name": "Remove contentScriptType attribute",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "low"}
+        ]
       }
     ]
   },
@@ -862,12 +1196,18 @@
         "name": "suspendRedraw(), unsuspendRedraw(), and unsuspendRedrawAll() on 'SVGSVGElement' become noop",
         "support": [
             {"name": "Gecko", "level": "none", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=734079"}
+        ],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "low"}
         ]
       },
       {
         "name": "forceRedraw method on 'SVGSVGElement' becomes noop",
         "support": [
             {"name": "Gecko", "level": "full", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=733764"}
+        ],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "low"}
         ]
       }
     ]
@@ -877,11 +1217,17 @@
     "features": [
       {
         "name": "'SVGGraphicsElement' interface",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "'SVGGeometryElement' interface",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "'SVGUnknownElement' interface",
@@ -889,17 +1235,26 @@
         "at_risk": "true",
         "support": [
             {"name": "Gecko", "level":"none", "tracker":"https://bugzilla.mozilla.org/show_bug.cgi?id=1239218"}
+        ],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "medium"}
         ]
       },
       {
         "name": "'SVGUseElementShadowRoot' interface",
         "description": "An extension of the ShadowRoot interface.",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "'ShadowAnimation' interface",
         "description": "Defines a read-only clone of a WAAPI animation for use-element shadow trees.",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "medium"}
+        ]
       }
     ]
   },
@@ -908,27 +1263,45 @@
     "features": [
       {
         "name": "'length' attribute and indexed property access for all list interfaces.",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "isPointInFill() method for 'SVGGeometryElement'",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "medium"}
+        ]
       },
       {
-        "name": "isPointInFill() method for 'SVGGeometryElement'",
-        "support": []
+        "name": "isPointInStroke() method for 'SVGGeometryElement'",
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "medium"}
+        ]
       },
       {
         "name": "getTotalLength() method for 'SVGGeometryElement",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "getPointAtLength() method for 'SVGGeometryElement",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "focus and blur methods, on any 'SVGElement'",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       }
     ]
   },
@@ -937,46 +1310,73 @@
     "features": [
       {
         "name": "Replace 'SVGMatrix' with DOMMatrix or DOMMatrixReadOnly",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "Replace 'SVGRect' with DOMRect or DOMRectReadOnly",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "Replace 'SVGPoint' with DOMPoint or DOMPointReadOnly",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "Moved members from 'SVGStylable' and 'SVGLangSpace' to 'SVGElement' and removed those interfaces",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "medium"}
+        ]
       },
       {
         "name": "Moved members from 'SVGLocatable' and 'SVGTransformable' to 'SVGGraphicsElement' and removed those interfaces",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "medium"}
+        ]
       },
       {
         "name": "Removed 'SVGExternalResourcesRequired' interface",
         "support": [
             {"name": "Gecko", "level": "full"}
+        ],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "low"}
         ]
       },
       {
         "name": "Removed 'SVGColor' and 'SVGICCCOlor' interfaces",
         "support": [
             {"name": "Gecko", "level": "full"}
+        ],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "low"}
         ]
       },
       {
         "name": "Removed getPresentationAttribute method from 'SVGElement'",
         "support": [
             {"name": "Gecko", "level": "full", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=921456"}
+        ],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "low"}
         ]
       },
       {
         "name": "tabindex attribute on 'SVGElement'",
         "support": [
             {"name": "Gecko", "level": "full", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=778654"}
+        ],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
         ]
       },
       {
@@ -984,111 +1384,186 @@
         "description": "Related to tabindex attribute",
         "support": [
             {"name": "Gecko", "level": "none", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=778654"}
+        ],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
         ]
       },
       {
         "name": "Add activeElement attribute to Document",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "'SVGElement' now inherits GlobalEventHandlers from HTML",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "getBBox() fill or stroke selection",
         "support": [
             {"name": "Gecko", "level": "partial", "tracker": ["https://bugzilla.mozilla.org/show_bug.cgi?id=999964", "https://bugzilla.mozilla.org/show_bug.cgi?id=1019326"]}
+        ],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "medium"}
         ]
       },
       {
         "name": "Remove xmlbase, xmllang, and xmlspace attributes from 'SVGElement' interface",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "low"}
+        ]
       },
       {
         "name": "Remove 'SVGViewSpec' interface",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "low"}
+        ]
       },
       {
         "name": "Remove getTransformToElement from 'SVGGraphicsElement'",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "none"}
+        ]
       },
       {
         "name": "Allow getCTM on outermost 'svg' element",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "Make animVal an alias for baseVal and no longer reflect animated value",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "medium"}
+        ]
       },
       {
         "name": "Added dataset attribute to 'SVGElement'",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
-        "name": "Mov pathLength(), getTotalLength(), and getPointAtLength() to 'SVGGeometryElement'",
+        "name": "Mov pathLength, getTotalLength(), and getPointAtLength() to 'SVGGeometryElement'",
         "support": [
             {"name": "Gecko", "level": "none", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=1239100"}
+        ],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
         ]
       },
       {
         "name": "Removed 'SVGElementInstance' and 'SVGElementInstanceList' interfaces",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "Removed currentView and useCurrentView properties on 'SVGSVGElement'",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "low"}
+        ]
       },
       {
         "name": "Removed the viewport attribute from 'SVGSVGElement'",
         "support": [
             {"name": "Gecko", "level": "full"}
+        ],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "low"}
         ]
       },
       {
         "name": "'SVGElement' has been extended to replace the core functionality from 'SVGElementInstance'.",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "'SVGSymbolElement' now inherits from 'SVGGraphicsElement'",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "ShadowAnimation interface defined",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "medium"}
+        ]
       },
       {
         "name": "'SVGStyleElement' implements LinkStyle",
         "support": [
             {"name": "Gecko", "level": "full", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=1239128"}
+        ],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
         ]
       },
       {
         "name": "Remove SVGPathSeg* interfaces",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "low"}
+        ]
       },
       {
         "name": "Remove 'SVGAnimatedPathData' interface",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "low"}
+        ]
       },
       {
         "name": "Remove methods on 'SVGPathElement' related to SVGPathSeg* and 'SVGAnimatedPathData'",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "low"}
+        ]
       },
       {
         "name": "Moved pathLength, getTotalLength() and getPointAtLength() on to 'SVGGeometryElement' interface",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       },
       {
         "name": "animatedPoints attribute of 'SVGAnimatedPoints' now aliases the points attribute",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "medium"}
+        ]
       },
       {
         "name": "Remove 'SVGPaint' interface",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "medium"}
+        ]
       },
       {
         "name": "Replace SVG-specific events with common equivalents",
-        "support": []
+        "support": [],
+        "feedback": [
+            {"name": "AmeliaBR", "priority": "high"}
+        ]
       }
     ]
   }]
