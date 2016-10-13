@@ -125,6 +125,10 @@
         content: '-';
         color: #343a40;
     }
+    td.priority_none::after {
+        content: 'X';
+        color: #343a40;
+    }
 
     #gh_link {
         float: right;
@@ -150,7 +154,7 @@
 <a id="gh_link" href="https://github.com/nikosandronikos/svg2-info" target="_blank">View on GitHub</a>
 <input type="checkbox" id="show_at_risk">
 <label for="show_at_risk">Hide 'at risk' features?</label>
-<span>Indicated priorities: high [++], medium [+], low [-]</span>
+<span>Indicated priorities: high [++], medium [+], low [-], don't support the feature [X]</span>
 <div class="note">
 Note: This is a living document that is in the processing of being compiled. UAs likely implement
 some features that are not yet attributed to them. Feel free to 

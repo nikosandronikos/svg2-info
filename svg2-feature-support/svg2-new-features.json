@@ -3,6 +3,23 @@
   "feedback": ["Inkscape", "AmeliaBR"],
   "svg2_categories":
   [{
+    "category": "Example",
+    "features": [
+      {
+        "name": "Example feature",
+        "description": "Just included to outline the responses supported by the page",
+        "at_risk": "true",
+        "support": [],
+         "feedback": [
+            {"name": "Inkscape", "priority": "high"},
+            {"name": "Gecko", "priority": "medium"},
+            {"name": "Blink", "priority": "low"},
+            {"name": "Edge", "priority": "none"}
+        ]
+      }
+    ]
+  },
+  {
     "category": "New elements",
     "features": [
       {
