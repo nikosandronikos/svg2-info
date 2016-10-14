@@ -97,9 +97,12 @@ function features_json_received(responseText) {
 
             if (feature.feedback) {
                 for (let feedback of feature.feedback) {
-                    const ua_td = tr.querySelector(`#${feedback.name}`);
-                    if (!ua_td) continue;
-
+                    let ua_td = tr.querySelector(`#${feedback.name}`);
+                    if (!ua_td) {
+                        ua_td = new_elem('td');
+                        ua_td.id = feedback;
+                        tr.appendChild(ua_td);
+                    }
                     ua_td.className = ua_td.className + ` priority_${feedback.priority}`;
                 }
             }
