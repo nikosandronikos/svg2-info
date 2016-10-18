@@ -262,9 +262,13 @@
       },
       {
         "name": "<a href='https://svgwg.org/svg2-draft/coords.html#VectorEffectProperty' target=_blank>'vector-effect'</a> property value 'non-scaling-stroke'",
-        "at_risk": "true",
         "support": [
-    ],
+            {"name": "Inkscape", "level": "full"},
+            {"name": "Gecko",    "level": "full"},
+            {"name": "Blink",    "level": "full"},
+            {"name": "WebKit",    "level": "full"}
+           
+        ],
         "feedback": [
             {"name": "Inkscape", "priority": "medium"},
             {"name": "AmeliaBR", "priority": "high"}
