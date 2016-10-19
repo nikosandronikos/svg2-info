@@ -263,6 +263,7 @@
       {
         "name": "'vector-effect' property value 'non-scaling-stroke'",
         "support": [
+            {"name": "Inkscape", "level": "partial"},
             {"name": "Gecko",    "level": "full"},
             {"name": "Blink",    "level": "full"},
             {"name": "WebKit",    "level": "full"}

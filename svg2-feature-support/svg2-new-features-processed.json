@@ -263,6 +263,7 @@
       {
         "name": "<a href='https://svgwg.org/svg2-draft/coords.html#VectorEffectProperty' target=_blank>'vector-effect'</a> property value 'non-scaling-stroke'",
         "support": [
+            {"name": "Inkscape", "level": "partial"},
             {"name": "Gecko",    "level": "full"},
             {"name": "Blink",    "level": "full"},
             {"name": "WebKit",    "level": "full"}
