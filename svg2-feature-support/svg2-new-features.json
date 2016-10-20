@@ -246,7 +246,8 @@
         "support": [
             {"name": "Inkscape", "level": "full"},
             {"name": "Gecko",    "level": "full"},
-            {"name": "Blink",    "level": "full"}
+            {"name": "Blink",    "level": "full"},
+            {"name": "WebKit",    "level": "full"}
         ],
         "feedback": [
             {"name": "Inkscape", "priority": "high"},
