@@ -215,7 +215,9 @@
       {
         "name": "'zoomAndPan' attribute on 'svg' and 'view' elements",
         "at_risk": "true",
-        "support": [],
+        "support": [
+            {"name": "Gecko", "level": "partial"}
+        ],
         "feedback": [
             {"name": "AmeliaBR", "priority": "low"}
         ]

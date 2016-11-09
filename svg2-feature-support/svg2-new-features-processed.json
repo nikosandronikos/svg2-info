@@ -215,7 +215,9 @@
       {
         "name": "'zoomAndPan' attribute on <a href='https://svgwg.org/svg2-draft/struct.html#SVGElement' target=_blank>'svg'</a> and <a href='https://svgwg.org/svg2-draft/linking.html#ViewElement' target=_blank>'view'</a> elements",
         "at_risk": "true",
-        "support": [],
+        "support": [
+            {"name": "Gecko", "level": "partial"}
+        ],
         "feedback": [
             {"name": "AmeliaBR", "priority": "low"}
         ]
