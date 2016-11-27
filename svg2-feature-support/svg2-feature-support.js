@@ -103,6 +103,24 @@ function features_json_received(responseText) {
                         ua_td.id = feedback;
                         tr.appendChild(ua_td);
                     }
+                    function feedback_priority_str(priority) {
+                        switch(priority) {
+                            case 'low':
+                                return '-';
+                                break;
+                            case 'medium':
+                                return '+';
+                                break;
+                            case 'high':
+                                return '++';
+                                break;
+                            case 'none':
+                                return 'X';
+                                break;
+                        }
+                        return '';
+                    }
+                    ua_td.innerHTML = ua_td.innerHTML + feedback_priority_str(feedback.priority);
                     ua_td.className = ua_td.className + ` priority_${feedback.priority}`;
                 }
             }
