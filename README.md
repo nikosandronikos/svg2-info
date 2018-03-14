@@ -15,7 +15,7 @@ Where &lt;path_to_definitions.xml&gt; points to the [definitions.xml](https://gi
 ## SVG2 new features
 The source for the [wiki page](https://github.com/w3c/svgwg/wiki/SVG-2-new-features) on the svgwg repository.
 The process for updating the page is:
-* Edit the markdown from this repistory
+* Edit the markdown from this repository
 * Run link_to_svg_defs.js to create a version that links terms to the SVG spec
 * Paste result into wiki
 * Submit PR to this repository with your changes to the source markdown files
