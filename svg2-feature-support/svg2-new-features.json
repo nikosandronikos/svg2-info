@@ -144,7 +144,9 @@
     "features": [
       {
         "name": "'tabindex' on all rendered elements",
-        "support": [],
+        "support": [
+            {"name": "Gecko", "level": "full", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=778654"}
+        ],
         "feedback": [
             {"name": "AmeliaBR", "priority": "high"}
         ]
@@ -159,7 +161,7 @@
       {
         "name": "'href' as a replacement for 'xlink:href'",
         "support": [
-        {"name": "Gecko", "level": "partial"},
+        {"name": "Gecko", "level": "full", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=1245751"},
         {"name": "Blink", "level": "full" }
         ],
         "feedback": [
@@ -179,6 +181,7 @@
         "name": "'fr' on 'radialGradient'",
         "description": "Allows control of the radius of focal circle",
         "support": [
+            {"name": "Gecko", "level": "full", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=1240275"},
             {"name": "Inkscape", "level": "full"},
             {"name": "Blink",    "level": "full"}
         ],
@@ -207,7 +210,9 @@
       },
       {
         "name": "'pathLength' attribute on all 'basic shapes'",
-        "support": [],
+        "support": [
+            {"name": "Gecko", "level": "full", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=1325320"}
+        ],
         "feedback": [
             {"name": "AmeliaBR", "priority": "high"}
         ]
@@ -224,7 +229,9 @@
       },
       {
         "name": "Allow 'custom data attributes' on all elements.",
-        "support": [],
+        "support": [
+            {"name": "Gecko", "level": "full", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=921834"}
+        ],
         "feedback": [
             {"name": "AmeliaBR", "priority": "high"}
         ]
@@ -318,7 +325,9 @@
       },
       {
         "name": "'transform' on 'svg' element",
-        "support": [],
+        "support": [
+            {"name": "Gecko", "level": "full", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=863994"}
+        ],
         "feedback": [
             {"name": "AmeliaBR", "priority": "high"}
         ]
@@ -328,7 +337,7 @@
         "support": [
             {"name": "Gecko",   "level": "partial"},
             {"name": "Blink",   "level": "partial"}
-    ],
+        ],
         "feedback": [
             {"name": "Inkscape", "priority": "low"},
             {"name": "AmeliaBR", "priority": "high"}
@@ -562,7 +571,9 @@
       },
       {
         "name": "Reference basic shapes from 'textPath'",
-        "support": [],
+        "support": [
+            {"name": "Gecko", "level": "full", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=1325320"}
+        ],
         "feedback": [
             {"name": "AmeliaBR", "priority": "high"}
         ]
@@ -966,7 +977,9 @@
     "features": [
       {
         "name": "Ordering of 'systemLanguage' preferences follows SMIL allowReorder definition",
-        "support": [],
+        "support": [
+            {"name": "Gecko", "level": "full", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=1279690"}
+        ],
         "feedback": [
             {"name": "AmeliaBR", "priority": "high"}
         ]
@@ -1016,14 +1029,18 @@
       },
       {
         "name": "'id' value requirements matches HTML",
-        "support": [],
+        "support": [
+            {"name": "Gecko", "level": "full"}
+        ],
         "feedback": [
             {"name": "AmeliaBR", "priority": "high"}
         ]
       },
       {
         "name": "Custom data attributes",
-        "support": [],
+        "support": [
+            {"name": "Gecko", "level": "full", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=921834"}
+        ],
         "feedback": [
             {"name": "AmeliaBR", "priority": "high"}
         ]
@@ -1110,21 +1127,27 @@
     "features": [
       {
         "name": "Remove SVG Fonts",
-        "support": [],
+        "support": [
+            {"name": "Gecko", "level": "full"}
+        ],
         "feedback": [
             {"name": "AmeliaBR", "priority": "low"}
         ]
       },
       {
         "name": "Remove externalResourcesRequired attribute",
-        "support": [],
+        "support": [
+            {"name": "Gecko", "level": "full"}
+        ],
         "feedback": [
             {"name": "AmeliaBR", "priority": "low"}
         ]
       },
       {
         "name": "Remove baseProfile and version attributes from the 'svg' element",
-        "support": [],
+        "support": [
+            {"name": "Gecko", "level": "full"}
+        ],
         "feedback": [
             {"name": "AmeliaBR", "priority": "low"}
         ]
@@ -1161,14 +1184,18 @@
       },
       {
         "name": "Remove the tref element",
-        "support": [],
+        "support": [
+            {"name": "Gecko", "level": "full"}
+        ],
         "feedback": [
             {"name": "AmeliaBR", "priority": "low"}
         ]
       },
       {
         "name": "removed the Alternate Glyph elements (altGlyph, altGlyphItem, glyphRef)",
-        "support": [],
+        "support": [
+            {"name": "Gecko", "level": "full", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=1260032"}
+        ],
         "feedback": [
             {"name": "AmeliaBR", "priority": "low"}
         ]
@@ -1202,7 +1229,7 @@
       {
         "name": "suspendRedraw(), unsuspendRedraw(), and unsuspendRedrawAll() on 'SVGSVGElement' become noop",
         "support": [
-            {"name": "Gecko", "level": "none", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=734079"}
+            {"name": "Gecko", "level": "full", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=734079"}
         ],
         "feedback": [
             {"name": "AmeliaBR", "priority": "low"}
@@ -1224,14 +1251,18 @@
     "features": [
       {
         "name": "'SVGGraphicsElement' interface",
-        "support": [],
+        "support": [
+            {"name": "Gecko", "level": "full", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=824229"}
+        ],
         "feedback": [
             {"name": "AmeliaBR", "priority": "high"}
         ]
       },
       {
         "name": "'SVGGeometryElement' interface",
-        "support": [],
+        "support": [
+            {"name": "Gecko", "level": "partial", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=1239100"}
+        ],
         "feedback": [
             {"name": "AmeliaBR", "priority": "high"}
         ]
@@ -1270,7 +1301,9 @@
     "features": [
       {
         "name": "'length' attribute and indexed property access for all list interfaces.",
-        "support": [],
+        "support": [
+            {"name": "Gecko", "level": "full"}
+        ],
         "feedback": [
             {"name": "AmeliaBR", "priority": "high"}
         ]
@@ -1291,14 +1324,18 @@
       },
       {
         "name": "getTotalLength() method for 'SVGGeometryElement",
-        "support": [],
+        "support": [
+            {"name": "Gecko", "level": "full", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=1239100"}
+        ],
         "feedback": [
             {"name": "AmeliaBR", "priority": "high"}
         ]
       },
       {
         "name": "getPointAtLength() method for 'SVGGeometryElement",
-        "support": [],
+        "support": [
+            {"name": "Gecko", "level": "full", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=1239100"}
+        ],
         "feedback": [
             {"name": "AmeliaBR", "priority": "high"}
         ]
@@ -1338,14 +1375,18 @@
       },
       {
         "name": "Moved members from 'SVGStylable' and 'SVGLangSpace' to 'SVGElement' and removed those interfaces",
-        "support": [],
+        "support": [
+            {"name": "Gecko", "level": "partial"}
+        ],
         "feedback": [
             {"name": "AmeliaBR", "priority": "medium"}
         ]
       },
       {
         "name": "Moved members from 'SVGLocatable' and 'SVGTransformable' to 'SVGGraphicsElement' and removed those interfaces",
-        "support": [],
+        "support": [
+            {"name": "Gecko", "level": "full"}
+        ],
         "feedback": [
             {"name": "AmeliaBR", "priority": "medium"}
         ]
@@ -1390,7 +1431,7 @@
         "name": "focus and blur methods on 'SVGElement'",
         "description": "Related to tabindex attribute",
         "support": [
-            {"name": "Gecko", "level": "none", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=778654"}
+            {"name": "Gecko", "level": "full", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=778654"}
         ],
         "feedback": [
             {"name": "AmeliaBR", "priority": "high"}
@@ -1456,15 +1497,17 @@
       },
       {
         "name": "Added dataset attribute to 'SVGElement'",
-        "support": [],
+        "support": [
+            {"name": "Gecko", "level": "full", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=921834"}
+        ],
         "feedback": [
             {"name": "AmeliaBR", "priority": "high"}
         ]
       },
       {
-        "name": "Mov pathLength, getTotalLength(), and getPointAtLength() to 'SVGGeometryElement'",
+        "name": "Move pathLength, getTotalLength(), and getPointAtLength() to 'SVGGeometryElement'",
         "support": [
-            {"name": "Gecko", "level": "none", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=1239100"}
+            {"name": "Gecko", "level": "full", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=1239100"}
         ],
         "feedback": [
             {"name": "AmeliaBR", "priority": "high"}
@@ -1525,7 +1568,9 @@
       },
       {
         "name": "Remove SVGPathSeg* interfaces",
-        "support": [],
+        "support": [
+            {"name": "Gecko", "level": "partial", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=1436438"}
+        ],
         "feedback": [
             {"name": "AmeliaBR", "priority": "low"}
         ]
@@ -1539,14 +1584,18 @@
       },
       {
         "name": "Remove methods on 'SVGPathElement' related to SVGPathSeg* and 'SVGAnimatedPathData'",
-        "support": [],
+        "support": [
+            {"name": "Gecko", "level": "partial", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=1436438"}
+        ],
         "feedback": [
             {"name": "AmeliaBR", "priority": "low"}
         ]
       },
       {
         "name": "Moved pathLength, getTotalLength() and getPointAtLength() on to 'SVGGeometryElement' interface",
-        "support": [],
+        "support": [
+            {"name": "Gecko", "level": "full", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=1239100"}
+        ],
         "feedback": [
             {"name": "AmeliaBR", "priority": "high"}
         ]
