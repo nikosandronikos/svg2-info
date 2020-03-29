@@ -23,7 +23,7 @@
     "category": "New elements",
     "features": [
       {
-        "name": "<a href='https://svgwg.org/svg2-draft/pservers.html#MeshGradientElement' target=_blank>'meshgradient'</a>, <a href='https://svgwg.org/svg2-draft/pservers.html#MeshrowElement' target=_blank>'meshrow'</a>, <a href='https://svgwg.org/svg2-draft/pservers.html#MeshpatchElement' target=_blank>'meshpatch'</a> elements and <a href='https://svgwg.org/svg2-draft/paths.html#PathElement' target=_blank>'path'</a> attribute on <a href='https://svgwg.org/svg2-draft/pservers.html#StopElement' target=_blank>'stop'</a>",
+        "name": "<a href='https://svgwg.org/svg2-draft/pservers.html#MeshGradientElement' target=_blank><code>&lt;meshgradient&gt;</code></a>, <a href='https://svgwg.org/svg2-draft/pservers.html#MeshrowElement' target=_blank><code>&lt;meshrow&gt;</code></a>, <a href='https://svgwg.org/svg2-draft/pservers.html#MeshpatchElement' target=_blank><code>&lt;meshpatch&gt;</code></a> elements and <a href='https://svgwg.org/svg2-draft/paths.html#PathElement' target=_blank><code>path</code></a> attribute on <a href='https://svgwg.org/svg2-draft/pservers.html#StopElement' target=_blank><code>&lt;stop&gt;</code></a>",
         "description": "Define gradient mesh paint servers to define two-dimensional gradients with arbitrary shapes.",
         "at_risk": "true",
         "support": [
@@ -35,7 +35,7 @@
         ]
       },
       {
-        "name": "<a href='https://svgwg.org/svg2-draft/shapes.html#MeshElement' target=_blank>'mesh'</a> element",
+        "name": "<a href='https://svgwg.org/svg2-draft/shapes.html#MeshElement' target=_blank><code>&lt;mesh&gt;</code></a> element",
         "description": "Draws a path-like shape that tightly fits a mesh gradient and is filled with it.",
         "at_risk": "true",
         "support": [],
@@ -45,7 +45,7 @@
         ]
       },
       {
-        "name": "<a href='https://svgwg.org/svg2-draft/pservers.html#HatchElement' target=_blank>'hatch'</a> element",
+        "name": "<a href='https://svgwg.org/svg2-draft/pservers.html#HatchElement' target=_blank><code>&lt;hatch&gt;</code></a> element",
         "description": "Define a hatch paint server, which draws a repeating pattern of paths that are continuous in one dimension and tiled in the other.",
         "support": [
             {"name": "Inkscape", "level": "full"}
@@ -56,7 +56,7 @@
         ]
       },
       {
-        "name": "<a href='https://svgwg.org/svg2-draft/pservers.html#SolidcolorElement' target=_blank>'solidcolor'</a> element, and properties <a href='https://svgwg.org/svg2-draft/pservers.html#SolidcolorProperty' target=_blank>'solid-color'</a> and <a href='https://svgwg.org/svg2-draft/pservers.html#SolidOpacityProperty' target=_blank>'solid-opacity'</a>",
+        "name": "<a href='https://svgwg.org/svg2-draft/pservers.html#SolidcolorElement' target=_blank><code>&lt;solidcolor&gt;</code></a> element, and properties <a href='https://svgwg.org/svg2-draft/pservers.html#SolidcolorProperty' target=_blank><code>solid-color</code></a> and <a href='https://svgwg.org/svg2-draft/pservers.html#SolidOpacityProperty' target=_blank><code>solid-opacity</code></a>",
         "support": [
             {"name": "Inkscape", "level": "partial"}
         ],
@@ -66,72 +66,72 @@
         ]
       },
       {
-        "name": "<a href='https://svgwg.org/svg2-draft/embedded.html#HTMLElements' target=_blank>'video'</a> HTML embedded content element",
-        "description": "Selected HTML embedded content elements (<a href='https://svgwg.org/svg2-draft/embedded.html#HTMLElements' target=_blank>'video'</a>, <a href='https://svgwg.org/svg2-draft/embedded.html#HTMLElements' target=_blank>'audio'</a>, <a href='https://svgwg.org/svg2-draft/embedded.html#HTMLElements' target=_blank><a href='https://svgwg.org/svg2-draft/coords.html#TermCanvas' target=_blank>'canvas'</a></a>, <a href='https://svgwg.org/svg2-draft/embedded.html#HTMLElements' target=_blank>'iframe'</a>) can now be embedded direcly in SVG without requiring a <a href='https://svgwg.org/svg2-draft/embedded.html#ForeignObjectElement' target=_blank>'foreignObject'</a> wrapper",
+        "name": "<a href='https://svgwg.org/svg2-draft/embedded.html#HTMLElements' target=_blank><code>&lt;video&gt;</code></a> HTML embedded content element",
+        "description": "Selected HTML embedded content elements (<a href='https://svgwg.org/svg2-draft/embedded.html#HTMLElements' target=_blank><code>&lt;video&gt;</code></a>, <a href='https://svgwg.org/svg2-draft/embedded.html#HTMLElements' target=_blank><code>&lt;audio&gt;</code></a>, <a href='https://svgwg.org/svg2-draft/embedded.html#HTMLElements' target=_blank><a href='https://svgwg.org/svg2-draft/coords.html#TermCanvas' target=_blank><code>&lt;canvas&gt;</code></a></a>, <a href='https://svgwg.org/svg2-draft/embedded.html#HTMLElements' target=_blank><code>&lt;iframe&gt;</code></a>) can now be embedded direcly in SVG without requiring a <a href='https://svgwg.org/svg2-draft/embedded.html#ForeignObjectElement' target=_blank><code>&lt;foreignObject&gt;</code></a> wrapper",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "medium"}
         ]
       },
       {
-        "name": "<a href='https://svgwg.org/svg2-draft/embedded.html#HTMLElements' target=_blank>'audio'</a> HTML embedded content element",
-        "description": "Selected HTML embedded content elements (<a href='https://svgwg.org/svg2-draft/embedded.html#HTMLElements' target=_blank>'video'</a>, <a href='https://svgwg.org/svg2-draft/embedded.html#HTMLElements' target=_blank>'audio'</a>, <a href='https://svgwg.org/svg2-draft/embedded.html#HTMLElements' target=_blank><a href='https://svgwg.org/svg2-draft/coords.html#TermCanvas' target=_blank>'canvas'</a></a>, <a href='https://svgwg.org/svg2-draft/embedded.html#HTMLElements' target=_blank>'iframe'</a>) can now be embedded direcly in SVG without requiring a <a href='https://svgwg.org/svg2-draft/embedded.html#ForeignObjectElement' target=_blank>'foreignObject'</a> wrapper",
+        "name": "<a href='https://svgwg.org/svg2-draft/embedded.html#HTMLElements' target=_blank><code>&lt;audio&gt;</code></a> HTML embedded content element",
+        "description": "Selected HTML embedded content elements (<a href='https://svgwg.org/svg2-draft/embedded.html#HTMLElements' target=_blank><code>&lt;video&gt;</code></a>, <a href='https://svgwg.org/svg2-draft/embedded.html#HTMLElements' target=_blank><code>&lt;audio&gt;</code></a>, <a href='https://svgwg.org/svg2-draft/embedded.html#HTMLElements' target=_blank><a href='https://svgwg.org/svg2-draft/coords.html#TermCanvas' target=_blank><code>&lt;canvas&gt;</code></a></a>, <a href='https://svgwg.org/svg2-draft/embedded.html#HTMLElements' target=_blank><code>&lt;iframe&gt;</code></a>) can now be embedded direcly in SVG without requiring a <a href='https://svgwg.org/svg2-draft/embedded.html#ForeignObjectElement' target=_blank><code>&lt;foreignObject&gt;</code></a> wrapper",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "medium"}
         ]
       },
       {
-        "name": "<a href='https://svgwg.org/svg2-draft/embedded.html#HTMLElements' target=_blank><a href='https://svgwg.org/svg2-draft/coords.html#TermCanvas' target=_blank>'canvas'</a></a> HTML embedded content element",
-        "description": "Selected HTML embedded content elements (<a href='https://svgwg.org/svg2-draft/embedded.html#HTMLElements' target=_blank>'video'</a>, <a href='https://svgwg.org/svg2-draft/embedded.html#HTMLElements' target=_blank>'audio'</a>, <a href='https://svgwg.org/svg2-draft/embedded.html#HTMLElements' target=_blank><a href='https://svgwg.org/svg2-draft/coords.html#TermCanvas' target=_blank>'canvas'</a></a>, <a href='https://svgwg.org/svg2-draft/embedded.html#HTMLElements' target=_blank>'iframe'</a>) can now be embedded direcly in SVG without requiring a <a href='https://svgwg.org/svg2-draft/embedded.html#ForeignObjectElement' target=_blank>'foreignObject'</a> wrapper",
+        "name": "<a href='https://svgwg.org/svg2-draft/embedded.html#HTMLElements' target=_blank><a href='https://svgwg.org/svg2-draft/coords.html#TermCanvas' target=_blank><code>&lt;canvas&gt;</code></a></a> HTML embedded content element",
+        "description": "Selected HTML embedded content elements (<a href='https://svgwg.org/svg2-draft/embedded.html#HTMLElements' target=_blank><code>&lt;video&gt;</code></a>, <a href='https://svgwg.org/svg2-draft/embedded.html#HTMLElements' target=_blank><code>&lt;audio&gt;</code></a>, <a href='https://svgwg.org/svg2-draft/embedded.html#HTMLElements' target=_blank><a href='https://svgwg.org/svg2-draft/coords.html#TermCanvas' target=_blank><code>&lt;canvas&gt;</code></a></a>, <a href='https://svgwg.org/svg2-draft/embedded.html#HTMLElements' target=_blank><code>&lt;iframe&gt;</code></a>) can now be embedded direcly in SVG without requiring a <a href='https://svgwg.org/svg2-draft/embedded.html#ForeignObjectElement' target=_blank><code>&lt;foreignObject&gt;</code></a> wrapper",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "medium"}
         ]
       },
       {
-        "name": "<a href='https://svgwg.org/svg2-draft/embedded.html#HTMLElements' target=_blank>'iframe'</a> HTML embedded content element",
-        "description": "Selected HTML embedded content elements (<a href='https://svgwg.org/svg2-draft/embedded.html#HTMLElements' target=_blank>'video'</a>, <a href='https://svgwg.org/svg2-draft/embedded.html#HTMLElements' target=_blank>'audio'</a>, <a href='https://svgwg.org/svg2-draft/embedded.html#HTMLElements' target=_blank><a href='https://svgwg.org/svg2-draft/coords.html#TermCanvas' target=_blank>'canvas'</a></a>, <a href='https://svgwg.org/svg2-draft/embedded.html#HTMLElements' target=_blank>'iframe'</a>) can now be embedded direcly in SVG without requiring a <a href='https://svgwg.org/svg2-draft/embedded.html#ForeignObjectElement' target=_blank>'foreignObject'</a> wrapper",
+        "name": "<a href='https://svgwg.org/svg2-draft/embedded.html#HTMLElements' target=_blank><code>&lt;iframe&gt;</code></a> HTML embedded content element",
+        "description": "Selected HTML embedded content elements (<a href='https://svgwg.org/svg2-draft/embedded.html#HTMLElements' target=_blank><code>&lt;video&gt;</code></a>, <a href='https://svgwg.org/svg2-draft/embedded.html#HTMLElements' target=_blank><code>&lt;audio&gt;</code></a>, <a href='https://svgwg.org/svg2-draft/embedded.html#HTMLElements' target=_blank><a href='https://svgwg.org/svg2-draft/coords.html#TermCanvas' target=_blank><code>&lt;canvas&gt;</code></a></a>, <a href='https://svgwg.org/svg2-draft/embedded.html#HTMLElements' target=_blank><code>&lt;iframe&gt;</code></a>) can now be embedded direcly in SVG without requiring a <a href='https://svgwg.org/svg2-draft/embedded.html#ForeignObjectElement' target=_blank><code>&lt;foreignObject&gt;</code></a> wrapper",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "medium"}
         ]
       },
       {
-        "name": "'base' HTML metadata element",
-        "description": "Selected HTML metadata elements ('base', 'link', 'meta', <a href='https://svgwg.org/svg2-draft/styling.html#StyleElement' target=_blank>'style'</a>, and <a href='https://svgwg.org/svg2-draft/interact.html#ScriptElement' target=_blank>'script'</a>) can be included within the SVG fragment and have their normal effect (but except for linked stylesheets, user agents are only required to support them if they already support HTML)",
+        "name": "<code>&lt;base&gt;</code> HTML metadata element",
+        "description": "Selected HTML metadata elements ('base', 'link', 'meta', <a href='https://svgwg.org/svg2-draft/styling.html#StyleElement' target=_blank><code>&lt;style&gt;</code></a>, and <a href='https://svgwg.org/svg2-draft/interact.html#ScriptElement' target=_blank><code>&lt;script&gt;</code></a>) can be included within the SVG fragment and have their normal effect (but except for linked stylesheets, user agents are only required to support them if they already support HTML)",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "medium"}
         ]
       },
       {
-        "name": "'link' HTML metadata element",
-        "description": "Selected HTML metadata elements ('base', 'link', 'meta', <a href='https://svgwg.org/svg2-draft/styling.html#StyleElement' target=_blank>'style'</a>, and <a href='https://svgwg.org/svg2-draft/interact.html#ScriptElement' target=_blank>'script'</a>) can be included within the SVG fragment and have their normal effect (but except for linked stylesheets, user agents are only required to support them if they already support HTML)",
+        "name": "<code>&lt;link&gt;</code> HTML metadata element",
+        "description": "Selected HTML metadata elements ('base', 'link', 'meta', <a href='https://svgwg.org/svg2-draft/styling.html#StyleElement' target=_blank><code>&lt;style&gt;</code></a>, and <a href='https://svgwg.org/svg2-draft/interact.html#ScriptElement' target=_blank><code>&lt;script&gt;</code></a>) can be included within the SVG fragment and have their normal effect (but except for linked stylesheets, user agents are only required to support them if they already support HTML)",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "high"}
         ]
       },
       {
-        "name": "'meta' HTML metadata element",
-        "description": "Selected HTML metadata elements ('base', 'link', 'meta', <a href='https://svgwg.org/svg2-draft/styling.html#StyleElement' target=_blank>'style'</a>, and <a href='https://svgwg.org/svg2-draft/interact.html#ScriptElement' target=_blank>'script'</a>) can be included within the SVG fragment and have their normal effect (but except for linked stylesheets, user agents are only required to support them if they already support HTML)",
+        "name": "<code>&lt;meta&gt;</code> HTML metadata element",
+        "description": "Selected HTML metadata elements ('base', 'link', 'meta', <a href='https://svgwg.org/svg2-draft/styling.html#StyleElement' target=_blank><code>&lt;style&gt;</code></a>, and <a href='https://svgwg.org/svg2-draft/interact.html#ScriptElement' target=_blank><code>&lt;script&gt;</code></a>) can be included within the SVG fragment and have their normal effect (but except for linked stylesheets, user agents are only required to support them if they already support HTML)",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "high"}
         ]
       },
       {
-        "name": "<a href='https://svgwg.org/svg2-draft/styling.html#StyleElement' target=_blank>'style'</a> HTML metadata element",
-        "description": "Selected HTML metadata elements ('base', 'link', 'meta', <a href='https://svgwg.org/svg2-draft/styling.html#StyleElement' target=_blank>'style'</a>, and <a href='https://svgwg.org/svg2-draft/interact.html#ScriptElement' target=_blank>'script'</a>) can be included within the SVG fragment and have their normal effect (but except for linked stylesheets, user agents are only required to support them if they already support HTML)",
+        "name": "<a href='https://svgwg.org/svg2-draft/styling.html#StyleElement' target=_blank><code>&lt;style&gt;</code></a> HTML metadata element",
+        "description": "Selected HTML metadata elements ('base', 'link', 'meta', <a href='https://svgwg.org/svg2-draft/styling.html#StyleElement' target=_blank><code>&lt;style&gt;</code></a>, and <a href='https://svgwg.org/svg2-draft/interact.html#ScriptElement' target=_blank><code>&lt;script&gt;</code></a>) can be included within the SVG fragment and have their normal effect (but except for linked stylesheets, user agents are only required to support them if they already support HTML)",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "high"}
         ]
       },
       {
-        "name": "<a href='https://svgwg.org/svg2-draft/interact.html#ScriptElement' target=_blank>'script'</a> HTML metadata element",
-        "description": "Selected HTML metadata elements ('base', 'link', 'meta', <a href='https://svgwg.org/svg2-draft/styling.html#StyleElement' target=_blank>'style'</a>, and <a href='https://svgwg.org/svg2-draft/interact.html#ScriptElement' target=_blank>'script'</a>) can be included within the SVG fragment and have their normal effect (but except for linked stylesheets, user agents are only required to support them if they already support HTML)",
+        "name": "<a href='https://svgwg.org/svg2-draft/interact.html#ScriptElement' target=_blank><code>&lt;script&gt;</code></a> HTML metadata element",
+        "description": "Selected HTML metadata elements ('base', 'link', 'meta', <a href='https://svgwg.org/svg2-draft/styling.html#StyleElement' target=_blank><code>&lt;style&gt;</code></a>, and <a href='https://svgwg.org/svg2-draft/interact.html#ScriptElement' target=_blank><code>&lt;script&gt;</code></a>) can be included within the SVG fragment and have their normal effect (but except for linked stylesheets, user agents are only required to support them if they already support HTML)",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "high"}
@@ -143,7 +143,7 @@
     "category": "New attributes on existing elements",
     "features": [
       {
-        "name": "'tabindex' on all rendered elements",
+        "name": "<code>tabindex</code> on all rendered elements",
         "support": [
             {"name": "Gecko", "level": "full", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=778654"}
         ],
@@ -152,14 +152,14 @@
         ]
       },
       {
-        "name": "'role' and WAI-ARIA state & property attributes on all elements",
+        "name": "<code>role</code> and WAI-ARIA state & property attributes on all elements",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "high"}
         ]
       },
       {
-        "name": "'href' as a replacement for 'xlink:href'",
+        "name": "<code>href</code> as a replacement for <code>xlink:href</code>",
         "support": [
         {"name": "Gecko", "level": "full", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=1245751"},
         {"name": "Blink", "level": "full" }
@@ -169,7 +169,7 @@
         ]
       },
       {
-        "name": "'lang' as a replacement for 'xml:lang'",
+        "name": "<code>lang</code> as a replacement for <code>xml:lang</code>",
         "support": [
             {"name": "Gecko", "level": "full", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=721920"}
         ],
@@ -178,7 +178,7 @@
         ]
       },
       {
-        "name": "'fr' on <a href='https://svgwg.org/svg2-draft/pservers.html#RadialGradientElement' target=_blank>'radialGradient'</a>",
+        "name": "<code><code>fr</code></code> on <a href='https://svgwg.org/svg2-draft/pservers.html#RadialGradientElement' target=_blank><code>radialGradient</code></a>",
         "description": "Allows control of the radius of focal circle",
         "support": [
             {"name": "Gecko", "level": "full", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=1240275"},
@@ -191,7 +191,7 @@
         ]
       },
       {
-        "name": "'refX' and 'refY' on <a href='https://svgwg.org/svg2-draft/struct.html#SymbolElement' target=_blank>'symbol'</a>",
+        "name": "<code>refX</code> and <code>refY</code> on <a href='https://svgwg.org/svg2-draft/struct.html#SymbolElement' target=_blank><code>&lt;symbol&gt;</code></a>",
         "description": "supports more precise placement in maps and data charts",
         "support": [
             {"name": "Inkscape", "level": "full"}
@@ -202,14 +202,14 @@
         ]
       },
       {
-        "name": "<a href='https://svgwg.org/svg2-draft/geometry.html#XProperty' target=_blank>'x'</a>,<a href='https://svgwg.org/svg2-draft/geometry.html#YProperty' target=_blank>'y'</a>,<a href='https://svgwg.org/svg2-draft/geometry.html#Sizing' target=_blank>'width'</a>, and <a href='https://svgwg.org/svg2-draft/geometry.html#Sizing' target=_blank>'height'</a> on <a href='https://svgwg.org/svg2-draft/struct.html#SymbolElement' target=_blank>'symbol'</a> (as presentation attributes)",
+        "name": "<a href='https://svgwg.org/svg2-draft/geometry.html#XProperty' target=_blank><code>x</code></a>,<a href='https://svgwg.org/svg2-draft/geometry.html#YProperty' target=_blank><code>y</code></a>,<a href='https://svgwg.org/svg2-draft/geometry.html#Sizing' target=_blank><code>width</code></a>, and <a href='https://svgwg.org/svg2-draft/geometry.html#Sizing' target=_blank><code>height</code></a> on <a href='https://svgwg.org/svg2-draft/struct.html#SymbolElement' target=_blank><code>&lt;symbol&gt;</code></a> (as presentation attributes)",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "high"}
         ]
       },
       {
-        "name": "'pathLength' attribute on all <a href='https://svgwg.org/svg2-draft/shapes.html#TermBasicShapeElement' target=_blank>'basic shapes'</a>",
+        "name": "<code>pathLength</code> attribute on all <a href='https://svgwg.org/svg2-draft/shapes.html#TermBasicShapeElement' target=_blank><code>basic shapes</code></a>",
         "support": [
             {"name": "Gecko", "level": "full", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=1325320"}
         ],
@@ -218,7 +218,7 @@
         ]
       },
       {
-        "name": "'zoomAndPan' attribute on <a href='https://svgwg.org/svg2-draft/struct.html#SVGElement' target=_blank>'svg'</a> and <a href='https://svgwg.org/svg2-draft/linking.html#ViewElement' target=_blank>'view'</a> elements",
+        "name": "<code>zoomAndPan</code> attribute on <a href='https://svgwg.org/svg2-draft/struct.html#SVGElement' target=_blank><code>svg</code></a> and <a href='https://svgwg.org/svg2-draft/linking.html#ViewElement' target=_blank><code>&lt;view&gt;</code> elements",
         "at_risk": "true",
         "support": [
             {"name": "Gecko", "level": "partial"}
@@ -242,7 +242,7 @@
     "category": "New style properties",
     "features": [
       {
-        "name": "<a href='https://svgwg.org/svg2-draft/render.html#ZIndexProperty' target=_blank>'z-index'</a>",
+        "name": "<a href='https://svgwg.org/svg2-draft/render.html#ZIndexProperty' target=_blank><code>z-index</code></a>",
         "at_risk": "true",
         "support": [],
         "feedback": [
@@ -251,7 +251,7 @@
         ]
       },
       {
-        "name": "<a href='https://svgwg.org/svg2-draft/painting.html#PaintOrderProperty' target=_blank>'paint-order'</a>",
+        "name": "<a href='https://svgwg.org/svg2-draft/painting.html#PaintOrderProperty' target=_blank><code>paint-order</code></a>",
         "support": [
             {"name": "Inkscape", "level": "full"},
             {"name": "Gecko",    "level": "full"},
@@ -264,14 +264,14 @@
         ]
       },
       {
-        "name": "<a href='https://drafts.csswg.org/css-will-change/#will-change' target=_blank>'will-change'</a>",
+        "name": "<a href='https://drafts.csswg.org/css-will-change/#will-change' target=_blank><code>will-change</code></a>",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "medium"}
         ]
       },
       {
-        "name": "<a href='https://svgwg.org/svg2-draft/coords.html#VectorEffectProperty' target=_blank>'vector-effect'</a> property value 'non-scaling-stroke'",
+        "name": "<a href='https://svgwg.org/svg2-draft/coords.html#VectorEffectProperty' target=_blank><code>vector-effect</code></a> property value <code>non-scaling-stroke</code>",
         "support": [
             {"name": "Inkscape", "level": "partial"},
             {"name": "Gecko",    "level": "full"},
@@ -285,7 +285,7 @@
         ]
       },
       {
-        "name": "<a href='https://svgwg.org/svg2-draft/coords.html#VectorEffectProperty' target=_blank>'vector-effect'</a> property value 'non-scaling-size'",
+        "name": "<a href='https://svgwg.org/svg2-draft/coords.html#VectorEffectProperty' target=_blank><code>vector-effect</code></a> property value <code>non-scaling-size</code>",
         "at_risk": "true",
         "support": [],
         "feedback": [
@@ -294,7 +294,7 @@
         ]
       },
       {
-        "name": "<a href='https://svgwg.org/svg2-draft/coords.html#VectorEffectProperty' target=_blank>'vector-effect'</a> property value 'non-rotation'",
+        "name": "<a href='https://svgwg.org/svg2-draft/coords.html#VectorEffectProperty' target=_blank><code>vector-effect</code>  property value <code>non-rotation</code>",
         "at_risk": "true",
         "support": [],
         "feedback": [
@@ -303,7 +303,7 @@
         ]
       },
       {
-        "name": "<a href='https://svgwg.org/svg2-draft/coords.html#VectorEffectProperty' target=_blank>'vector-effect'</a> property value 'fixed-position'",
+        "name": "<a href='https://svgwg.org/svg2-draft/coords.html#VectorEffectProperty' target=_blank><code>vector-effect</code>  property value <code>fixed-position</code>",
         "at_risk": "true",
         "support": [],
         "feedback": [
@@ -324,7 +324,7 @@
         ]
       },
       {
-        "name": "<a href='https://svgwg.org/svg2-draft/coords.html#TransformProperty' target=_blank>'transform'</a> on <a href='https://svgwg.org/svg2-draft/struct.html#SVGElement' target=_blank>'svg'</a> element",
+        "name": "<a href='https://svgwg.org/svg2-draft/coords.html#TransformProperty' target=_blank><code>transform</code></a> on <a href='https://svgwg.org/svg2-draft/struct.html#SVGElement' target=_blank><code>&lt;svg&gt;</code> element",
         "support": [
             {"name": "Gecko", "level": "full", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=863994"}
         ],
@@ -333,7 +333,7 @@
         ]
       },
       {
-        "name": "<a href='https://svgwg.org/svg2-draft/coords.html#TransformProperty' target=_blank>'transform'</a>, <a href='https://drafts.csswg.org/css-transforms/#transform-origin-property' target=_blank>'transform-origin'</a>, <a href='https://drafts.csswg.org/css-transforms/#transform-box' target=_blank>'transform-box'</a>",
+        "name": "<a href='https://svgwg.org/svg2-draft/coords.html#TransformProperty' target=_blank><code>transform</code></a>, <a href='https://drafts.csswg.org/css-transforms/#transform-origin-property' target=_blank><code>transform-origin</code></a>, <a href='https://drafts.csswg.org/css-transforms/#transform-box' target=_blank><code>transform-box</code></a>",
         "support": [
             {"name": "Gecko",   "level": "partial"},
             {"name": "Blink",   "level": "partial"}
@@ -349,35 +349,35 @@
     "category": "Geometric attributes that can now be specified as style properties",
     "features": [
       {
-        "name": "<a href='https://svgwg.org/svg2-draft/geometry.html#XProperty' target=_blank>'x'</a>, <a href='https://svgwg.org/svg2-draft/geometry.html#YProperty' target=_blank>'y'</a>, <a href='https://svgwg.org/svg2-draft/geometry.html#Sizing' target=_blank>'width'</a> and <a href='https://svgwg.org/svg2-draft/geometry.html#Sizing' target=_blank>'height'</a> on <a href='https://svgwg.org/svg2-draft/struct.html#SVGElement' target=_blank>'svg'</a>, <a href='https://svgwg.org/svg2-draft/shapes.html#RectElement' target=_blank>'rect'</a>, image, <a href='https://svgwg.org/svg2-draft/embedded.html#ForeignObjectElement' target=_blank>'foreignObject'</a>, <a href='https://svgwg.org/svg2-draft/struct.html#UseElement' target=_blank>'use'</a>, and <a href='https://svgwg.org/svg2-draft/struct.html#SymbolElement' target=_blank>'symbol'</a>",
+        "name": "<a href='https://svgwg.org/svg2-draft/geometry.html#XProperty' target=_blank><code>x</code></a>, <a href='https://svgwg.org/svg2-draft/geometry.html#YProperty' target=_blank><code>y</code></a>, <a href='https://svgwg.org/svg2-draft/geometry.html#Sizing' target=_blank><code>width</code></a> and <a href='https://svgwg.org/svg2-draft/geometry.html#Sizing' target=_blank><code>height</code></a> on <a href='https://svgwg.org/svg2-draft/struct.html#SVGElement' target=_blank><code>&lt;svg&gt;</code></a>, <a href='https://svgwg.org/svg2-draft/shapes.html#RectElement' target=_blank><code>&lt;rect&gt;</code></a>, <code>&lt;image&gt;</code>, <a href='https://svgwg.org/svg2-draft/embedded.html#ForeignObjectElement' target=_blank><code>&lt;foreignObject&gt;</code></a>, <a href='https://svgwg.org/svg2-draft/struct.html#UseElement' target=_blank><code>&lt;use&gt;</code></a>, and <a href='https://svgwg.org/svg2-draft/struct.html#SymbolElement' target=_blank><code>&lt;symbol&gt;</code></a>",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "high"}
         ]
       },
       {
-        "name": "<a href='https://svgwg.org/svg2-draft/geometry.html#CxProperty' target=_blank>'cx'</a> and <a href='https://svgwg.org/svg2-draft/geometry.html#CyProperty' target=_blank>'cy'</a> on <a href='https://svgwg.org/svg2-draft/shapes.html#EllipseElement' target=_blank>'ellipse'</a> & <a href='https://svgwg.org/svg2-draft/shapes.html#CircleElement' target=_blank>'circle'</a>",
+        "name": "<a href='https://svgwg.org/svg2-draft/geometry.html#CxProperty' target=_blank><code>cx</code></a> and <a href='https://svgwg.org/svg2-draft/geometry.html#CyProperty' target=_blank><code>cy</code></a> on <a href='https://svgwg.org/svg2-draft/shapes.html#EllipseElement' target=_blank><code>&lt;ellipse&gt;</code></a> &amp; <a href='https://svgwg.org/svg2-draft/shapes.html#CircleElement' target=_blank><code>&lt;circle&gt;</code></a>",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "high"}
         ]
       },
       {
-        "name": "<a href='https://svgwg.org/svg2-draft/geometry.html#RProperty' target=_blank>'r'</a> on <a href='https://svgwg.org/svg2-draft/shapes.html#CircleElement' target=_blank>'circle'</a>",
+        "name": "<a href='https://svgwg.org/svg2-draft/geometry.html#RProperty' target=_blank><code>r</code></a> on <a href='https://svgwg.org/svg2-draft/shapes.html#CircleElement' target=_blank><code>&lt;circle&gt;</code></a>",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "high"}
         ]
       },
       {
-        "name": "<a href='https://svgwg.org/svg2-draft/geometry.html#RxProperty' target=_blank>'rx'</a> and <a href='https://svgwg.org/svg2-draft/geometry.html#RyProperty' target=_blank>'ry'</a> on <a href='https://svgwg.org/svg2-draft/shapes.html#EllipseElement' target=_blank>'ellipse'</a> & <a href='https://svgwg.org/svg2-draft/shapes.html#RectElement' target=_blank>'rect'</a>",
+        "name": "<a href='https://svgwg.org/svg2-draft/geometry.html#RxProperty' target=_blank><code>rx</code></a> and <a href='https://svgwg.org/svg2-draft/geometry.html#RyProperty' target=_blank><code>ry</code></a> on <a href='https://svgwg.org/svg2-draft/shapes.html#EllipseElement' target=_blank><code>&lt;ellipse&gt;</code></a> &amp; <a href='https://svgwg.org/svg2-draft/shapes.html#RectElement' target=_blank><code>&lt;rect&gt;</code></a>",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "high"}
         ]
       },
       {
-        "name": "<a href='https://svgwg.org/svg2-draft/paths.html#DProperty' target=_blank>'d'</a> on a <a href='https://svgwg.org/svg2-draft/paths.html#PathElement' target=_blank>'path'</a>",
+        "name": "<a href='https://svgwg.org/svg2-draft/paths.html#DProperty' target=_blank><code>d</code></a> on a <a href='https://svgwg.org/svg2-draft/paths.html#PathElement' target=_blank><code>path</code></a>",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "high"}
@@ -389,7 +389,7 @@
     "category": "New values for existing properties or attributes",
     "features": [
       {
-        "name": "<a href='https://svgwg.org/svg2-draft/painting.html#context-paint' target=_blank>'context-fill'</a> and <a href='https://svgwg.org/svg2-draft/painting.html#context-paint' target=_blank>'context-stroke'</a> values for <a href='https://svgwg.org/svg2-draft/painting.html#TermFill' target=_blank><a href='https://svgwg.org/svg2-draft/painting.html#FillProperty' target=_blank>'fill'</a></a> and <a href='https://svgwg.org/svg2-draft/painting.html#TermStroke' target=_blank><a href='https://svgwg.org/svg2-draft/painting.html#StrokeProperty' target=_blank>'stroke'</a></a>.",
+        "name": "<a href='https://svgwg.org/svg2-draft/painting.html#context-paint' target=_blank><code>context-fill</code></a> and <a href='https://svgwg.org/svg2-draft/painting.html#context-paint' target=_blank><code>context-stroke</code></a> values for <a href='https://svgwg.org/svg2-draft/painting.html#TermFill' target=_blank><a href='https://svgwg.org/svg2-draft/painting.html#FillProperty' target=_blank><code>fill</code></a></a> and <a href='https://svgwg.org/svg2-draft/painting.html#TermStroke' target=_blank><a href='https://svgwg.org/svg2-draft/painting.html#StrokeProperty' target=_blank><code>stroke</code></a></a>.",
         "support": [
             {"name": "Inkscape", "level": "partial"}
         ],
@@ -407,7 +407,7 @@
         ]
       },
       {
-        "name": "'auto-start-reverse' value for the 'orient' attribute of the <a href='https://svgwg.org/svg2-draft/painting.html#MarkerElement' target=_blank><a href='https://svgwg.org/svg2-draft/painting.html#Markers' target=_blank><a href='https://svgwg.org/svg2-draft/painting.html#MarkerProperty' target=_blank>'marker'</a></a></a> element",
+        "name": "<code>auto-start-reverse</code> value for the <code>orient</code> attribute of the <a href='https://svgwg.org/svg2-draft/painting.html#MarkerElement' target=_blank><a href='https://svgwg.org/svg2-draft/painting.html#Markers' target=_blank><a href='https://svgwg.org/svg2-draft/painting.html#MarkerProperty' target=_blank><code>marker</code></a></a></a> element",
         "description": "This allows the same arrow marker to be used at the start and end of a line, automatically transformed to point in opposite directions.",
         "support": [
             {"name": "Inkscape", "level": "full"},
@@ -421,7 +421,7 @@
         ]
       },
       {
-        "name": "'miter-clip' value for <a href='https://svgwg.org/svg2-draft/painting.html#StrokeLinejoinProperty' target=_blank>'stroke-linejoin'</a>",
+        "name": "'miter-clip' value for <a href='https://svgwg.org/svg2-draft/painting.html#StrokeLinejoinProperty' target=_blank><code>stroke-linejoin</code></a>",
         "support": [
             {"name": "Inkscape", "level": "full"}
         ],
@@ -431,7 +431,7 @@
         ]
       },
       {
-        "name": "'arcs' value for <a href='https://svgwg.org/svg2-draft/painting.html#StrokeLinejoinProperty' target=_blank>'stroke-linejoin'</a>",
+        "name": "'arcs' value for <a href='https://svgwg.org/svg2-draft/painting.html#StrokeLinejoinProperty' target=_blank><code>stroke-linejoin</code></a>",
         "support": [
             {"name": "Inkscape", "level": "full"}
         ],
@@ -441,14 +441,14 @@
         ]
       },
       {
-        "name": "'auto' values for <a href='https://svgwg.org/svg2-draft/geometry.html#RxProperty' target=_blank>'rx'</a> and <a href='https://svgwg.org/svg2-draft/geometry.html#RyProperty' target=_blank>'ry'</a>",
+        "name": "<code>auto</code> values for <a href='https://svgwg.org/svg2-draft/geometry.html#RxProperty' target=_blank><code>rx</code></a> and <a href='https://svgwg.org/svg2-draft/geometry.html#RyProperty' target=_blank><code>ry</code></a>",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "high"}
         ]
       },
       {
-        "name": "Add left|middle|center keywords for 'refX' and 'refY' attributes",
+        "name": "Add <code>left</code>|<code>middle</code>|<code>center</code> keywords for <code>refX</code> and <code>refY</code> attributes",
         "support": [],
         "feedback": [
             {"name": "Inkscape", "priority": "medium"},
@@ -461,7 +461,7 @@
     "category": "New path features",
     "features": [
       {
-        "name": "Closepath commands 'Z' and 'z' fill in missing <a href='https://svgwg.org/svg2-draft/paths.html#PathData' target=_blank>'path data'</a>",
+        "name": "Closepath commands <code>Z</code> and <code>z</code> fill in missing <a href='https://svgwg.org/svg2-draft/paths.html#PathData' target=_blank><code>path data</code></a>",
         "support": [],
         "feedback": [
             {"name": "Inkscape", "priority": "high"},
@@ -469,7 +469,7 @@
         ]
       },
       {
-        "name": "Bearing path commands 'B' and 'b'",
+        "name": "Bearing path commands <code>B</code> and <code>b</code>",
         "support": [],
         "feedback": [
             {"name": "Inkscape", "priority": "low"},
@@ -492,7 +492,7 @@
     "category": "Text changes",
     "features": [
       {
-        "name": "<a href='https://svgwg.org/svg2-draft/text.html#InlineSizeProperty' target=_blank>'inline-size'</a> property",
+        "name": "<a href='https://svgwg.org/svg2-draft/text.html#InlineSizeProperty' target=_blank><code>inline-size</code></a> property",
         "description": "Enables auto wrapped text.",
         "support": [],
         "feedback": [
@@ -501,14 +501,14 @@
         ]
       },
       {
-        "name": "<a href='https://svgwg.org/svg2-draft/text.html#LineHeightProperty' target=_blank>'line-height'</a> property",
+        "name": "<a href='https://svgwg.org/svg2-draft/text.html#LineHeightProperty' target=_blank><code>line-height</code></a> property",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "high"}
         ]
       },
       {
-        "name": "<a href='https://svgwg.org/svg2-draft/text.html#TextShapeInside' target=_blank>'shape-inside'</a> property",
+        "name": "<a href='https://svgwg.org/svg2-draft/text.html#TextShapeInside' target=_blank><code>shape-inside</code></a> property",
         "description": "Support text in a shape.",
         "support": [
             {"name": "Inkscape", "level": "full"}
@@ -519,7 +519,7 @@
         ]
       },
       {
-        "name": "<a href='https://svgwg.org/svg2-draft/text.html#TextShapeSubtract' target=_blank>'shape-subtract'</a> property",
+        "name": "<a href='https://svgwg.org/svg2-draft/text.html#TextShapeSubtract' target=_blank><code>shape-subtract</code></a> property",
         "description": "Support text in a shape.",
         "support": [
             {"name": "Inkscape", "level": "full"}
@@ -530,7 +530,7 @@
         ]
       },
       {
-        "name": "<a href='https://svgwg.org/svg2-draft/text.html#TextShapeImageThreshold' target=_blank>'shape-image-threshold'</a> property",
+        "name": "<a href='https://svgwg.org/svg2-draft/text.html#TextShapeImageThreshold' target=_blank><code>shape-image-threshold</code></a> property",
         "description": "Support text in a shape.",
         "support": [
             {"name": "Inkscape", "level": "full"}
@@ -541,7 +541,7 @@
         ]
       },
       {
-        "name": "<a href='https://svgwg.org/svg2-draft/text.html#TextShapePadding' target=_blank>'shape-padding'</a> property",
+        "name": "<a href='https://svgwg.org/svg2-draft/text.html#TextShapePadding' target=_blank><code>shape-padding</code></a> property",
         "description": "Support text in a shape.",
         "support": [
             {"name": "Inkscape", "level": "full"}
@@ -552,7 +552,7 @@
         ]
       },
       {
-        "name": "<a href='https://svgwg.org/svg2-draft/text.html#TextShapeMargin' target=_blank>'shape-margin'</a> property",
+        "name": "<a href='https://svgwg.org/svg2-draft/text.html#TextShapeMargin' target=_blank><code>shape-margin</code></a> property",
         "description": "Support text in a shape.",
         "support": [
             {"name": "Inkscape", "level": "full"}
@@ -563,14 +563,14 @@
         ]
       },
       {
-        "name": "<a href='https://svgwg.org/svg2-draft/paths.html#PathElement' target=_blank>'path'</a> attribute on <a href='https://svgwg.org/svg2-draft/text.html#TextPathElement' target=_blank>'textPath'</a> element",
+        "name": "<a href='https://svgwg.org/svg2-draft/paths.html#PathElement' target=_blank><code>path</code></a> attribute on <a href='https://svgwg.org/svg2-draft/text.html#TextPathElement' target=_blank><code>&lt;textPath&gt;</code> element",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "medium"}
         ]
       },
       {
-        "name": "Reference basic shapes from <a href='https://svgwg.org/svg2-draft/text.html#TextPathElement' target=_blank>'textPath'</a>",
+        "name": "Reference basic shapes from <a href='https://svgwg.org/svg2-draft/text.html#TextPathElement' target=_blank><code>&lt;textPath&gt;</code></a>",
         "support": [
             {"name": "Gecko", "level": "full", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=1325320"}
         ],
@@ -579,7 +579,7 @@
         ]
       },
       {
-        "name": "'side' attribute on <a href='https://svgwg.org/svg2-draft/text.html#TextPathElement' target=_blank>'textPath'</a> element",
+        "name": "<code>side</code> attribute on <a href='https://svgwg.org/svg2-draft/text.html#TextPathElement' target=_blank><code>&lt;textPath&gt;</code> element",
         "support": [],
         "feedback": [
             {"name": "Inkscape", "priority": "medium"},
@@ -587,7 +587,7 @@
         ]
       },
       {
-        "name": "CSS font feature support (alternative glyphs, <a href='https://svgwg.org/svg2-draft/text.html#FontVariantProperty' target=_blank>'font-variant'</a>, etc.)",
+        "name": "CSS font feature support (alternative glyphs, <a href='https://svgwg.org/svg2-draft/text.html#FontVariantProperty' target=_blank><code>font-variant</code></a>, etc.)",
         "support": [
             {"name": "Inkscape", "level": "partial"},
             {"name": "Gecko",    "level": "partial"},
@@ -609,7 +609,7 @@
         ]
       },
       {
-        "name": "Masks, filters and other graphics effects applied to <a href='https://svgwg.org/svg2-draft/text.html#TextElement' target=_blank>'tspan'</a> and <a href='https://svgwg.org/svg2-draft/text.html#TextPathElement' target=_blank>'textPath'</a> elements",
+        "name": "Masks, filters, and other graphics effects applied to <a href='https://svgwg.org/svg2-draft/text.html#TextElement' target=_blank><code>&lt;tspan&gt;</code></a> and <a href='https://svgwg.org/svg2-draft/text.html#TextPathElement' target=_blank><code>&lt;textPath&gt;</code> elements",
         "support": [],
          "feedback": [
             {"name": "Inkscape", "priority": "low"},
@@ -617,49 +617,49 @@
         ]
       },
       {
-        "name": "::first-letter & ::first-line pseudo selectors on <a href='https://svgwg.org/svg2-draft/text.html#TextElement' target=_blank>'text'</a> element",
+        "name": "<code>::first-letter</code> &amp; <code>::first-line</code> pseudo selectors on <a href='https://svgwg.org/svg2-draft/text.html#TextElement' target=_blank><code>&lt;text&gt;</code> element",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "high"}
         ]
       },
       {
-        "name": "<a href='https://svgwg.org/svg2-draft/text.html#TextOverflowProperty' target=_blank>'text-overflow'</a>",
+        "name": "<a href='https://svgwg.org/svg2-draft/text.html#TextOverflowProperty' target=_blank><code>text-overflow</code></a>",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "high"}
         ]
       },
       {
-        "name":"<a href='https://www.w3.org/TR/css-text-3/#text-transform-property' target=_blank><a href='https://www.w3.org/TR/CSS21/text.html#propdef-text-transform' target=_blank>'text-transform'</a></a>",
+        "name":"<a href='https://www.w3.org/TR/css-text-3/#text-transform-property' target=_blank><a href='https://www.w3.org/TR/CSS21/text.html#propdef-text-transform' target=_blank><code>text-transform</code></a></a>",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "high"}
         ]
       },
       {
-        "name":"<a href='https://www.w3.org/TR/css3-writing-modes/#text-orientation' target=_blank>'text-orientation'</a>",
+        "name":"<a href='https://www.w3.org/TR/css3-writing-modes/#text-orientation' target=_blank><code>text-orientation</code></a>",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "high"}
         ]
       },
       {
-        "name":"Properties for auto wrapped text (<a href='https://www.w3.org/TR/css-text-3/#text-indent-property' target=_blank>'text-indent'</a>, <a href='https://www.w3.org/TR/css-text-3/#line-break-property' target=_blank>'line-break'</a>, <a href='https://www.w3.org/TR/css-text-3/#word-break-property' target=_blank>'word-break'</a>, <a href='https://www.w3.org/TR/css-text-3/#hyphens-property' target=_blank>'hyphens'</a>, <a href='https://www.w3.org/TR/css-text-3/#overflow-wrap-property' target=_blank>'word-wrap'</a>, <a href='https://www.w3.org/TR/css-text-3/#overflow-wrap-property' target=_blank>'overflow-wrap'</a>)",
+        "name":"Properties for auto wrapped text (<a href='https://www.w3.org/TR/css-text-3/#text-indent-property' target=_blank><code>text-indent</code></a>, <a href='https://www.w3.org/TR/css-text-3/#line-break-property' target=_blank><code>line-break</code></a>, <a href='https://www.w3.org/TR/css-text-3/#word-break-property' target=_blank><code>word-break</code></a>, <a href='https://www.w3.org/TR/css-text-3/#hyphens-property' target=_blank><code>hyphens</code></a>, <a href='https://www.w3.org/TR/css-text-3/#overflow-wrap-property' target=_blank><code>word-wrap</code></a>, <a href='https://www.w3.org/TR/css-text-3/#overflow-wrap-property' target=_blank><code>overflow-wrap</code></a>)",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "high"}
         ]
       },
       {
-        "name": "<a href='https://www.w3.org/TR/css-text-3/#text-align-property' target=_blank>'text-align'</a>, <a href='http://dev.w3.org/csswg/css-text/#text-align-all-property' target=_blank>'text-align-all'</a>, <a href='https://www.w3.org/TR/css-text-3/#text-align-last-property' target=_blank>'text-align-last'</a>, <a href='https://www.w3.org/TR/css-text-3/#text-justify-property' target=_blank>'text-justify'</a>",
+        "name": "<a href='https://www.w3.org/TR/css-text-3/#text-align-property' target=_blank><code>text-align</code></a>, <a href='http://dev.w3.org/csswg/css-text/#text-align-all-property' target=_blank><code>text-align-all</code></a>, <a href='https://www.w3.org/TR/css-text-3/#text-align-last-property' target=_blank><code>text-align-last</code></a>, <a href='https://www.w3.org/TR/css-text-3/#text-justify-property' target=_blank><code>text-justify</code></a>",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "high"}
         ]
       },
       {
-        "name": "<a href='https://svgwg.org/svg2-draft/text.html#WhiteSpaceProperty' target=_blank>'white-space'</a>, <a href='https://www.w3.org/TR/css-text-4/#propdef-text-space-collapse' target=_blank>'text-space-collapse'</a>",
+        "name": "<a href='https://svgwg.org/svg2-draft/text.html#WhiteSpaceProperty' target=_blank><code>white-space</code></a>, <a href='https://www.w3.org/TR/css-text-4/#propdef-text-space-collapse' target=_blank><code>text-space-collapse</code></a>",
         "support": [
 	    {"name": "Inkscape", "level": "partial"},
 	    {"name": "Gecko",    "level": "partial"}
@@ -670,14 +670,14 @@
         ]
       },
       {
-        "name": "<a href='https://drafts.csswg.org/css-inline/#transverse-alignment' target=_blank>'vertical-align'</a>",
+        "name": "<a href='https://drafts.csswg.org/css-inline/#transverse-alignment' target=_blank><code>vertical-align</code></a>",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "high"}
         ]
       },
       {
-        "name": "<a href='https://www.w3.org/TR/css-fonts-3/#font-feature-settings-prop' target=_blank>'font-feature-settings'</a>, <a href='https://www.w3.org/TR/css-fonts-3/#font-kerning-prop' target=_blank>'font-kerning'</a>, <a href='https://www.w3.org/TR/css-fonts-3/#font-size-adjust-prop' target=_blank>'font-size-adjust'</a>",
+        "name": "<a href='https://www.w3.org/TR/css-fonts-3/#font-feature-settings-prop' target=_blank><code>font-feature-settings</code></a>, <a href='https://www.w3.org/TR/css-fonts-3/#font-kerning-prop' target=_blank><code>font-kerning</code></a>, <a href='https://www.w3.org/TR/css-fonts-3/#font-size-adjust-prop' target=_blank><code>font-size-adjust</code></a>",
         "support": [
 	    {"name": "Inkscape", "level": "partial"},
 	    {"name": "Gecko",    "level": "partial"}
@@ -687,7 +687,7 @@
         ]
       },
       {
-        "name": "<a href='https://svgwg.org/svg2-draft/text.html#TextDecorationProperties' target=_blank>'text-decoration-line'</a>",
+        "name": "<a href='https://svgwg.org/svg2-draft/text.html#TextDecorationProperties' target=_blank><code>text-decoration-line</code></a>",
         "support": [
 	    {"name": "Inkscape", "level": "full"},
 	    {"name": "Gecko",    "level": "full"},
@@ -698,7 +698,7 @@
         ]
       },
       {
-        "name": "<a href='https://svgwg.org/svg2-draft/text.html#TextDecorationProperties' target=_blank>'text-decoration-style'</a>",
+        "name": "<a href='https://svgwg.org/svg2-draft/text.html#TextDecorationProperties' target=_blank><code>text-decoration-style</code></a>",
         "support": [
 	    {"name": "Inkscape", "level": "full"},
 	    {"name": "Gecko",    "level": "full"}
@@ -708,7 +708,7 @@
         ]
       },
       {
-        "name": "<a href='https://svgwg.org/svg2-draft/text.html#TextDecorationProperties' target=_blank>'text-decoration-color'</a>",
+        "name": "<a href='https://svgwg.org/svg2-draft/text.html#TextDecorationProperties' target=_blank><code>text-decoration-color</code></a>",
         "support": [
 	    {"name": "Inkscape", "level": "full"}
         ],
@@ -717,7 +717,7 @@
         ]
       },
       {
-        "name": "<a href='https://svgwg.org/svg2-draft/text.html#TextDecorationFillProperty' target=_blank>'text-decoration-fill'</a>, <a href='https://svgwg.org/svg2-draft/text.html#TextDecorationStrokeProperty' target=_blank>'text-decoration-stroke'</a>",
+        "name": "<a href='https://svgwg.org/svg2-draft/text.html#TextDecorationFillProperty' target=_blank><code>text-decoration-fill</code></a>, <a href='https://svgwg.org/svg2-draft/text.html#TextDecorationStrokeProperty' target=_blank><code>text-decoration-stroke</code></a>",
         "support": [],
         "feedback": [
             {"name": "Inkscape", "priority": "high"}
@@ -757,21 +757,21 @@
         ]
       },
       {
-        "name": "Reference entire document from <a href='https://svgwg.org/svg2-draft/struct.html#UseElement' target=_blank>'use'</a>",
+        "name": "Reference entire document from <a href='https://svgwg.org/svg2-draft/struct.html#UseElement' target=_blank><code>&lt;use&gt;</code></a>",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "high"}
         ]
       },
       {
-        "name": "Clone all child elements of <a href='https://svgwg.org/svg2-draft/struct.html#UseElement' target=_blank>'use'</a>",
+        "name": "Clone all child elements of <a href='https://svgwg.org/svg2-draft/struct.html#UseElement' target=_blank><code>&lt;use&gt;</code></a>",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "high"}
         ]
       },
       {
-        "name": "Implement <a href='https://svgwg.org/svg2-draft/struct.html#UseElement' target=_blank>'use'</a> element as an inspectable <a href='https://svgwg.org/svg2-draft/struct.html#TermShadowTree' target=_blank>'shadow tree'</a>",
+        "name": "Implement <a href='https://svgwg.org/svg2-draft/struct.html#UseElement' target=_blank><code>&lt;use&gt;</code> element as an inspectable <a href='https://svgwg.org/svg2-draft/struct.html#TermShadowTree' target=_blank><code>shadow tree</code></a>",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "high"}
@@ -785,7 +785,7 @@
         ]
       },
       {
-        "name": "Use shadow DOM style-matching rules & clone stylesheets from external files",
+        "name": "Use shadow DOM style-matching rules &amp; clone stylesheets from external files",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "high"}
@@ -804,7 +804,7 @@
     "category": "Interactivity",
     "features": [
       {
-        "name": ":focus and ::selection styles.",
+        "name": "<code>:focus</code> and <code>::selection</code> styles.",
         "support": [
             {"name": "Inkscape", "level": "N/A"}
         ],
@@ -813,7 +813,7 @@
         ]
       },
       {
-        "name": "scroll bars when <a href='https://svgwg.org/svg2-draft/render.html#OverflowAndClipProperties' target=_blank>'overflow'</a> property is scroll on <a href='https://svgwg.org/svg2-draft/struct.html#SVGElement' target=_blank>'svg'</a> elements",
+        "name": "scroll bars when <a href='https://svgwg.org/svg2-draft/render.html#OverflowAndClipProperties' target=_blank><code>overflow</code></a> property is scroll on <a href='https://svgwg.org/svg2-draft/struct.html#SVGElement' target=_blank><code>&lt;svg&gt;</code> elements",
         "support": [
             {"name": "Inkscape", "level": "N/A"}
         ],
@@ -822,7 +822,7 @@
         ]
       },
       {
-        "name": "'clip' and <a href='https://svgwg.org/svg2-draft/render.html#OverflowAndClipProperties' target=_blank>'overflow'</a> not ignored when SVG document referenced via <a href='https://svgwg.org/svg2-draft/embedded.html#ImageElement' target=_blank>'image'</a>",
+        "name": "<code>'clip'</code> and <a href='https://svgwg.org/svg2-draft/render.html#OverflowAndClipProperties' target=_blank><code>overflow</code></a> not ignored when SVG document referenced via <a href='https://svgwg.org/svg2-draft/embedded.html#ImageElement' target=_blank><code>&lt;image&gt;</code></a>",
         "support": [
             {"name": "Inkscape", "level": "N/A"}
         ],
@@ -831,7 +831,7 @@
         ]
       },
       {
-        "name": "<a href='https://svgwg.org/svg2-draft/coords.html#TermBoundingBox' target=_blank>'bounding box'</a> value for <a href='https://svgwg.org/svg2-draft/interact.html#PointerEventsProperty' target=_blank>'pointer-events'</a>",
+        "name": "<a href='https://svgwg.org/svg2-draft/coords.html#TermBoundingBox' target=_blank><code>bounding box</code></a> value for <a href='https://svgwg.org/svg2-draft/interact.html#PointerEventsProperty' target=_blank><code>pointer-events</code></a>",
         "support": [
             {"name": "Inkscape", "level": "N/A"}
         ],
@@ -863,7 +863,7 @@
     "category": "Other new behaviour or visual changes",
     "features": [
       {
-        "name": "<a href='https://svgwg.org/svg2-draft/struct.html#UnknownElement' target=_blank>'unknown'</a> elements are treated as a <a href='https://svgwg.org/svg2-draft/struct.html#GElement' target=_blank>'g'</a> or <a href='https://svgwg.org/svg2-draft/text.html#TextElement' target=_blank>'tspan'</a> element",
+        "name": "<a href='https://svgwg.org/svg2-draft/struct.html#UnknownElement' target=_blank><code>&lt;unknown&gt;</code> elements are treated as a <a href='https://svgwg.org/svg2-draft/struct.html#GElement' target=_blank><code>&lt;g&gt;</code></a> or <a href='https://svgwg.org/svg2-draft/text.html#TextElement' target=_blank><code>&lt;tspan&gt;</code> element",
         "at_risk": "true",
         "support": [],
         "feedback": [
@@ -871,7 +871,7 @@
         ]
       },
       {
-        "name": "<a href='https://svgwg.org/svg2-draft/painting.html#Markers' target=_blank>'markers'</a> on all shapes",
+        "name": "<a href='https://svgwg.org/svg2-draft/painting.html#Markers' target=_blank><code>markers</code></a> on all shapes",
         "support": [
             {"name": "Inkscape", "level": "partial"}
         ],
@@ -881,35 +881,35 @@
         ]
       },
       {
-        "name": "<a href='https://svgwg.org/svg2-draft/interact.html#ScriptElement' target=_blank>'script'</a> element in content model of all elements",
+        "name": "<a href='https://svgwg.org/svg2-draft/interact.html#ScriptElement' target=_blank><code>&lt;script&gt;</code></a> element in content model of all elements",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "high"}
         ]
       },
       {
-        "name": "'animation elements' in content model of <a href='https://svgwg.org/svg2-draft/linking.html#ViewElement' target=_blank>'view'</a> element",
+        "name": "'animation elements' in content model of <a href='https://svgwg.org/svg2-draft/linking.html#ViewElement' target=_blank><code>&lt;view&gt;</code> element",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "high"}
         ]
       },
       {
-        "name": "<a href='https://svgwg.org/svg2-draft/struct.html#SVGElement' target=_blank>'svg'</a> as children of HTML or <a href='https://svgwg.org/svg2-draft/embedded.html#ForeignObjectElement' target=_blank>'foreignObject'</a> elements no longer <a href='https://svgwg.org/svg2-draft/render.html#OverflowAndClipProperties' target=_blank>'overflow'</a> hidden by default",
+        "name": "<a href='https://svgwg.org/svg2-draft/struct.html#SVGElement' target=_blank><code>&lt;svg&gt;</code></a> as children of HTML or <a href='https://svgwg.org/svg2-draft/embedded.html#ForeignObjectElement' target=_blank><code>&lt;foreignObject&gt;</code></a> elements no longer <a href='https://svgwg.org/svg2-draft/render.html#OverflowAndClipProperties' target=_blank><code>overflow</code></a> hidden by default",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "high"}
         ]
       },
       {
-        "name": "<a href='https://svgwg.org/svg2-draft/embedded.html#ForeignObjectElement' target=_blank>'foreignObject'</a> elements no longer <a href='https://svgwg.org/svg2-draft/render.html#OverflowAndClipProperties' target=_blank>'overflow'</a> hidden by default",
+        "name": "<a href='https://svgwg.org/svg2-draft/embedded.html#ForeignObjectElement' target=_blank><code>&lt;foreignObject&gt;</code></a> elements no longer <a href='https://svgwg.org/svg2-draft/render.html#OverflowAndClipProperties' target=_blank><code>overflow</code></a> hidden by default",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "high"}
         ]
       },
       {
-        "name": "Render nested <a href='https://svgwg.org/svg2-draft/linking.html#AElement' target=_blank>'a'</a> elements",
+        "name": "Render nested <a href='https://svgwg.org/svg2-draft/linking.html#AElement' target=_blank><code>&lt;a&gt;</code> elements",
         "at_risk": "true",
         "support": [],
         "feedback": [
@@ -924,7 +924,7 @@
         ]
       },
       {
-        "name": "Conditional processing attributes and <a href='https://svgwg.org/svg2-draft/struct.html#SwitchElement' target=_blank>'switch'</a> only affect the display of the relevant elements, not processing of styles, scripts, or fetching of external resources.",
+        "name": "Conditional processing attributes and <a href='https://svgwg.org/svg2-draft/struct.html#SwitchElement' target=_blank><code>switch</code></a> only affect the display of the relevant elements, not processing of styles, scripts, or fetching of external resources.",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "low"}
@@ -950,21 +950,21 @@
     "category": "Accessibility",
     "features": [
       {
-        "name": "Provide both declarative ('tabindex') and scripted control over which elements receive <a href='https://svgwg.org/svg2-draft/interact.html#Focus' target=_blank>'keyboard focus'</a>, allowing the creation of keyboard-accessible widgets, in a manner consistent with HTML.",
+        "name": "Provide both declarative (<code>tabindex</code>) and scripted control over which elements receive <a href='https://svgwg.org/svg2-draft/interact.html#Focus' target=_blank>keyboard focus</a>, allowing the creation of keyboard-accessible widgets, in a manner consistent with HTML.",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "high"}
         ]
       },
       {
-        "name": "Allow 'WAI-ARIA attributes' (role and also state and property attributes) on all elements.",
+        "name": "Allow 'WAI-ARIA attributes' (<code>role</code> and also <code>state</code> and <code>property</code> attributes) on all elements.",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "high"}
         ]
       },
       {
-        "name": "Define default and allowed 'role' values for each element.",
+        "name": "Define default and allowed <code>role</code> values for each element.",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "high"}
@@ -976,7 +976,7 @@
     "category": "Internationalisation",
     "features": [
       {
-        "name": "Ordering of 'systemLanguage' preferences follows SMIL allowReorder definition",
+        "name": "Ordering of '<code>systemLanguage</code>' preferences follows SMIL <code>allowReorder</code> definition",
         "support": [
             {"name": "Gecko", "level": "full", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=1279690"}
         ],
@@ -985,14 +985,14 @@
         ]
       },
       {
-        "name": "Support for the :lang() CSS pseudoclass.",
+        "name": "Support for the <code>:lang()</code> CSS pseudoclass.",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "high"}
         ]
       },
       {
-        "name": "Allow alternative text metadata (<a href='https://svgwg.org/svg2-draft/struct.html#TitleElement' target=_blank>'title'</a> and <a href='https://svgwg.org/svg2-draft/struct.html#DescElement' target=_blank>'desc'</a>) to be provided in multiple language versions in the same file.",
+        "name": "Allow alternative text metadata (<a href='https://svgwg.org/svg2-draft/struct.html#TitleElement' target=_blank><code>&lt;title&gt;</code></a> and <a href='https://svgwg.org/svg2-draft/struct.html#DescElement' target=_blank><code>&lt;desc&gt;</code></a>) to be provided in multiple language versions in the same file.",
         "at_risk": "true",
         "support": [],
         "feedback": [
@@ -1014,21 +1014,21 @@
     "category": "Harmonisation with HTML",
     "features": [
       {
-        "name": "Add additional attributes to the <a href='https://svgwg.org/svg2-draft/linking.html#AElement' target=_blank>'a'</a> element to synchronise with HTML",
+        "name": "Add additional attributes to the <a href='https://svgwg.org/svg2-draft/linking.html#AElement' target=_blank><code>&lt;a&gt;</code> element to synchronise with HTML",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "high"}
         ]
       },
       {
-        "name": "Focus control uses the same model as HTML ('tabindex' attribute, `focus` and `blur` methods)",
+        "name": "Focus control uses the same model as HTML ('<code>tabindex</code>' attribute, <code>focus()</code> and <code>blur()</code> methods)",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "high"}
         ]
       },
       {
-        "name": "'id' value requirements matches HTML",
+        "name": "<code>id</code> value requirements matches HTML",
         "support": [
             {"name": "Gecko", "level": "full"}
         ],
@@ -1046,14 +1046,14 @@
         ]
       },
       {
-        "name": "HTML 'link' element supported and must load external style sheets; other HTML metadata supported",
+        "name": "HTML <code>&lt;link&gt;</code> element supported and must load external style sheets; other HTML metadata supported",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "high"}
         ]
       },
       {
-        "name": "'crossorigin' attribute on <a href='https://svgwg.org/svg2-draft/embedded.html#ImageElement' target=_blank>'image'</a> and <a href='https://svgwg.org/svg2-draft/interact.html#ScriptElement' target=_blank>'script'</a> elements",
+        "name": "<code>crossorigin</code> attribute on <a href='https://svgwg.org/svg2-draft/embedded.html#ImageElement' target=_blank><code>&lt;image&gt;</code></a> and <a href='https://svgwg.org/svg2-draft/interact.html#ScriptElement' target=_blank><code>&lt;script&gt;</code></a> elements",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "high"}
@@ -1072,7 +1072,7 @@
         ]
       },
       {
-        "name": "<a href='https://svgwg.org/svg2-draft/text.html#TermWhiteSpaceCharacter' target=_blank>'white space character'</a> set now includes form feed (U+000C) to align with HTML and CSS",
+        "name": "<a href='https://svgwg.org/svg2-draft/text.html#TermWhiteSpaceCharacter' target=_blank>white space character</a> set now includes form feed (<code>U+000C</code>) to align with HTML and CSS",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "high"}
@@ -1093,7 +1093,7 @@
         ]
       },
       {
-        "name": "Required support for @media, @import, @charset and @font-face",
+        "name": "Required support for <code>@media</code>, <code>@import</code>, <code>@charset</code>, and <code>@font-face</code>",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "high"}
@@ -1107,14 +1107,14 @@
         ]
       },
       {
-        "name": "Required support for ::first-line and ::first-letter pseudo-elements, and for ::selection in interactive user agents",
+        "name": "Required support for <code>::first-line</code> and <code>::first-letter</code> pseudo-elements, and for <code>::selection</code> in interactive user agents",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "high"}
         ]
       },
       {
-        "name": "Zero length sub-paths render result based on <a href='https://svgwg.org/svg2-draft/painting.html#StrokeLinecapProperty' target=_blank>'stroke-linecap'</a> value",
+        "name": "Zero length sub-paths render result based on <a href='https://svgwg.org/svg2-draft/painting.html#StrokeLinecapProperty' target=_blank><code>stroke-linecap</code></a> value",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "high"}
@@ -1135,7 +1135,7 @@
         ]
       },
       {
-        "name": "Remove externalResourcesRequired attribute",
+        "name": "Remove <code>externalResourcesRequired</code> attribute",
         "support": [
             {"name": "Gecko", "level": "full"}
         ],
@@ -1144,7 +1144,7 @@
         ]
       },
       {
-        "name": "Remove baseProfile and version attributes from the <a href='https://svgwg.org/svg2-draft/struct.html#SVGElement' target=_blank>'svg'</a> element",
+        "name": "Remove <code>baseProfile</code> and <code>version</code> attributes from the <a href='https://svgwg.org/svg2-draft/struct.html#SVGElement' target=_blank><code>&lt;svg&gt;</code> element",
         "support": [
             {"name": "Gecko", "level": "full"}
         ],
@@ -1153,28 +1153,28 @@
         ]
       },
       {
-        "name": "Remove requiredFeatures attribute",
+        "name": "Remove <code>requiredFeatures</code> attribute",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "none"}
         ]
       },
       {
-        "name": "Remove the ‘contentStyleType’ attribute.",
+        "name": "Remove the <code>contentStyleType</code> attribute.",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "low"}
         ]
       },
       {
-        "name": "Remove xml:base support in non-XML documents",
+        "name": "Remove <code>xml:base</code> support in non-XML documents",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "medium"}
         ]
       },
       {
-        "name": "Remove defer keyword from preservedAspectRatio",
+        "name": "Remove <code>defer</code> keyword from <code>preservedAspectRatio</code>",
         "support": [
             {"name": "Gecko", "level": "full", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=1280425"}
         ],
@@ -1183,7 +1183,7 @@
         ]
       },
       {
-        "name": "Remove the tref element",
+        "name": "Remove the <code>&lt;tref&gt;</code> element",
         "support": [
             {"name": "Gecko", "level": "full"}
         ],
@@ -1192,7 +1192,7 @@
         ]
       },
       {
-        "name": "removed the Alternate Glyph elements (altGlyph, altGlyphItem, glyphRef)",
+        "name": "removed the Alternate Glyph elements (<code>&lt;altGlyph&gt;</code>, <code>&lt;altGlyphItem&gt;</code>, <code>&lt;glyphRef&gt;</code>)",
         "support": [
             {"name": "Gecko", "level": "full", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=1260032"}
         ],
@@ -1201,21 +1201,21 @@
         ]
       },
       {
-        "name": "Remove xlink:type, xlink:role, xlink:arcrole, xlink:show, and xlink:actuate attributes",
+        "name": "Remove <code>xlink:type</code>, <code>xlink:role</code>, <code>xlink:arcrole</code>, <code>xlink:show</code>, and <code>xlink:actuate</code> attributes",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "low"}
         ]
       },
       {
-        "name": "Remove the viewTarget attribute from the view element",
+        "name": "Remove the <code>viewTarget</code> attribute from the <code>&lt;view&gt;</code> element",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "none"}
         ]
       },
       {
-        "name": "Remove contentScriptType attribute",
+        "name": "Remove <code>contentScriptType</code> attribute",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "low"}
@@ -1227,7 +1227,7 @@
     "category": "Deprecated, become noop",
     "features": [
       {
-        "name": "suspendRedraw(), unsuspendRedraw(), and unsuspendRedrawAll() on <a href='https://svgwg.org/svg2-draft/struct.html#InterfaceSVGSVGElement' target=_blank>'SVGSVGElement'</a> become noop",
+        "name": "<code>suspendRedraw()</code>, <code>unsuspendRedraw()</code>, and <code>unsuspendRedrawAll()</code> on <a href='https://svgwg.org/svg2-draft/struct.html#InterfaceSVGSVGElement' target=_blank><code>SVGSVGElement</code></a> become noop",
         "support": [
             {"name": "Gecko", "level": "full", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=734079"}
         ],
@@ -1236,7 +1236,7 @@
         ]
       },
       {
-        "name": "forceRedraw method on <a href='https://svgwg.org/svg2-draft/struct.html#InterfaceSVGSVGElement' target=_blank>'SVGSVGElement'</a> becomes noop",
+        "name": "<code>forceRedraw()</code> method on <a href='https://svgwg.org/svg2-draft/struct.html#InterfaceSVGSVGElement' target=_blank><code>SVGSVGElement</code></a> becomes noop",
         "support": [
             {"name": "Gecko", "level": "full", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=733764"}
         ],
@@ -1250,7 +1250,7 @@
     "category": "New interfaces",
     "features": [
       {
-        "name": "<a href='https://svgwg.org/svg2-draft/types.html#InterfaceSVGGraphicsElement' target=_blank>'SVGGraphicsElement'</a> interface",
+        "name": "<a href='https://svgwg.org/svg2-draft/types.html#InterfaceSVGGraphicsElement' target=_blank><code>SVGGraphicsElement</code></a> interface",
         "support": [
             {"name": "Gecko", "level": "full", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=824229"}
         ],
@@ -1259,7 +1259,7 @@
         ]
       },
       {
-        "name": "<a href='https://svgwg.org/svg2-draft/types.html#InterfaceSVGGeometryElement' target=_blank>'SVGGeometryElement'</a> interface",
+        "name": "<a href='https://svgwg.org/svg2-draft/types.html#InterfaceSVGGeometryElement' target=_blank><code>SVGGeometryElement</code></a> interface",
         "support": [
             {"name": "Gecko", "level": "partial", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=1239100"}
         ],
@@ -1268,7 +1268,7 @@
         ]
       },
       {
-        "name": "<a href='https://svgwg.org/svg2-draft/struct.html#InterfaceSVGUnknownElement' target=_blank>'SVGUnknownElement'</a> interface",
+        "name": "<a href='https://svgwg.org/svg2-draft/struct.html#InterfaceSVGUnknownElement' target=_blank><code>SVGUnknownElement</code></a> interface",
         "description": "For unrecognized markup in the SVG namespace.",
         "at_risk": "true",
         "support": [
@@ -1279,7 +1279,7 @@
         ]
       },
       {
-        "name": "<a href='https://svgwg.org/svg2-draft/struct.html#InterfaceSVGUseElementShadowRoot' target=_blank>'SVGUseElementShadowRoot'</a> interface",
+        "name": "<a href='https://svgwg.org/svg2-draft/struct.html#InterfaceSVGUseElementShadowRoot' target=_blank><code>SVGUseElementShadowRoot</code></a> interface",
         "description": "An extension of the ShadowRoot interface.",
         "support": [],
         "feedback": [
@@ -1287,7 +1287,7 @@
         ]
       },
       {
-        "name": "<a href='https://svgwg.org/svg2-draft/struct.html#InterfaceShadowAnimation' target=_blank>'ShadowAnimation'</a> interface",
+        "name": "<a href='https://svgwg.org/svg2-draft/struct.html#InterfaceShadowAnimation' target=_blank><code>ShadowAnimation</code></a> interface",
         "description": "Defines a read-only clone of a WAAPI animation for use-element shadow trees.",
         "support": [],
         "feedback": [
@@ -1300,7 +1300,7 @@
     "category": "New/expanded interface methods and properties",
     "features": [
       {
-        "name": "'length' attribute and indexed property access for all list interfaces.",
+        "name": "<code>length</code> attribute and indexed property access for all list interfaces.",
         "support": [
             {"name": "Gecko", "level": "full"}
         ],
@@ -1309,21 +1309,21 @@
         ]
       },
       {
-        "name": "isPointInFill() method for <a href='https://svgwg.org/svg2-draft/types.html#InterfaceSVGGeometryElement' target=_blank>'SVGGeometryElement'</a>",
+        "name": "<code>isPointInFill()</code> method for <a href='https://svgwg.org/svg2-draft/types.html#InterfaceSVGGeometryElement' target=_blank><code>SVGGeometryElement</code></a>",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "medium"}
         ]
       },
       {
-        "name": "isPointInStroke() method for <a href='https://svgwg.org/svg2-draft/types.html#InterfaceSVGGeometryElement' target=_blank>'SVGGeometryElement'</a>",
+        "name": "<code>isPointInStroke()</code> method for <a href='https://svgwg.org/svg2-draft/types.html#InterfaceSVGGeometryElement' target=_blank><code>SVGGeometryElement</code></a>",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "medium"}
         ]
       },
       {
-        "name": "getTotalLength() method for 'SVGGeometryElement",
+        "name": "<code>getTotalLength()</code> method for <a href='https://svgwg.org/svg2-draft/types.html#InterfaceSVGGeometryElement' target=_blank><code>SVGGeometryElement</code></a>",
         "support": [
             {"name": "Gecko", "level": "full", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=1239100"}
         ],
@@ -1332,7 +1332,7 @@
         ]
       },
       {
-        "name": "getPointAtLength() method for 'SVGGeometryElement",
+        "name": "<code>getPointAtLength()</code> method for <a href='https://svgwg.org/svg2-draft/types.html#InterfaceSVGGeometryElement' target=_blank><code>SVGGeometryElement</code></a>",
         "support": [
             {"name": "Gecko", "level": "full", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=1239100"}
         ],
@@ -1341,7 +1341,7 @@
         ]
       },
       {
-        "name": "focus and blur methods, on any <a href='https://svgwg.org/svg2-draft/types.html#InterfaceSVGElement' target=_blank>'SVGElement'</a>",
+        "name": "<code>focus()</code> and <code>blur()</code> methods, on any <a href='https://svgwg.org/svg2-draft/types.html#InterfaceSVGElement' target=_blank><code>SVGElement</code></a>",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "high"}
@@ -1353,28 +1353,28 @@
     "category": "Other API changes",
     "features": [
       {
-        "name": "Replace <a href='https://www.w3.org/TR/2014/WD-geometry-1-20140522/#dom-dommatrix' target=_blank>'SVGMatrix'</a> with DOMMatrix or DOMMatrixReadOnly",
+        "name": "Replace <a href='https://www.w3.org/TR/2014/WD-geometry-1-20140522/#dom-dommatrix' target=_blank><code>SVGMatrix</code></a> with <code>DOMMatrix</code> or <code>DOMMatrixReadOnly</code>",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "high"}
         ]
       },
       {
-        "name": "Replace <a href='https://www.w3.org/TR/2014/WD-geometry-1-20140522/#dom-domrect' target=_blank>'SVGRect'</a> with DOMRect or DOMRectReadOnly",
+        "name": "Replace <a href='https://www.w3.org/TR/2014/WD-geometry-1-20140522/#dom-domrect' target=_blank><code>SVGRect</code></a> with <code>DOMRect</code> or <code>DOMRectReadOnly</code>",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "high"}
         ]
       },
       {
-        "name": "Replace <a href='https://www.w3.org/TR/2014/WD-geometry-1-20140522/#dom-dompoint' target=_blank>'SVGPoint'</a> with DOMPoint or DOMPointReadOnly",
+        "name": "Replace <a href='https://www.w3.org/TR/2014/WD-geometry-1-20140522/#dom-dompoint' target=_blank><code>SVGPoint</code></a> with <code>DOMPoint</code> or <code>DOMPointReadOnly</code>",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "high"}
         ]
       },
       {
-        "name": "Moved members from 'SVGStylable' and 'SVGLangSpace' to <a href='https://svgwg.org/svg2-draft/types.html#InterfaceSVGElement' target=_blank>'SVGElement'</a> and removed those interfaces",
+        "name": "Moved members from <code>SVGStylable</code> and <code>SVGLangSpace</code> to <a href='https://svgwg.org/svg2-draft/types.html#InterfaceSVGElement' target=_blank><code>SVGElement</code></a> and removed those interfaces",
         "support": [
             {"name": "Gecko", "level": "partial"}
         ],
@@ -1383,7 +1383,7 @@
         ]
       },
       {
-        "name": "Moved members from 'SVGLocatable' and 'SVGTransformable' to <a href='https://svgwg.org/svg2-draft/types.html#InterfaceSVGGraphicsElement' target=_blank>'SVGGraphicsElement'</a> and removed those interfaces",
+        "name": "Moved members from <code>SVGLocatable</code> and <code>SVGTransformable</code> to <a href='https://svgwg.org/svg2-draft/types.html#InterfaceSVGGraphicsElement' target=_blank><code>SVGGraphicsElement</code></a> and removed those interfaces",
         "support": [
             {"name": "Gecko", "level": "full"}
         ],
@@ -1392,7 +1392,7 @@
         ]
       },
       {
-        "name": "Removed 'SVGExternalResourcesRequired' interface",
+        "name": "Removed <code>SVGExternalResourcesRequired</code> interface",
         "support": [
             {"name": "Gecko", "level": "full"}
         ],
@@ -1401,7 +1401,7 @@
         ]
       },
       {
-        "name": "Removed 'SVGColor' and 'SVGICCCOlor' interfaces",
+        "name": "Removed <code>SVGColor</code> and <code>SVGICCCOlor</code> interfaces",
         "support": [
             {"name": "Gecko", "level": "full"}
         ],
@@ -1410,7 +1410,7 @@
         ]
       },
       {
-        "name": "Removed getPresentationAttribute method from <a href='https://svgwg.org/svg2-draft/types.html#InterfaceSVGElement' target=_blank>'SVGElement'</a>",
+        "name": "Removed <code>getPresentationAttribute()</code> method from <a href='https://svgwg.org/svg2-draft/types.html#InterfaceSVGElement' target=_blank><code>SVGElement</code></a>",
         "support": [
             {"name": "Gecko", "level": "full", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=921456"}
         ],
@@ -1419,7 +1419,7 @@
         ]
       },
       {
-        "name": "tabindex attribute on <a href='https://svgwg.org/svg2-draft/types.html#InterfaceSVGElement' target=_blank>'SVGElement'</a>",
+        "name": "<code>tabindex</code> attribute on <a href='https://svgwg.org/svg2-draft/types.html#InterfaceSVGElement' target=_blank><code>SVGElement</code></a>",
         "support": [
             {"name": "Gecko", "level": "full", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=778654"}
         ],
@@ -1428,7 +1428,7 @@
         ]
       },
       {
-        "name": "focus and blur methods on <a href='https://svgwg.org/svg2-draft/types.html#InterfaceSVGElement' target=_blank>'SVGElement'</a>",
+        "name": "<code>focus()</code> and <code>blur()</code> methods on <a href='https://svgwg.org/svg2-draft/types.html#InterfaceSVGElement' target=_blank><code>SVGElement</code></a>",
         "description": "Related to tabindex attribute",
         "support": [
             {"name": "Gecko", "level": "full", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=778654"}
@@ -1438,21 +1438,21 @@
         ]
       },
       {
-        "name": "Add activeElement attribute to Document",
+        "name": "Add <code>activeElement</code> attribute to <code>Document</code>",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "high"}
         ]
       },
       {
-        "name": "<a href='https://svgwg.org/svg2-draft/types.html#InterfaceSVGElement' target=_blank>'SVGElement'</a> now inherits GlobalEventHandlers from HTML",
+        "name": "<a href='https://svgwg.org/svg2-draft/types.html#InterfaceSVGElement' target=_blank><code>SVGElement</code></a> now inherits GlobalEventHandlers from HTML",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "high"}
         ]
       },
       {
-        "name": "getBBox() fill or stroke selection",
+        "name": "<code>getBBox()</code> fill or stroke selection",
         "support": [
             {"name": "Gecko", "level": "partial", "tracker": ["https://bugzilla.mozilla.org/show_bug.cgi?id=999964", "https://bugzilla.mozilla.org/show_bug.cgi?id=1019326"]}
         ],
@@ -1461,42 +1461,42 @@
         ]
       },
       {
-        "name": "Remove xmlbase, xmllang, and xmlspace attributes from <a href='https://svgwg.org/svg2-draft/types.html#InterfaceSVGElement' target=_blank>'SVGElement'</a> interface",
+        "name": "Remove <code>xml:base</code>, <code>xml:lang</code>, and <code>xml:space</code> attributes from <a href='https://svgwg.org/svg2-draft/types.html#InterfaceSVGElement' target=_blank><code>SVGElement</code></a> interface",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "low"}
         ]
       },
       {
-        "name": "Remove 'SVGViewSpec' interface",
+        "name": "Remove <code>SVGViewSpec</code> interface",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "low"}
         ]
       },
       {
-        "name": "Remove getTransformToElement from <a href='https://svgwg.org/svg2-draft/types.html#InterfaceSVGGraphicsElement' target=_blank>'SVGGraphicsElement'</a>",
+        "name": "Remove <code>getTransformToElement</code> from <a href='https://svgwg.org/svg2-draft/types.html#InterfaceSVGGraphicsElement' target=_blank><code>SVGGraphicsElement</code></a>",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "none"}
         ]
       },
       {
-        "name": "Allow getCTM on outermost <a href='https://svgwg.org/svg2-draft/struct.html#SVGElement' target=_blank>'svg'</a> element",
+        "name": "Allow <code>getCTM</code> on outermost <a href='https://svgwg.org/svg2-draft/struct.html#SVGElement' target=_blank><code>&lt;svg&gt;</code> element",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "high"}
         ]
       },
       {
-        "name": "Make animVal an alias for baseVal and no longer reflect animated value",
+        "name": "Make <code>animVal</code> an alias for <code>baseVal</code> and no longer reflect animated value",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "medium"}
         ]
       },
       {
-        "name": "Added dataset attribute to <a href='https://svgwg.org/svg2-draft/types.html#InterfaceSVGElement' target=_blank>'SVGElement'</a>",
+        "name": "Added <code>dataset</code> attribute to <a href='https://svgwg.org/svg2-draft/types.html#InterfaceSVGElement' target=_blank><code>SVGElement</code></a>",
         "support": [
             {"name": "Gecko", "level": "full", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=921834"}
         ],
@@ -1505,7 +1505,7 @@
         ]
       },
       {
-        "name": "Move pathLength, getTotalLength(), and getPointAtLength() to <a href='https://svgwg.org/svg2-draft/types.html#InterfaceSVGGeometryElement' target=_blank>'SVGGeometryElement'</a>",
+        "name": "Move <code>pathLength</code>, <code>getTotalLength()</code>, and <code>getPointAtLength()</code> to <a href='https://svgwg.org/svg2-draft/types.html#InterfaceSVGGeometryElement' target=_blank><code>SVGGeometryElement</code></a>",
         "support": [
             {"name": "Gecko", "level": "full", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=1239100"}
         ],
@@ -1514,21 +1514,21 @@
         ]
       },
       {
-        "name": "Removed <a href='https://svgwg.org/svg2-draft/struct.html#InterfaceSVGElementInstance' target=_blank>'SVGElementInstance'</a> and 'SVGElementInstanceList' interfaces",
+        "name": "Removed <a href='https://svgwg.org/svg2-draft/struct.html#InterfaceSVGElementInstance' target=_blank><code>SVGElementInstance</code></a> and <code>SVGElementInstanceList</code> interfaces",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "high"}
         ]
       },
       {
-        "name": "Removed currentView and useCurrentView properties on <a href='https://svgwg.org/svg2-draft/struct.html#InterfaceSVGSVGElement' target=_blank>'SVGSVGElement'</a>",
+        "name": "Removed <code>currentView</code> and <code>useCurrentView</code> properties on <a href='https://svgwg.org/svg2-draft/struct.html#InterfaceSVGSVGElement' target=_blank><code>SVGSVGElement</code></a>",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "low"}
         ]
       },
       {
-        "name": "Removed the viewport attribute from <a href='https://svgwg.org/svg2-draft/struct.html#InterfaceSVGSVGElement' target=_blank>'SVGSVGElement'</a>",
+        "name": "Removed the <code>viewport</code> attribute from <a href='https://svgwg.org/svg2-draft/struct.html#InterfaceSVGSVGElement' target=_blank><code>SVGSVGElement</code></a>",
         "support": [
             {"name": "Gecko", "level": "full"}
         ],
@@ -1537,28 +1537,28 @@
         ]
       },
       {
-        "name": "<a href='https://svgwg.org/svg2-draft/types.html#InterfaceSVGElement' target=_blank>'SVGElement'</a> has been extended to replace the core functionality from <a href='https://svgwg.org/svg2-draft/struct.html#InterfaceSVGElementInstance' target=_blank>'SVGElementInstance'</a>.",
+        "name": "<a href='https://svgwg.org/svg2-draft/types.html#InterfaceSVGElement' target=_blank><code>SVGElement</code></a> has been extended to replace the core functionality from <a href='https://svgwg.org/svg2-draft/struct.html#InterfaceSVGElementInstance' target=_blank><code>SVGElementInstance</code></a>.",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "high"}
         ]
       },
       {
-        "name": "<a href='https://svgwg.org/svg2-draft/struct.html#InterfaceSVGSymbolElement' target=_blank>'SVGSymbolElement'</a> now inherits from <a href='https://svgwg.org/svg2-draft/types.html#InterfaceSVGGraphicsElement' target=_blank>'SVGGraphicsElement'</a>",
+        "name": "<a href='https://svgwg.org/svg2-draft/struct.html#InterfaceSVGSymbolElement' target=_blank><code>SVGSymbolElement</code></a> now inherits from <a href='https://svgwg.org/svg2-draft/types.html#InterfaceSVGGraphicsElement' target=_blank><code>SVGGraphicsElement</code></a>",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "high"}
         ]
       },
       {
-        "name": "ShadowAnimation interface defined",
+        "name": "<code>ShadowAnimation</code> interface defined",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "medium"}
         ]
       },
       {
-        "name": "<a href='https://svgwg.org/svg2-draft/styling.html#InterfaceSVGStyleElement' target=_blank>'SVGStyleElement'</a> implements LinkStyle",
+        "name": "<a href='https://svgwg.org/svg2-draft/styling.html#InterfaceSVGStyleElement' target=_blank><code>SVGStyleElement</code></a> implements LinkStyle",
         "support": [
             {"name": "Gecko", "level": "full", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=1239128"}
         ],
@@ -1567,7 +1567,7 @@
         ]
       },
       {
-        "name": "Remove SVGPathSeg* interfaces",
+        "name": "Remove <code>SVGPathSeg<var>*</var></code> interfaces",
         "support": [
             {"name": "Gecko", "level": "partial", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=1436438"}
         ],
@@ -1576,14 +1576,14 @@
         ]
       },
       {
-        "name": "Remove 'SVGAnimatedPathData' interface",
+        "name": "Remove <code>SVGAnimatedPathData</code> interface",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "low"}
         ]
       },
       {
-        "name": "Remove methods on <a href='https://svgwg.org/svg2-draft/paths.html#InterfaceSVGPathElement' target=_blank>'SVGPathElement'</a> related to SVGPathSeg* and 'SVGAnimatedPathData'",
+        "name": "Remove methods on <a href='https://svgwg.org/svg2-draft/paths.html#InterfaceSVGPathElement' target=_blank><code>SVGPathElement</code></a> related to <code>SVGPathSeg<var>*</var></code> and <code>SVGAnimatedPathData</code>",
         "support": [
             {"name": "Gecko", "level": "partial", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=1436438"}
         ],
@@ -1592,7 +1592,7 @@
         ]
       },
       {
-        "name": "Moved pathLength, getTotalLength() and getPointAtLength() on to <a href='https://svgwg.org/svg2-draft/types.html#InterfaceSVGGeometryElement' target=_blank>'SVGGeometryElement'</a> interface",
+        "name": "Moved <code>pathLength</code>, <code>getTotalLength()</code>, and <code>getPointAtLength()</code> on to <a href='https://svgwg.org/svg2-draft/types.html#InterfaceSVGGeometryElement' target=_blank><code>SVGGeometryElement</code></a> interface",
         "support": [
             {"name": "Gecko", "level": "full", "tracker": "https://bugzilla.mozilla.org/show_bug.cgi?id=1239100"}
         ],
@@ -1601,14 +1601,14 @@
         ]
       },
       {
-        "name": "animatedPoints attribute of <a href='https://svgwg.org/svg2-draft/shapes.html#InterfaceSVGAnimatedPoints' target=_blank>'SVGAnimatedPoints'</a> now aliases the points attribute",
+        "name": "<code>animatedPoints</code> attribute of <a href='https://svgwg.org/svg2-draft/shapes.html#InterfaceSVGAnimatedPoints' target=_blank><code>SVGAnimatedPoints</code></a> now aliases the <code>points</code> attribute",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "medium"}
         ]
       },
       {
-        "name": "Remove 'SVGPaint' interface",
+        "name": "Remove <code>SVGPaint</code> interface",
         "support": [],
         "feedback": [
             {"name": "AmeliaBR", "priority": "medium"}
